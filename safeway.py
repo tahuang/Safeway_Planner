@@ -47,7 +47,13 @@ for idx, i in enumerate(route):
 	# for the next item.
 	if (idx != len(route) - 1):
 		next_aisle = route[idx+1][1]
-		if (next_aisle % 1 == 0 and math.floor(i[1]) != math.floor(next_aisle) and 
-			next_aisle != num_aisles + 1):
+		# Special case for produce since you walk up through produce originally
+		# instead of down
+		if (i[1] == 0 and next_aisle % 1 != 0):
+			print("Go back down"),
+			print(aisle_name)
+		# There's no going back through meat aisle
+		elif (i[1] != 0 and aisle_name != "Meat" and next_aisle % 1 == 0 and 
+			math.floor(i[1]) != math.floor(next_aisle) and next_aisle != num_aisles + 1):
 			print("Go back up Aisle"),
 			print(aisle_name)

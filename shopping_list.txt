@@ -3,3 +3,5 @@ potatoes
 cheese
 snapea crisps
 bananas
+peanut butter
+eggs

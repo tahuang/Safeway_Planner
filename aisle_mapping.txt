@@ -1,0 +1,8 @@
+bananas, 0
+bread, 7 
+cheese, 1.75
+eggs, 1
+peanut butter, 4.75
+potatoes, 0
+sausage, 2.5
+yogurt, 1

@@ -13,8 +13,8 @@ num_aisles = 20
 mapping = {}
 with open("aisle_mapping.txt") as f:
     for line in f.read().splitlines():
-       (key, val) = line.split(",")
-       mapping[key] = float(val)
+        (key, val) = line.split(",")
+        mapping[key] = float(val)
 
 # Read in the shopping list
 input = open('shopping_list.txt', 'r')
@@ -39,7 +39,7 @@ for idx, i in enumerate(route):
 		aisle_name = "Produce"
 	elif (i[1] == 2.5):
 		aisle_name = "Meat"
-	print(aisle_name, " : ", i[0])
+	print str(aisle_name) + " : " + i[0]
 
 	# Determine if you go all the way through the aisle or go back down
 	# for the next item.
@@ -48,4 +48,4 @@ for idx, i in enumerate(route):
 		# There's no going back through meat aisle
 		if (aisle_name != "Meat" and next_aisle % 1 == 0 and 
 			math.floor(i[1]) != math.floor(next_aisle) and next_aisle != num_aisles + 1):
-			print("Go back down Aisle", aisle_name)
+			print "Go back down Aisle " + str(aisle_name)

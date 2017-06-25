@@ -1,8 +1,37 @@
 bananas, 0
 bread, 7 
-cheese, 1.75
+cheese, 6
 eggs, 1
 peanut butter, 4.75
 potatoes, 0
-sausage, 2.5
-yogurt, 1
+sausage, 6
+yogurt, 6.75
+tortilla chips, 6
+shampoo, 7
+soap, 7
+razor, 7
+shaving cream, 7
+lotion, 7
+pads, 7
+deodorant, 7
+bagel bites, 5
+frozen broccoli, 5
+trash bags, 11
+laundry detergent, 11
+dish soap, 11
+sponge, 11
+paper towels, 11
+coffee, 13
+tea, 13
+cocoa, 13
+juice, 13
+candy, 13
+powdered drink, 13
+toothpaste, 10
+toothbrush, 10
+protein bars, 10
+light bulb, 10
+soup, 17
+rice, 17
+pasta, 18
+tortillas, 18

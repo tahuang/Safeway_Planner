@@ -1,11 +1,12 @@
 # Build shopping list from selected recipes
-# May 6, 2017
-# Tiffany Huang
+# June 25, 2017
+# Tim MacDonald
 
 
 def build_list(selected_items):
     recipes = get_recipes()
     ingredients = sum_ingredients(recipes,selected_items)
+    write_shopping_list(ingredients)
     return
 
 def get_recipes():
@@ -17,8 +18,7 @@ def get_recipes():
             ingredients_list = []
             recipe_name = line.rstrip('\n')
             recipe_name_flag = False
-            continue
-        if (line == '\n') or (line == 'END'):
+        elif (line == '\n') or (line == 'END'):
             recipe_name_flag = True
             if recipes.has_key(recipe_name):
                 raise ValueError('Duplicate recipes')
@@ -57,6 +57,13 @@ def sum_ingredients(recipes,selected_items):
     
     return condensed_list
 
+def write_shopping_list(ingredients):
+    f = open('shopping_list.txt','w')
+    for item in ingredients:
+        f.write(str(item[0]) + ' ' + item[1] + ' ' + item[2] + '\n')
+    f.close()
+    return
+
 if __name__ == '__main__':
     selected_items = dict()
     selected_items['Chocolate Chip Cookies'] = 1
@@ -64,5 +71,13 @@ if __name__ == '__main__':
     selected_items['bananas']                = 5
     
     build_list(selected_items)
+    
+    #1. -- bread
+    #2. -- potatoes
+    #2.24 cup cheese
+    #5. -- snapea crisps
+    #8. -- bananas
+    #1. -- peanut butter
+    #5.3 oz eggs    
     
     pass

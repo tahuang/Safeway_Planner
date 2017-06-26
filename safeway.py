@@ -21,11 +21,15 @@ input = open('shopping_list.txt', 'r')
 items = input.read().splitlines()
 
 route = []
-for i in items:
-	if (i in mapping.keys()):
-		route.append((i, mapping[i]))
-	else:
-		route.append((i, num_aisles + 1))
+for item in items:
+    item_data = item.split()
+    item_num  = item_data[0]
+    item_unit = item_data[1]
+    item_name = ' '.join(item_data[2:])
+    if (item_name in mapping.keys()):
+	    route.append((item_name, mapping[item_name], item_num, item_unit))
+    else:
+	    route.append((item_name, num_aisles + 1, item_num, item_unit))
 
 # Create the route
 route.sort(key=lambda tup: tup[1])
@@ -39,7 +43,7 @@ for idx, i in enumerate(route):
 		aisle_name = "Produce"
 	elif (i[1] == 2.5):
 		aisle_name = "Meat"
-	print str(aisle_name) + " : " + i[0]
+	print str(aisle_name) + " : " + i[0] + ' (' + i[2] + ' ' + i[3] + ')'
 
 	# Determine if you go all the way through the aisle or go back down
 	# for the next item.

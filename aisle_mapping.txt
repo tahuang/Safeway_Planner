@@ -1,26 +1,33 @@
-bananas, 0
-bread, 7 
+banana, 100
+bananas, 100
+potato, 100
+bread, 5.75
 cheese, 6
-eggs, 1
+cheddar cheese, 6
+mozzarella, 6
+keifer, 6.75
+sour cream, 6.75
+pepperoni, 6.
+eggs, 5.75
 peanut butter, 4.75
 potatoes, 0
 sausage, 6
 yogurt, 6.75
-tortilla chips, 6
-shampoo, 7
-soap, 7
+tortilla chips, 6.75
+shampoo, 7.75
+soap, 7.75
 razor, 7
 shaving cream, 7
 lotion, 7
 pads, 7
-deodorant, 7
+deodorant, 7.75
 bagel bites, 5
-frozen broccoli, 5
+frozen broccoli, 5.75
 trash bags, 11
 laundry detergent, 11
 dish soap, 11
 sponge, 11
-paper towels, 11
+paper towels, 11.75
 coffee, 13
 tea, 13
 cocoa, 13
@@ -29,9 +36,13 @@ candy, 13
 powdered drink, 13
 toothpaste, 10
 toothbrush, 10
+snack bars, 10
 protein bars, 10
 light bulb, 10
 soup, 17
 rice, 17
 pasta, 18
+pizza sauce, 18
 tortillas, 18
+bacon, 16.5
+chicken, 16.5

@@ -66,9 +66,21 @@ def write_shopping_list(ingredients):
 
 if __name__ == '__main__':
     selected_items = dict()
-    selected_items['Chocolate Chip Cookies'] = 1
-    selected_items['Artichoke Cheese Dip']   = 2
-    selected_items['bananas']                = 5
+    #selected_items['Chocolate Chip Cookies'] = 1
+    #selected_items['Artichoke Cheese Dip']   = 2
+    #selected_items['bananas']                = 5
+    
+    selected_items['Pizza Potato'] = 1
+    selected_items['Bacon Ranch Chicken Bake'] = 1
+    selected_items['frozen broccoli'] = 1
+    selected_items['banana'] = 6
+    selected_items['keifer'] = 1
+    selected_items['snack bar'] = 4
+    selected_items['bread'] = 1
+    selected_items['trash bags'] = 1
+    selected_items['shampoo'] = 1
+    selected_items['sausage'] = 1
+    selected_items['peanut butter'] = 1
     
     build_list(selected_items)
     

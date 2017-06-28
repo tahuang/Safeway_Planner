@@ -7,7 +7,7 @@
 import math
 
 # Number of aisles total
-num_aisles = 20
+num_aisles = 300
 
 # Create mapping between items and which aisle they are in from text file.
 mapping = {}
@@ -34,22 +34,50 @@ for item in items:
 # Create the route
 route.sort(key=lambda tup: tup[1])
 
-# Output the route
-for idx, i in enumerate(route):
-	aisle_name = int(math.floor(i[1]))
-	if (i[1] == num_aisles + 1):
-		aisle_name = "Unknown"
-	elif (i[1] == 0):
-		aisle_name = "Produce"
-	elif (i[1] == 2.5):
-		aisle_name = "Meat"
-	print str(aisle_name) + " : " + i[0] + ' (' + i[2] + ' ' + i[3] + ')'
+# Keep track of items in the same aisle
+last_item = route[0]
+last_aisle = int(math.floor(last_item[1]))
+next_aisle = [last_item]
+idx = 1
+print(str(int(math.floor(last_item[1]))) + " : " + last_item[0] + ' (' + last_item[2] + ' ' + last_item[3] + ')')
 
-	# Determine if you go all the way through the aisle or go back down
-	# for the next item.
-	if (idx != len(route) - 1):
-		next_aisle = route[idx+1][1]
-		# There's no going back through meat aisle
-		if (aisle_name != "Meat" and next_aisle % 1 == 0 and 
-			math.floor(i[1]) != math.floor(next_aisle) and next_aisle != num_aisles + 1):
-			print "Go back down Aisle " + str(aisle_name)
+# Output the route
+while (idx != len(route) - 1):
+	i = route[idx]
+	curr_aisle = int(math.floor(i[1]))
+	# Determine if you go all the way through the aisle or go back the way you came.
+	if (curr_aisle == last_aisle and last_aisle == int(math.floor(route[0][1]))):
+		next_aisle.append(i)
+		print(i[0] + ' (' + i[2] + ' ' + i[3] + ')')
+		idx += 1
+	else:
+		last_item = next_aisle[-1]
+		last_aisle = int(math.floor(last_item[1]))
+		next_aisle.clear()
+		aisle_name = str(curr_aisle)
+		if (i[1] == num_aisles + 1):
+			aisle_name = "Unknown"
+		elif (i[1] == 100):
+			aisle_name = "Produce"
+		elif (i[1] == 200):
+			aisle_name = "Meat"
+		print(aisle_name + " : ")
+		next_item = i
+		while (math.floor(next_item[1]) == curr_aisle):
+			if (idx != len(route) - 1):
+				next_aisle.append(i)
+				next_item = route[idx+1]
+				idx += 1
+			else:
+				break
+
+		first_dist = (last_item[1] - last_aisle) + (next_aisle[0][1] - curr_aisle)
+		second_dist = (last_item[1] - last_aisle) + (next_aisle[-1][1] - curr_aisle)
+		if ((first_dist < second_dist and last_item[1] - last_aisle < 0.5) or
+			second_dist < first_dist and last_item[1] - last_item >= 0.5):
+			print('Go back the way you came through aisle ' + str(curr_aisle))
+		if (second_dist < first_dist):
+			next_aisle.reverse()
+		for item in next_aisle:
+			print(item[0] + ' (' + item[2] + ' ' + item[3] + ')')
+		

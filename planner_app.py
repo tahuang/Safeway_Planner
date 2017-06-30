@@ -5,41 +5,19 @@
 # Tiffany Huang
 
 from kivy.app import App
-from kivy.uix.boxlayout import BoxLayout
-from kivy.lang import Builder
+from kivy.uix.widget import Widget
 
-Builder.load_string('''
-<RootWidget>:
-	BoxLayout:
-		GridLayout:
-			rows: 10
-			Button:
-				text: 'Foods'
-		GridLayout:
-			col: 7
-    		Button:
-    			text: 'Monday'
-    		Button:
-    			text: 'Tuesday'
-    		Button:
-    			text: 'Wednesday'
-    		Button:
-    			text: 'Thursday'
-    		Button:
-    			text: 'Friday'
-    		Button:
-    			text: 'Saturday'
-    		Button:
-    			text: 'Sunday'
-''')
 
-class RootWidget(BoxLayout):
+class GroceryList(Widget):
     pass
 
-class GroceryList(App):
+class FoodItem(Widget):
+	pass
 
+class PlannerApp(App):
     def build(self):
-        return RootWidget()
+        return GroceryList()
+
 
 if __name__ == '__main__':
-    GroceryList().run()
+    PlannerApp().run()

@@ -6,13 +6,15 @@
 
 from kivy.app import App
 from kivy.uix.widget import Widget
-
+from kivy.properties import ObjectProperty
 
 class GroceryList(Widget):
-    pass
+    cookies = ObjectProperty(None)
 
 class FoodItem(Widget):
-	pass
+	def on_touch_move(self, touch):
+		self.center_x = touch.x
+		self.center_y = touch.y
 
 class PlannerApp(App):
     def build(self):

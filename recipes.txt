@@ -17,4 +17,39 @@ Artichoke Cheese Dip
 1 cup finely grated parmesan
 13 oz marinated artichoke hearts
 1 clove garlic
+
+Pizza Potatoes
+4 -- potatoes
+4 tbsp sour cream
+200 g pepperoni
+1 -- salt
+1 -- pepper
+1 -- pizza sauce
+1 handful mozzarella cheese
+1 handful parmesan
+1 handful oregano
+
+Bacon Ranch Chicken Bake
+4 breat chicken
+1 -- salt
+1 -- pepper
+8 tbsp ranch dressing
+8 slice bacon
+4 oz cheddar cheese
+
+Pesto Chicken Bake
+4 breast chicken
+1 -- salt
+1 -- pepper
+6 tbsp pesto
+2 -- tomato
+2 cup mozzarella cheese
+
+Alfredo Chicken Bake
+48 oz alfredo sauce
+4 breat chicken
+1 -- salt
+1 -- pepper
+1 lb broccoli
+1 cup permesan cheese
 END

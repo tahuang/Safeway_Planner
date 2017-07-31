@@ -70,17 +70,36 @@ if __name__ == '__main__':
     #selected_items['Artichoke Cheese Dip']   = 2
     #selected_items['bananas']                = 5
     
-    selected_items['Pizza Potato'] = 1
-    selected_items['Bacon Ranch Chicken Bake'] = 1
+    #selected_items['Pizza Potato'] = 1
+    #selected_items['Bacon Ranch Chicken Bake'] = 1
+    #selected_items['frozen broccoli'] = 1
+    #selected_items['banana'] = 6
+    #selected_items['keifer'] = 1
+    #selected_items['snack bar'] = 4
+    #selected_items['bread'] = 1
+    #selected_items['trash bags'] = 1
+    #selected_items['shampoo'] = 1
+    #selected_items['sausage'] = 1
+    #selected_items['peanut butter'] = 1  
+    
+    selected_items['Cream Cheese Bagel'] = 3
+    selected_items['Lunch Sandwich'] = 3
     selected_items['frozen broccoli'] = 1
-    selected_items['banana'] = 6
-    selected_items['keifer'] = 1
-    selected_items['snack bar'] = 4
-    selected_items['bread'] = 1
-    selected_items['trash bags'] = 1
-    selected_items['shampoo'] = 1
+    selected_items['Lunch Celery'] = 3
+    selected_items['banana'] = 5
+    selected_items['meatballs'] = 1
+    selected_items['Basic Dinner Rice'] = 2
+    selected_items['Basic Dinner Pasta'] = 1
+    selected_items['Peanut Butter Toast'] = 3
+    selected_items['chips'] = 1
+    selected_items['cheddar cheese'] = 1
+    selected_items['grapes'] = 1
+    selected_items['Pesto Chicken Bake'] = 1
+    selected_items['yogurt'] = 4
+    selected_items['Basic Eggs'] = 2
     selected_items['sausage'] = 1
-    selected_items['peanut butter'] = 1
+    selected_items['crackers'] = 1
+    
     
     build_list(selected_items)
     

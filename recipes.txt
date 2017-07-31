@@ -52,4 +52,37 @@ Alfredo Chicken Bake
 1 -- pepper
 1 lb broccoli
 1 cup permesan cheese
+
+Lunch Sandwich
+2 slice bread
+3 slice deli meat
+3 slice cheese
+2 spoon mayo
+
+Cream Cheese Bagel
+1 -- bagel
+5 tbsp cream cheese
+
+Peanut Butter Toast
+3 tbsp peanut butter
+2 slice bread
+
+Lunch Celery
+2 stalk celery
+1 cup peanut butter
+
+Basic Dinner Rice
+1.5 cup rice
+2 tbsp butter
+4 tsp soy sauce
+
+Basic Dinner Pasta
+1 jar pasta sauce
+1 box pasta
+1 tbsp parmesan cheese
+
+Basic Eggs
+3 -- eggs
+1 -- salt
+1 -- pepper
 END

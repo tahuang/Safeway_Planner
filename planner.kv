@@ -1,14 +1,6 @@
 #:kivy 1.10.0
 
-<FoodItem>:
-    size: 150, 50
-    canvas:
-        Rectangle:
-            pos: self.pos
-            size: self.size
-
 <GroceryList>: 
-    cookies: cookie_button 
     canvas:
         Rectangle:
             pos: self.width / 8 - 5, 0
@@ -83,7 +75,10 @@
         top: root.top - 20
         text: "Sunday"
 
-    FoodItem:
-        id: cookie_button
-        center_x: root.width / 16
-        y: root.height  * 8 / 10
+    BoxLayout:
+        orientation: "vertical"
+        Recipes:
+            Label: 
+                text: "Cookies"
+        Recipes:
+            text: "Potatoes"

@@ -1,7 +1,19 @@
 #:kivy 1.10.0
 
 <Recipes>:
-	canvas:
-		Rectangle: 
-			pos: self.pos
-			size: self.size
+	orientation: "vertical"
+	Button:
+		id: cookies
+		text: "Cookies"
+	Button:
+		id: pesto_chicken
+		text: "Pesto Chicken"
+		text_size: self.size
+		halign: 'center'
+		valign: 'middle'
+	Button:
+		id: pizza
+		text: "Pizza Potato"
+		text_size: self.size
+		halign: 'center'
+		valign: 'middle'

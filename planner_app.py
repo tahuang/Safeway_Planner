@@ -12,15 +12,15 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.properties import ObjectProperty
 
 # Builder used to load all the kivy files
-Builder.load_file('planner.kv')
 Builder.load_file('recipe.kv')
 Builder.load_file('meals.kv')
+Builder.load_file('days.kv')
 
-class GroceryList(Widget):
+class GroceryList(BoxLayout):
 	def __init__(self,**kwargs):
 		super(GroceryList,self).__init__(**kwargs)
 
-class Recipes(Widget):
+class Recipes(BoxLayout):
 	def __init__(self,**kwargs):
 		super(Recipes,self).__init__(**kwargs)
 
@@ -34,7 +34,7 @@ class Meals(GridLayout):
 
 class PlannerApp(App):
     def build(self):
-        self.title = "Grocery Planner"
+        self.title = 'Grocery Planner'
         return GroceryList()
 
 if __name__ == '__main__':

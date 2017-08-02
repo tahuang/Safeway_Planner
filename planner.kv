@@ -1,84 +1,17 @@
 #:kivy 1.10.0
 
-<GroceryList>: 
-    canvas:
-        Rectangle:
-            pos: self.width / 8 - 5, 0
-            size: 10, self.height
-        Rectangle:
-            pos: (self.width / 8) * 2 - 5, 0
-            size: 10, self.height
-        Rectangle:
-            pos: (self.width / 8) * 3 - 5, 0
-            size: 10, self.height
-        Rectangle:
-            pos: (self.width / 8) * 4 - 5, 0
-            size: 10, self.height
-        Rectangle:
-            pos: (self.width / 8) * 5 - 5, 0
-            size: 10, self.height
-        Rectangle:
-            pos: (self.width / 8) * 6 - 5, 0
-            size: 10, self.height
-        Rectangle:
-            pos: (self.width / 8) * 7 - 5, 0
-            size: 10, self.height
-        Rectangle:
-            pos: 0, self.height - 100
-            size: self.width, 10
-            
-    Label:
-        font_size: 30  
-        center_x: root.width / 16
-        top: root.top - 20
-        text: "Foods"
-        
-    Label:
-        font_size: 30  
-        center_x: root.width * 3 / 16
-        top: root.top - 20
-        text: "Monday"
-
-    Label:
-        font_size: 30  
-        center_x: root.width * 5 / 16
-        top: root.top - 20
-        text: "Tuesday"
-
-    Label:
-        font_size: 30  
-        center_x: root.width * 7 / 16
-        top: root.top - 20
-        text: "Wednesday"
-
-    Label:
-        font_size: 30  
-        center_x: root.width * 9 / 16
-        top: root.top - 20
-        text: "Thursday"
-
-    Label:
-        font_size: 30  
-        center_x: root.width * 11 / 16
-        top: root.top - 20
-        text: "Friday"
-
-    Label:
-        font_size: 30  
-        center_x: root.width * 13 / 16
-        top: root.top - 20
-        text: "Saturday"
-
-    Label:
-        font_size: 30  
-        center_x: root.width * 15 / 16
-        top: root.top - 20
-        text: "Sunday"
+<GroceryList>:    
+    
+    orientation: 'vertical'
+    BoxLayout:
+        size_hint: 1, .1
+        Days:
 
     BoxLayout:
-        orientation: "vertical"
-        Recipes:
-            Label: 
-                text: "Cookies"
-        Recipes:
-            text: "Potatoes"
+        Meals:
+        BoxLayout:
+        	size_hint: .15, 1
+        	Recipes:
+        
+
+    

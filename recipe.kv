@@ -1,19 +1,10 @@
 #:kivy 1.10.0
 
-<Recipes>:
-	orientation: "vertical"
-	Button:
-		id: cookies
-		text: "Cookies"
-	Button:
-		id: pesto_chicken
-		text: "Pesto Chicken"
+<Recipes@BoxLayout>:
+	orientation: 'vertical'
+    Button: 
+        text: 'Cookies'
 		text_size: self.size
 		halign: 'center'
 		valign: 'middle'
-	Button:
-		id: pizza
-		text: "Pizza Potato"
-		text_size: self.size
-		halign: 'center'
-		valign: 'middle'
+		color: 0, 0, 0, 1

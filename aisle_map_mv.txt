@@ -1,0 +1,16 @@
+frozen broccoli, 2.6
+eggs, 2.99
+yogurt, 1.7
+chips, 12.3
+cream cheese, 1.1
+cheddar cheese, 1.3
+cheese, 1.99
+deli meat, 1.99
+sausage, 18.99
+meatballs, 10.99
+chicken, 13.99
+bacon, 18.99
+tater tots, 3.7
+ranch dressing, 15.5
+body wash, 5.8
+bars, 8.8

@@ -66,6 +66,7 @@ def write_shopping_list(ingredients):
 
 if __name__ == '__main__':
     selected_items = dict()
+    s = selected_items
     #selected_items['Chocolate Chip Cookies'] = 1
     #selected_items['Artichoke Cheese Dip']   = 2
     #selected_items['bananas']                = 5
@@ -82,26 +83,42 @@ if __name__ == '__main__':
     #selected_items['sausage'] = 1
     #selected_items['peanut butter'] = 1  
     
-    selected_items['Cream Cheese Bagel'] = 3
-    selected_items['Lunch Sandwich'] = 3
-    selected_items['frozen broccoli'] = 1
-    selected_items['Lunch Celery'] = 3
-    selected_items['banana'] = 5
-    selected_items['meatballs'] = 1
-    selected_items['Basic Dinner Rice'] = 2
-    selected_items['Basic Dinner Pasta'] = 1
-    selected_items['Peanut Butter Toast'] = 3
-    selected_items['chips'] = 1
-    selected_items['cheddar cheese'] = 1
-    selected_items['grapes'] = 1
-    selected_items['Pesto Chicken Bake'] = 1
-    selected_items['yogurt'] = 4
-    selected_items['Basic Eggs'] = 2
-    selected_items['sausage'] = 1
-    selected_items['crackers'] = 1
+    #selected_items['Cream Cheese Bagel'] = 3
+    #selected_items['Lunch Sandwich'] = 3
+    #selected_items['frozen broccoli'] = 1
+    #selected_items['Lunch Celery'] = 3
+    #selected_items['banana'] = 5
+    #selected_items['meatballs'] = 1
+    #selected_items['Basic Dinner Rice'] = 2
+    #selected_items['Basic Dinner Pasta'] = 1
+    #selected_items['Peanut Butter Toast'] = 3
+    #selected_items['chips'] = 1
+    #selected_items['cheddar cheese'] = 1
+    #selected_items['grapes'] = 1
+    #selected_items['Pesto Chicken Bake'] = 1
+    #selected_items['yogurt'] = 4
+    #selected_items['Basic Eggs'] = 2
+    #selected_items['sausage'] = 1
+    #selected_items['crackers'] = 1
     
+    s['yogurt'] = 5
+    s['Cream Cheese Bagel'] = 3
+    s['Lunch Sandwich'] = 2
+    s['banana'] = 4
+    s['Bacon Ranch Chicken Bake'] = 1
+    s['green beans'] = 2
+    s['Peanut Butter Toast'] = 2
+    s['milk'] = 1
+    s['cereal'] = 1
+    s['Basic Eggs'] = 1
+    s['chips'] = 1
+    s['cheddar cheese'] = 1
+    s['pasta'] = 1
+    s['sausage'] = 1
+    s['toilet paper'] = 1
+    s['bars'] = 1
     
-    build_list(selected_items)
+    build_list(s)
     
     #1. -- bread
     #2. -- potatoes

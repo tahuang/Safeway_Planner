@@ -1,31 +1,25 @@
 1.0 -- sausage
-4.0 breast chicken
-3.0 -- salt
-3.0 -- pepper
-6.0 tbsp pesto
-2.0 -- tomato
-2.0 cup mozzarella cheese
 1.0 -- cheddar cheese
-9.0 tbsp peanut butter
-12.0 slice bread
-6.0 stalk celery
-3.0 cup peanut butter
-1.0 -- frozen broccoli
-1.0 -- crackers
-6.0 -- eggs
-1.0 -- meatballs
-1.0 jar pasta sauce
-1.0 box pasta
-1.0 tbsp parmesan cheese
-3.0 cup rice
-4.0 tbsp butter
-8.0 tsp soy sauce
-9.0 slice deli meat
-9.0 slice cheese
-6.0 spoon mayo
-1.0 -- grapes
-4.0 -- yogurt
+4.0 breat chicken
+2.0 -- salt
+2.0 -- pepper
+8.0 tbsp ranch dressing
+8.0 slice bacon
+4.0 oz cheddar cheese
+3.0 -- eggs
+1.0 -- pasta
+1.0 -- bars
+1.0 -- milk
+8.0 slice bread
+6.0 slice deli meat
+6.0 slice cheese
+4.0 spoon mayo
+2.0 -- green beans
+1.0 -- toilet paper
+1.0 -- cereal
+5.0 -- yogurt
 3.0 -- bagel
 15.0 tbsp cream cheese
 1.0 -- chips
-5.0 -- banana
+4.0 -- banana
+6.0 tbsp peanut butter

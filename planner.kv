@@ -3,7 +3,7 @@
 <GroceryList>:    
     canvas:
     	Color:
-    		rgba: 1,1,1,1
+    		rgba: 1, 1, 1, 1
     	Rectangle:
     		pos: self.pos
     		size: self.size
@@ -14,9 +14,16 @@
         Days:
     BoxLayout:
     	DrawGrid:
-        BoxLayout:
-        	size_hint: .15, 1
+    Scatter:
+    	size_hint: 1, .15
+    	BoxLayout:
         	Recipes:
+        		Label:
+        			text: 'Pizza Potato'
+        	Recipes:
+        		Label:
+        			text: 'Cookies'
+        			
 
         
 

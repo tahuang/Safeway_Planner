@@ -1,10 +1,9 @@
 #:kivy 1.10.0
 
-<Recipes@BoxLayout>:
-	orientation: 'vertical'
-    Button: 
-        text: 'Cookies'
-		text_size: self.size
-		halign: 'center'
-		valign: 'middle'
-		color: 0, 0, 0, 1
+<Recipes>:
+	canvas:
+        Color:
+        	rgba: 0, 0, 0.5, 1
+        Rectangle:
+        	pos: self.pos
+        	size: self.size

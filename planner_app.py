@@ -12,6 +12,7 @@ from kivy.uix.gridlayout import GridLayout
 from kivy.uix.boxlayout import BoxLayout
 from kivy.properties import ObjectProperty, NumericProperty, ListProperty, StringProperty
 from kivy.graphics import Color, Line
+from kivy.uix.textinput import TextInput
 
 # Builder used to load all the kivy files
 Builder.load_file('recipe.kv')
@@ -40,7 +41,7 @@ class DrawGrid(Widget):
 	# Width of grid outline
 	grid_outline_width = NumericProperty(2.)
 	# Location of grid lines, takes 'behind' or 'on_top'
-	grid_location = StringProperty('on_top')
+	grid_location = StringProperty('behind')
 
 	def __init__(self,**kwargs):
 		super(DrawGrid,self).__init__(**kwargs)

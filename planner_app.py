@@ -14,9 +14,12 @@ from kivy.properties import ObjectProperty, NumericProperty, ListProperty, Strin
 from kivy.graphics import Color, Line
 from kivy.uix.textinput import TextInput
 
+import build_list
+import safeway
+
 # Builder used to load all the kivy files
 Builder.load_file('recipe.kv')
-Builder.load_file('meals.kv')
+#Builder.load_file('meals.kv')
 Builder.load_file('days.kv')
 
 class GroceryList(BoxLayout):
@@ -28,8 +31,31 @@ class Recipes(Widget):
 		super(Recipes,self).__init__(**kwargs)
 
 class Meals(GridLayout):
+	def getGroceryList(self, button):
+		items = dict()
+		for meal in meal_list:
+			if items.has_key(meal.text):
+				items[meal.text] += 1
+			else:
+				items[meal.text] = 1
+
+		build_list.build_list(items)
+		safeway.print_shopping_route()
+
+	button = Button(text='Get Grocery List')
+	button.bind(on_press=getGroceryList)
+
 	def __init__(self, **kwargs):
 		super(Meals,self).__init__(**kwargs)
+		meal_list = []
+		self.rows = 4
+		self.cols = 7
+		for row in range(self.rows):
+			for column in range(self.cols):
+				meal_entry = TextInput()
+				meal_list.append(meal_entry)
+				self.add_widget(meal_entry)
+
 
 class DrawGrid(Widget):
 	# Width of grid lines
@@ -91,6 +117,7 @@ class DrawGrid(Widget):
 
 
 class PlannerApp(App):
+
     def build(self):
         self.title = 'Grocery Planner'
         return GroceryList()

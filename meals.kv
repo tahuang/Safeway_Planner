@@ -6,8 +6,10 @@
 		Color:
 			rgba: 0.5,0.75,0.5,1
 
-	TextInput:
-	Button:
-		id: get_grocery_list_button
-		on_press: getGroceryList
+	orientation: 'vertical'
+	BoxLayout:
+		Button:
+			id: get_grocery_list_button
+			text: 'Get Grocery List'
+			on_press: root.getGroceryList(get_grocery_list_button)
 

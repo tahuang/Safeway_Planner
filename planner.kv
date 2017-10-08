@@ -1,6 +1,6 @@
 #:kivy 1.10.0
 
-<GroceryList>:    
+<Planner>:    
     canvas:
     	Color:
     		rgba: 0.8, 0.8, 0.8, 1
@@ -15,6 +15,14 @@
 
     BoxLayout:
     	Meals:
+    		id: meals
+
+    BoxLayout:
+    	size_hint: 1, .1
+    	GetRouteButton:
+    		meals: meals
+    		text: 'Get Grocery Store Route'
+    		on_press: self.getGroceryRoute(meals.meal_list)
 
         			
 

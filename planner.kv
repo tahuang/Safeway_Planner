@@ -1,9 +1,9 @@
 #:kivy 1.10.0
 
-<GroceryList>:    
+<Planner>:    
     canvas:
     	Color:
-    		rgba: 1, 1, 1, 1
+    		rgba: 0.8, 0.8, 0.8, 1
     	Rectangle:
     		pos: self.pos
     		size: self.size
@@ -12,17 +12,18 @@
     BoxLayout:
         size_hint: 1, .1
         Days:
+
     BoxLayout:
-    	DrawGrid:
-    Scatter:
-    	size_hint: 1, .15
-    	BoxLayout:
-        	Recipes:
-        		Label:
-        			text: 'Pizza Potato'
-        	Recipes:
-        		Label:
-        			text: 'Cookies'
+    	Meals:
+    		id: meals
+
+    BoxLayout:
+    	size_hint: 1, .1
+    	GetRouteButton:
+    		meals: meals
+    		text: 'Get Grocery Store Route'
+    		on_press: self.getGroceryRoute(meals.meal_list)
+
         			
 
         

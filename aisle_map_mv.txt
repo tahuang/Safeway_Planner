@@ -1,4 +1,5 @@
 frozen broccoli, 2.6
+frozen green beans, 2.6
 eggs, 2.99
 yogurt, 1.7
 chips, 12.3

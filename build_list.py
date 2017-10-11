@@ -101,22 +101,17 @@ if __name__ == '__main__':
     #selected_items['sausage'] = 1
     #selected_items['crackers'] = 1
     
-    s['yogurt'] = 5
-    s['Cream Cheese Bagel'] = 3
-    s['Lunch Sandwich'] = 2
     s['banana'] = 4
-    s['Bacon Ranch Chicken Bake'] = 1
-    s['green beans'] = 2
-    s['Peanut Butter Toast'] = 2
-    s['milk'] = 1
-    s['cereal'] = 1
-    s['Basic Eggs'] = 1
-    s['chips'] = 1
-    s['cheddar cheese'] = 1
-    s['pasta'] = 1
+    s['Lunch Sandwich'] = 3
+    s['Lunch Celery'] = 3
+    s['yogurt'] = 3
     s['sausage'] = 1
-    s['toilet paper'] = 1
-    s['bars'] = 1
+    s['frozen broccoli'] = 1
+    s['cheddar cheese'] = 1
+    s['Peanut Butter Toast'] = 2
+    s['Cream Cheese Bagel'] = 4
+    s['Pesto Chicken Bake'] = 1
+    
     
     build_list(s)
     

@@ -13,9 +13,10 @@ num_aisles = 300
 # Create mapping between items and which aisle they are in from text file.
 mapping = {}
 
+#main_store_list = 'aisle_mapping.txt'
 main_store_list = 'aisle_map_mv.txt'
 
-with open("aisle_mapping.txt") as f:
+with open(main_store_list) as f:
     for line in f.read().splitlines():
         (key, val) = line.split(",")
         mapping[key] = float(val)

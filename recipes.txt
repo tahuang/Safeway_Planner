@@ -85,4 +85,29 @@ Basic Eggs
 3 -- eggs
 1 -- salt
 1 -- pepper
+
+Fish and Chips
+0.5 bottle vegetable oil
+0.5 bag frozen fries
+2 cups rice flour
+1 tbsp baking powder
+1 tsp salt
+0.5 tsp pepper
+1 -- egg
+12 oz soda water
+0.5 cup rice flour
+16 oz cod
+1 -- tartar sauce
+
+Bacon Brussel Penne
+1 lb pasta
+6 slice bacon
+12 oz brussel sprouts
+0.5 tsp salt
+0.5 tsp pepper
+2 -- shallots
+
+Basic Cereal
+2 cup milk
+2 cup cereal
 END

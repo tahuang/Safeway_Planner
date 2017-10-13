@@ -29,10 +29,14 @@ class GetRouteButton(Button):
 	def getGroceryRoute(self, meal_list):
 		items = dict()
 		for meal in meal_list:
-			if items.has_key(meal.text):
-				items[meal.text] += 1
-			else:
-				items[meal.text] = 1
+			if meal.text == '':
+				continue
+			meal_parts = meal.text.split('\n')
+			for part in meal_parts:
+				if items.has_key(part):
+					items[part] += 1
+				else:
+					items[part] = 1
 
 		build_list.build_list(items)
 		safeway.print_shopping_route()

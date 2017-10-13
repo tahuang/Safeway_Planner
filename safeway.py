@@ -18,7 +18,7 @@ def create_item_aisle_mapping():
 
     main_store_list = 'aisle_map_mv.txt'
 
-    with open("aisle_mapping.txt") as f:
+    with open(main_store_list) as f:
         for line in f.read().splitlines():
             (key, val) = line.split(",")
             mapping[key] = float(val)

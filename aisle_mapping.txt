@@ -1,3 +1,4 @@
+Shopping at Menlo Park Safeway
 banana, 100
 bananas, 100
 celery, 100
@@ -8,8 +9,10 @@ grapes, 100
 bacon, 200
 chicken, 200
 meatballs, 200
+parmesan, 1.0
 bagel bites, 5
 frozen broccoli, 5.7
+broccoli, 5.7
 bread, 5.8
 eggs, 5.99
 pepperoni, 6.1
@@ -25,7 +28,7 @@ tortilla chips, 6.6
 cream cheese, 6.6
 sour cream, 6.7
 yogurt, 6.7
-peanut butter, 13.5
+butter, 6.9
 razor, 7
 shaving cream, 7
 lotion, 7
@@ -33,6 +36,12 @@ pads, 7
 shampoo, 7.6
 soap, 7.8
 deodorant, 7.8
+light bulb, 10
+protein bars, 10.6
+snack bars, 10.7
+bar, 10.7
+toothpaste, 10.8
+toothbrush, 10.8
 laundry detergent, 11
 dish soap, 11
 sponge, 11
@@ -44,11 +53,7 @@ cocoa, 13
 juice, 13
 candy, 13
 powdered drink, 13
-light bulb, 10
-protein bars, 10.6
-snack bars, 10.7
-toothpaste, 10.8
-toothbrush, 10.8
+peanut butter, 14.5
 soup, 17
 rice, 17
 pasta, 18.3

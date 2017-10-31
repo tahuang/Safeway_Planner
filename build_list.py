@@ -38,6 +38,8 @@ def sum_ingredients(recipes,selected_items):
                 total_ingredient = (ingredient[0]*num,ingredient[1],ingredient[2])
                 full_list.append(total_ingredient)
         else:
+            if item[0].isupper() == True:
+                print('No recipe found for ' + item)
             full_list.append((1.*num,'--',item))
     
     condensed_list = []

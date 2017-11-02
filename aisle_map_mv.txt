@@ -15,3 +15,7 @@ tater tots, 3.7
 ranch dressing, 15.5
 body wash, 5.8
 bars, 8.8
+tortillas, 18.9
+marshmallows, 15.3
+chocolate, 13.3
+plates, 15.9

@@ -16,9 +16,10 @@ def print_shopping_route():
 def create_item_aisle_mapping():
     mapping = {}
 
-    main_store_list = 'aisle_map_mv.txt'
+    main_store_list = 'aisle_mapping.txt'
 
     with open(main_store_list) as f:
+        print(f.readline())
         for line in f.read().splitlines():
             (key, val) = line.split(",")
             mapping[key] = float(val)

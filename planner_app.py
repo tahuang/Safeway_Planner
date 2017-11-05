@@ -13,7 +13,6 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.properties import ObjectProperty, NumericProperty, ListProperty, StringProperty
 from kivy.uix.textinput import TextInput
 from kivy.uix.dropdown import DropDown
-from kivy.base import runTouchApp
 
 import numpy as np
 import glob
@@ -127,6 +126,7 @@ class ShoppingArea(BoxLayout):
 		# assign the data to the button text.
 		dropdown.bind(on_select=lambda instance, x: setattr(mainbutton, 'text', x))
 		dropdown.bind(on_select=lambda instance, x: setattr(self, 'map_file', self.text_to_file[x]))
+
 		self.add_widget(mainbutton)
 
 class PlannerApp(App):

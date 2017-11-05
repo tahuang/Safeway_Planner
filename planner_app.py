@@ -79,7 +79,7 @@ class Recipes(GridLayout):
 
                 # Make buttons for all the recipes
                 self.size_hint = 1, 0.3
-                self.rows = 4
+                self.rows = 5
                 self.cols = 4
                 for recipe in recipe_list:
                         item = Button(text=recipe, font_size='14sp')

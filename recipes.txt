@@ -110,4 +110,18 @@ Bacon Brussel Penne
 Basic Cereal
 2 cup milk
 2 cup cereal
+
+Extreme Nachos
+0.75 lb ground beef
+1 tsp salt
+.5 tsp pepper
+1 tsp paprika
+1 tsp garlic powder
+1 tsp cumin
+3 cup cheddar cheese
+1 -- red onion
+4 -- roma tomato
+1 can black bean
+18 oz chips
+1 cup sour cream
 END

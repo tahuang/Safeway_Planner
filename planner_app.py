@@ -65,7 +65,7 @@ class Meals(GridLayout):
                 for row in range(self.rows):
                         for column in range(self.cols):
                                 meal_entry = TextInput()
-                                meal_entry.bind(focus=self.set_meal_target)
+                                #meal_entry.bind(focus=self.set_meal_target)
                                 self.meal_list.append(meal_entry)
                                 self.add_widget(meal_entry)
                                 
@@ -95,7 +95,7 @@ class Recipes(GridLayout):
                 self.cols = int(np.floor(np.sqrt(len(recipe_list))))
                 for recipe in recipe_list:
                         item = Button(text=recipe, font_size='14sp')
-                        item.bind(on_press=self.add_recipe)
+                        #item.bind(on_press=self.add_recipe)
                         self.add_widget(item)    
                         
         def add_recipe(self,instance):

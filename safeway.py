@@ -15,6 +15,10 @@ def print_shopping_route(map_file):
 # Create mapping between items and which aisle they are in from text file.
 def create_item_aisle_mapping(shopping_map):
     full_mapping = {}
+    
+    if shopping_map == '':
+        shopping_map = 'mv_center.map'
+        print('No file specified, using default')
 
     with open(shopping_map) as f:
         print('---- ' + f.readline()[:-1] + ' ----\n')
@@ -62,8 +66,9 @@ def create_full_route(full_mapping, items):
         create_store_route(store_mapping, store_items)
         print('') # effectively a new line
         
-    print('---- Unknown Location')
-    create_store_route({}, unknown_items)
+    if unknown_items != []:
+        print('---- Unknown Location')
+        create_store_route({}, unknown_items)
 
 # Route is list of lists, where each list contains all items in the same aisle
 def create_store_route(store_mapping, items):
@@ -123,11 +128,11 @@ def create_store_route(store_mapping, items):
                 if (starting_point):
                     route[idx+1].reverse()
     else:
-        print("No items in your shopping list!")
+        print("No items for this location.")
 
 if __name__ == '__main__':
     
-    print_shopping_route()  
+    print_shopping_route('')  
     
     pass
 

@@ -9,10 +9,6 @@
     		size: self.size
 
     orientation: 'vertical'
-    BoxLayout:
-    	size_hint: 1, .1
-    	ShoppingArea:
-    		id: shopping_dropdown
 
     BoxLayout:
         size_hint: 1, .1
@@ -22,6 +18,11 @@
     	Meals:
     		id: meals
 
+    BoxLayout:
+    	size_hint: 1, .1
+		ShoppingArea:
+			id: shopping_dropdown
+			
     BoxLayout:
     	size_hint: 1, .1
     	GetRouteButton:

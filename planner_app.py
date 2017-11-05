@@ -54,16 +54,23 @@ class GetRouteButton(Button):
 class Meals(GridLayout):
         def __init__(self, **kwargs):
                 super(Meals,self).__init__(**kwargs)
+                self.active_box = None
                 self.meal_list = []
                 self.rows = 4
                 self.cols = 7
                 for row in range(self.rows):
                         for column in range(self.cols):
                                 meal_entry = TextInput()
+                                meal_entry.bind(focus=self.set_meal_target)
                                 self.meal_list.append(meal_entry)
                                 self.add_widget(meal_entry)
+                                
+        def set_meal_target(self,instance,value):
+                self.active_box = instance
 
 class Recipes(GridLayout):
+        meals = ObjectProperty()
+        
         def __init__(self, **kwargs):
                 super(Recipes,self).__init__(**kwargs)
                 # Get all the recipe names from file
@@ -84,7 +91,12 @@ class Recipes(GridLayout):
                 self.cols = int(np.floor(np.sqrt(len(recipe_list))))
                 for recipe in recipe_list:
                         item = Button(text=recipe, font_size='14sp')
-                        self.add_widget(item)    	
+                        item.bind(on_press=self.add_recipe)
+                        self.add_widget(item)    
+                        
+        def add_recipe(self,instance):
+                print(active_box)
+                print('Button pressed')
 
 class PlannerApp(App):
         def build(self):

@@ -6,21 +6,20 @@
 from __future__ import print_function
 import math
 
-def print_shopping_route():
-    full_mapping = create_item_aisle_mapping()
+def print_shopping_route(map_file):
+    full_mapping = create_item_aisle_mapping(map_file)
     items = read_shopping_list()
     create_full_route(full_mapping, items)
     return
 
 # Create mapping between items and which aisle they are in from text file.
-def create_item_aisle_mapping():
+def create_item_aisle_mapping(shopping_map):
     full_mapping = {}
-
-    shopping_map = 'mv_center.map'
 
     with open(shopping_map) as f:
         print('---- ' + f.readline()[:-1] + ' ----\n')
         store = 'None'
+
         for line in f.read().splitlines():
             if (line == '') or (line[0] == '#'):
                 continue

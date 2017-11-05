@@ -13,6 +13,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.properties import ObjectProperty, NumericProperty, ListProperty, StringProperty
 from kivy.uix.textinput import TextInput
 
+import numpy as np
 import build_list
 import safeway
 
@@ -79,8 +80,8 @@ class Recipes(GridLayout):
 
                 # Make buttons for all the recipes
                 self.size_hint = 1, 0.3
-                self.rows = 5
-                self.cols = 4
+                self.rows = int(np.ceil(np.sqrt(len(recipe_list))))
+                self.cols = int(np.floor(np.sqrt(len(recipe_list))))
                 for recipe in recipe_list:
                         item = Button(text=recipe, font_size='14sp')
                         self.add_widget(item)    	

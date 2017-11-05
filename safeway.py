@@ -7,24 +7,31 @@ from __future__ import print_function
 import math
 
 def print_shopping_route():
-    mapping = create_item_aisle_mapping()
+    full_mapping = create_item_aisle_mapping()
     items = read_shopping_list()
-    create_route(mapping, items)
+    create_full_route(full_mapping, items)
     return
 
 # Create mapping between items and which aisle they are in from text file.
 def create_item_aisle_mapping():
-    mapping = {}
+    full_mapping = {}
 
-    main_store_list = 'aisle_mapping.txt'
+    shopping_map = 'mv_center.map'
 
-    with open(main_store_list) as f:
-        print(f.readline())
+    with open(shopping_map) as f:
+        print('---- ' + f.readline()[:-1] + ' ----\n')
+        store = 'None'
         for line in f.read().splitlines():
-            (key, val) = line.split(",")
-            mapping[key] = float(val)
+            if (line == '') or (line[0] == '#'):
+                continue
+            elif line[0] == '@':
+                store = line[1:]
+                full_mapping[store] = {}
+            else:
+                (key, val) = line.split(",")
+                full_mapping[store][key] = float(val)
 
-    return mapping
+    return full_mapping
 
 # Read in the shopping list
 def read_shopping_list():
@@ -32,8 +39,35 @@ def read_shopping_list():
     items = input.read().splitlines()
     return items
 
+def create_full_route(full_mapping, items):
+    # first check for unmapped items
+    unknown_items = []
+    for item in items:
+        item_label = item.split(' ')[2:][0]
+        item_found = False
+        for store in full_mapping:
+            if full_mapping[store].has_key(item_label):
+                item_found = True
+        if item_found == False:
+            unknown_items.append(item)
+        
+    # map known items
+    for store in full_mapping:
+        print('---- Shopping at ' + store)
+        store_mapping = full_mapping[store]
+        store_items = []
+        for item in items:
+            item_label = item.split(' ')[2:][0]
+            if store_mapping.has_key(item_label):
+                store_items.append(item)
+        create_store_route(store_mapping, store_items)
+        print('') # effectively a new line
+        
+    print('---- Unknown Location')
+    create_store_route({}, unknown_items)
+
 # Route is list of lists, where each list contains all items in the same aisle
-def create_route(mapping, items):
+def create_store_route(store_mapping, items):
     # Number of aisles total
     num_aisles = 300
     route = [[] for i in range(num_aisles + 2)]
@@ -42,9 +76,9 @@ def create_route(mapping, items):
         item_num  = item_data[0]
         item_unit = item_data[1]
         item_name = ' '.join(item_data[2:])
-        if (item_name in mapping.keys()):
-            aisle = int(math.floor(mapping[item_name]))
-            route[aisle].append((item_name, mapping[item_name], item_num, item_unit))
+        if (item_name in store_mapping.keys()):
+            aisle = int(math.floor(store_mapping[item_name]))
+            route[aisle].append((item_name, store_mapping[item_name], item_num, item_unit))
         else:
             route[num_aisles + 1].append((item_name, num_aisles + 1, item_num, item_unit))
 
@@ -82,7 +116,7 @@ def create_route(mapping, items):
                 second_dist = (curr_aisle + 1 - last_item_place) + (next_aisle + 1 - route[idx+1][-1][1]) # Distance to item near top of aisle
                 if ((first_dist < second_dist and not starting_point) or
                     (second_dist < first_dist and starting_point)):
-                    print('Go back the way you came through the aisle')
+                    print('-- Go back the way you came through the aisle')
                 else:
                     starting_point = not starting_point
 

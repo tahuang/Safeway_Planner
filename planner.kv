@@ -14,22 +14,29 @@
         size_hint: 1, .1
         Days:
 
-    BoxLayout:
-    	Meals:
-    		id: meals
+    Meals:
+    	id: meals
 
     BoxLayout:
     	size_hint: 1, .1
 		ShoppingArea:
 			id: shopping_dropdown
-			
-    BoxLayout:
-    	size_hint: 1, .1
+
     	GetRouteButton:
     		meals: meals
     		shopping_area: shopping_dropdown
     		text: 'Get Grocery Store Route'
     		on_press: self.getGroceryRoute(meals.meal_list, shopping_dropdown.map_file)
+
+    	SaveButton:
+    		meals: meals
+            text: 'Save'
+    		on_press: self.save(meals.meal_list, 'saved_meals.txt')
+
+        LoadButton:
+            meals: meals
+            text: 'Load'
+            on_press: self.load(meals.meal_list, 'saved_meals.txt')
 
     Recipes:
 

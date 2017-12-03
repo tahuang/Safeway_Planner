@@ -13,6 +13,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.properties import ObjectProperty, NumericProperty, ListProperty, StringProperty
 from kivy.uix.textinput import TextInput
 from kivy.uix.dropdown import DropDown
+from kivy.uix.popup import Popup
 
 import numpy as np
 import glob
@@ -36,9 +37,9 @@ class GetRouteButton(Button):
                 items = dict()
                 # Parse each meal block for different items
                 for meal in meal_list:
-                        if meal.text == '':
+                        if meal[0].text == '':
                                 continue
-                        meal_parts = meal.text.split('\n')
+                        meal_parts = meal[0].text.split('\n')
                         for part in meal_parts:
                                 if (part == '') or (part[0] == '!'):
                                         continue
@@ -55,6 +56,52 @@ class GetRouteButton(Button):
                 self.background_normal = ''
                 self.background_color = [0.698039, 0.133333, 0.133333, 1]
 
+class SaveButton(Button):
+	meals = ObjectProperty()
+
+	def save(self, meal_list, filename):
+		save_file = open(filename, "w")
+		for meal_entry in meal_list:
+			if meal_entry[0].text == '':
+				continue
+			save_file.write(meal_entry[0].text)
+			row_column = " " + str(meal_entry[1])
+			save_file.write(row_column)
+		save_file.close()
+
+	def __init__(self,**kwargs):
+		super(SaveButton, self).__init__(**kwargs)
+		self.background_normal = ''
+		self.background_color = [0.6, 0.196078, 0.8, 1]
+
+class LoadButton(Button):
+	meals = ObjectProperty()
+
+	# Loads meals from file and puts them into the GUI
+	def load(self, meal_list, filename):
+		load_file = open(filename, "r")
+		for line in load_file:
+			meal = line.split()
+			# Clear the current text first
+			box_index = int(meal[1])
+			meal_list[box_index][0].select_all()
+			meal_list[box_index][0].delete_selection()
+			meal_list[box_index][0].insert_text(meal[0])
+		load_file.close()
+
+	def __init__(self,**kwargs):
+		super(LoadButton, self).__init__(**kwargs)
+		self.background_normal = ''
+		self.background_color = [1, 0.647059, 0, 1]
+
+class FileNamePopup(Popup):
+	def __init__(self, **kwargs):
+		self.content = BoxLayout(orientation="vertical")
+		self.ok_button = Button(text='OK')
+		self.textinput = TextInput()
+		self.content.add_widget(self.textinput)
+		self.content.add_widget(self.ok_button)
+
 class Meals(GridLayout):
         def __init__(self, **kwargs):
                 super(Meals,self).__init__(**kwargs)
@@ -66,7 +113,7 @@ class Meals(GridLayout):
                         for column in range(self.cols):
                                 meal_entry = TextInput()
                                 #meal_entry.bind(focus=self.set_meal_target)
-                                self.meal_list.append(meal_entry)
+                                self.meal_list.append((meal_entry, row*self.cols + column))
                                 self.add_widget(meal_entry)
                                 
         def set_meal_target(self,instance,value):

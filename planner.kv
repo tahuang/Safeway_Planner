@@ -17,11 +17,6 @@
     BoxLayout:
     	Meals:
     		id: meals
-
-    BoxLayout:
-    	size_hint: 1, .1
-		ShoppingArea:
-			id: shopping_dropdown
 			
     BoxLayout:
     	size_hint: 1, .1
@@ -30,6 +25,11 @@
     		shopping_area: shopping_dropdown
     		text: 'Get Grocery Store Route'
     		on_press: self.getGroceryRoute(meals.meal_list, shopping_dropdown.map_file)
+		
+    BoxLayout:
+        size_hint: 1, .1
+		ShoppingArea:
+			id: shopping_dropdown
 
     Recipes:
 

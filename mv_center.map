@@ -1,35 +1,65 @@
 Shopping in Mountain View
 
 @Safeway
-#bread 3.4
 parmesan, 0.9
-frozen broccoli, 2.6
-frozen green beans, 2.6
-eggs, 2.99
-butter, 2.99
-yogurt, 1.7
-chips, 12.3
+peanut butter, 0.9
+finely grated parmesan, 0.9
+parmesan cheese, 0.9
 cream cheese, 1.1
 cheddar cheese, 1.3
 sharp cheddar, 1.4
+cheese, 1.5
+mozzarella cheese, 1.5
+mozzarella, 1.5
+yogurt, 1.7
 sour cream, 1.7
-cheese, 1.99
-deli meat, 1.99
-pizza sauce, 16
-sausage, 18.99
-meatballs, 10.99
-chicken, 13.99
-bacon, 18.99
-pepperoni, 19.99
+frozen broccoli, 2.6
+broccoli, 2.6
+green beans, 2.6
+frozen green beans, 2.6
+eggs, 2.99
+unsalted butter, 2.99
+butter, 2.99
+#bread 3.4
 tater tots, 3.7
-ranch dressing, 15.5
+frozen fries, 3.7
 body wash, 5.8
 bars, 8.8
-tortillas, 18.9
-marshmallows, 15.3
+meatballs, 10.99
+chips, 12.3
 chocolate, 13.3
+chicken, 13.99
+ground beef, 13.99
+semi-sweet chocolate chips, 14.5
+brown sugar, 14.8
+sugar, 14.8
+mayo, 15.1
+marshmallows, 15.3
+ranch dressing, 15.5
+ranch, 15.5
 plates, 15.9
+pizza sauce, 16.2
+pasta sauce, 16.2
+tomato sauce, 16.2
+pasta, 16.4
+marinated artichoke hearts, 16.4
+corn tortillas, 18.9
+tortillas, 18.9
+sausage, 18.99
+bacon, 18.99
+pepperoni, 18.99
+deli meat, 18.99
+red onion, 100
+roma tomato, 100
+banana, 100
+potato, 100
+potatoes, 100
 
 @Sprouts
 bread, 1.0
-#butter 2.0
+bagel, 1.0
+celery, 100
+scallion, 100
+chives, 100
+jerky sticks, 2.
+soy sauce, 2.

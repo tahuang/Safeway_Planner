@@ -40,7 +40,7 @@ class GetRouteButton(Button):
                                 continue
                         meal_parts = meal.text.split('\n')
                         for part in meal_parts:
-                                if part[0] == '!':
+                                if (part == '') or (part[0] == '!'):
                                         continue
                                 if items.has_key(part):
                                         items[part] += 1
@@ -91,8 +91,9 @@ class Recipes(GridLayout):
 
                 # Make buttons for all the recipes
                 self.size_hint = 1, 0.3
-                self.rows = int(np.ceil(np.sqrt(len(recipe_list))))
-                self.cols = int(np.floor(np.sqrt(len(recipe_list))))
+		num_col   = 4
+                self.rows = int(np.ceil(len(recipe_list)/float(num_col)))
+                self.cols = num_col
                 for recipe in recipe_list:
                         item = Button(text=recipe, font_size='14sp')
                         #item.bind(on_press=self.add_recipe)
@@ -109,7 +110,7 @@ class ShoppingArea(BoxLayout):
 		dropdown = DropDown()
 		self.text_to_file = {}
 		self.map_file = ''
-		for index, file in enumerate(glob.glob("*.txt")):
+		for index, file in enumerate(glob.glob("*.map")):
 
 			with open(file, 'r') as f:
 				first_line = f.readline().strip()

@@ -124,4 +124,56 @@ Extreme Nachos
 1 can black bean
 18 oz chips
 1 cup sour cream
+
+Mini Chicken Tacos
+8 -- corn tortillas
+0.5 cup unsalted butter
+4 cup shredded chicken
+1 -- scallion
+2 tbsp chives
+0.5 cup cream cheese
+0.5 tsp garlic powder
+0.5 tsp paprika
+0.5 tsp salt
+2 cup mozzarella
+1 -- ranch
+
+Mashed Potato Roll
+1500 g potato
+2 tsp salt
+1 tsp pepper
+1 tsp dried basil
+1.5 tsp oregano
+2 -- eggs
+0.5 cup flour
+35 slice pepperoni
+12 slice mozzarella
+1 -- tomato sauce
+
+Bacon Poutine
+6 strip bacon
+1 packet gravy
+0.5 bag frozen fries
+1.5 cup mozzarella
+
+BBQ Pulled Pork Fries
+8 -- medium russet potatoes
+2 lb pork shoulder
+3 tbsp olive oil
+1 tbsp salt
+1 tbsp pepper
+2 cup barbecue sauce
+0.5 -- red onion
+1 cup shredded pepper jack
+0.5 cup scallions
+1 cup shredded cheddar
+0.5 cup sour cream
+
+Vietnamese Spring Rolls
+2 oz rice vermicelli
+8 -- rice wrappers
+8 -- large shrimp
+1.33 tbsp basil
+3 tbsp mint leaves
+2 leaves lettuce
 END

@@ -176,4 +176,127 @@ Vietnamese Spring Rolls
 1.33 tbsp basil
 3 tbsp mint leaves
 2 leaves lettuce
+
+Fried Rice
+2 cup rice
+1 lb chicken
+2 cup edamame
+1 cup carrots
+4 tbsp soy sauce
+
+Tacos
+1 lb ground beef
+10 -- tortillas
+1 -- taco seasoning
+2 -- bell peppers
+1 -- onion
+2 -- tomatoes
+2 cup shredded cheese
+
+Tuna Casserole
+4 cup egg noodles
+20 oz tuna
+1 -- cream of mushroom
+2 cup frozen peas
+1 tsp salt
+1 tsp pepper
+
+Chili Spaghetti
+7 oz spaghetti
+1 lb ground beef
+1 -- onion
+14.5 oz diced tomatoes
+19 oz red kidney beans
+8 oz tomato sauce
+1 tbsp chili powder
+1 tsp salt
+1.25 cup shredded cheese
+
+Baked Tilapia
+4 -- tilapia
+1 -- lemon
+2 tbsp chili powder
+2 tbsp garlic salt
+
+Cornbread
+2 -- Jiffy corn bread mix
+2 -- eggs
+16 oz sour cream
+1 -- butter
+
+Lentil Bean Soup
+1 -- Rotel tomatoes
+2 -- stewed tomatoes
+0.67 cup lentils
+0.67 cup garbanzo beans
+0.67 cup lima beans
+4 lb baby ribs
+14 oz sausage
+2 tsp chili powder
+1 cup carrots
+1 cup potatoes
+2 cup rice
+
+Ribs
+1 -- bbq sauce
+4 lb baby ribs
+
+Japanese Curry
+2 -- curry blocks
+1 cup carrots
+1 cup potatoes
+1 lb chicken
+1 cup bell peppers
+2 cup rice
+
+Butter Chicken
+1 -- butter chicken sauce
+1 lb chicken
+1 cup cauliflower
+2 cup rice
+
+Mapo Tofu
+0.5 cup chicken broth
+1 tsp cornstarch
+2 tsp soy sauce
+1 tsp sugar
+1 tbsp sesame oil
+2 -- garlic
+2 -- green onions
+1 tbsp fermented black beans
+1 lb ground pork
+2 tsp doubanjiang
+14 oz tofu
+2 cup rice
+
+Carbonara
+1 lb spaghetti
+2 tbsp olive oil
+4 oz bacon
+1 cup frozen peas
+4 -- garlic
+2 -- eggs
+1 -- pepper
+1 -- salt
+1 cup parmesan
+
+Risotto
+4 oz bacon
+6 cup chicken broth
+3 tbsp olive oil
+1 lb white mushrooms
+1 lb portobello mushrooms
+1.5 cup Arborio rice
+1 -- salt
+1 -- pepper
+0.33 cup parmesan
+
+Noodle Soup
+2 lb baby ribs
+8 oz Taiwanese noodles
+2 -- cucumbers
+1 cup carrots
+1 -- salt
+1 -- pepper
+1 -- hot sauce
 END

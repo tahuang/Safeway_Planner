@@ -14,13 +14,18 @@
         size_hint: 1, .1
         Days:
 
+    BoxLayout:
+        size_hint: 1, .1
+
+        ShoppingArea:
+            id: shopping_dropdown
+            on_text: self.map_file = self.text_to_file[self.text];
+
     Meals:
     	id: meals
 
     BoxLayout:
     	size_hint: 1, .1
-		ShoppingArea:
-			id: shopping_dropdown
 
     	GetRouteButton:
     		meals: meals

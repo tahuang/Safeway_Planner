@@ -14,6 +14,7 @@ from kivy.properties import ObjectProperty, NumericProperty, ListProperty, Strin
 from kivy.uix.textinput import TextInput
 from kivy.uix.dropdown import DropDown
 from kivy.uix.popup import Popup
+from kivy.uix.spinner import Spinner
 
 import numpy as np
 import glob
@@ -138,7 +139,7 @@ class Recipes(GridLayout):
 
                 # Make buttons for all the recipes
                 self.size_hint = 1, 0.3
-		num_col   = 4
+                num_col = 4
                 self.rows = int(np.ceil(len(recipe_list)/float(num_col)))
                 self.cols = num_col
                 for recipe in recipe_list:
@@ -150,49 +151,26 @@ class Recipes(GridLayout):
                 print(active_box)
                 print('Button pressed')
 
-class ShoppingArea(BoxLayout):
+class ShoppingArea(Spinner):
 	def __init__(self, **kwargs):
 		super(ShoppingArea,self).__init__(**kwargs)
 
-		dropdown = DropDown()
 		self.text_to_file = {}
 		self.map_file = ''
+		self.text = 'Choose shopping area'
+		self.background_color = [0, 0, 0.545098, 1]
 		for index, file in enumerate(glob.glob("*.map")):
 
 			with open(file, 'r') as f:
 				first_line = f.readline().strip()
 				self.text_to_file[first_line] = file
 
-			btn = Button(text=first_line, size_hint_y=None, height=60, background_color=[0, 0, 0.545098, 1])
-
-			# for each button, attach a callback that will call the select() method
-    		# on the dropdown. We'll pass the text of the button as the data of the
-    		# selection.
-			btn.bind(on_release=lambda btn: dropdown.select(btn.text))
-
-			# then add the button inside the dropdown
-			dropdown.add_widget(btn)
-
-		# create a big main button
-		mainbutton = Button(text='Choose shopping area', background_color=[0, 0, 0.545098, 1])
-
-		# show the dropdown menu when the main button is released
-		# note: all the bind() calls pass the instance of the caller (here, the
-		# mainbutton instance) as the first argument of the callback (here,
-		# dropdown.open.).
-		mainbutton.bind(on_release=dropdown.open)
-
-		# one last thing, listen for the selection in the dropdown list and
-		# assign the data to the button text.
-		dropdown.bind(on_select=lambda instance, x: setattr(mainbutton, 'text', x))
-		dropdown.bind(on_select=lambda instance, x: setattr(self, 'map_file', self.text_to_file[x]))
-
-		self.add_widget(mainbutton)
+			self.values.append(first_line)
 
 class PlannerApp(App):
         def build(self):
-                self.title = 'Grocery Planner'
-                return Planner()
+            self.title = 'Grocery Planner'
+            return Planner()
 
 if __name__ == '__main__':
         PlannerApp().run()

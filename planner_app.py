@@ -6,15 +6,16 @@
 
 from kivy.app import App
 from kivy.lang import Builder
+from kivy.properties import ObjectProperty
+from kivy.core.window import Window
 from kivy.uix.widget import Widget
 from kivy.uix.button import Button
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.boxlayout import BoxLayout
-from kivy.properties import ObjectProperty, NumericProperty, ListProperty, StringProperty
 from kivy.uix.textinput import TextInput
-from kivy.uix.dropdown import DropDown
 from kivy.uix.popup import Popup
 from kivy.uix.spinner import Spinner
+from kivy.uix.scrollview import ScrollView
 
 import numpy as np
 import glob
@@ -138,14 +139,13 @@ class Recipes(GridLayout):
                                 recipe_name_flag = True
 
                 # Make buttons for all the recipes
-                self.size_hint = 1, 0.3
                 num_col = 4
                 self.rows = int(np.ceil(len(recipe_list)/float(num_col)))
                 self.cols = num_col
                 for recipe in recipe_list:
-                        item = Button(text=recipe, font_size='14sp')
+                        item = Button(text=recipe, font_size='14sp', size_hint_y=None, height=40)
                         #item.bind(on_press=self.add_recipe)
-                        self.add_widget(item)    
+                        self.add_widget(item)  
                         
         def add_recipe(self,instance):
                 print(active_box)

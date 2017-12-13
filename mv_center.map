@@ -11,9 +11,12 @@ sharp cheddar, 1.4
 cheese, 1.5
 mozzarella cheese, 1.5
 mozzarella, 1.5
+shredded cheddar, 1.5
+shredded pepper jack, 1.5
 yogurt, 1.7
 sour cream, 1.7
 frozen broccoli, 2.6
+frozen peas, 2.6
 broccoli, 2.6
 green beans, 2.6
 frozen green beans, 2.6
@@ -30,6 +33,7 @@ chips, 12.3
 chocolate, 13.3
 chicken, 13.99
 ground beef, 13.99
+pork shoulder, 13.99
 semi-sweet chocolate chips, 14.5
 brown sugar, 14.8
 sugar, 14.8
@@ -43,6 +47,8 @@ pasta sauce, 16.2
 tomato sauce, 16.2
 pasta, 16.4
 marinated artichoke hearts, 16.4
+rice, 17.8
+Arborio rice, 17.8
 corn tortillas, 18.9
 tortillas, 18.9
 sausage, 18.99
@@ -60,6 +66,10 @@ bread, 1.0
 bagel, 1.0
 celery, 100
 scallion, 100
+white mushrooms, 100
+portobello mushrooms, 100
+scallions, 100
 chives, 100
+medium russet potatoes, 100
 jerky sticks, 2.
 soy sauce, 2.

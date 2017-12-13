@@ -43,7 +43,13 @@
             text: 'Load'
             on_press: self.load(meals.meal_list, 'saved_meals.txt')
 
-    Recipes:
+    ScrollView:
+        size_hint: 1, None
+        bar_width: 5
+    
+        Recipes:
+            size_hint_y: None
+            height: self.minimum_height
 
         			
 

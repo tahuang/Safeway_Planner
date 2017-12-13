@@ -1,22 +1,28 @@
 2.0 -- sausage
-6.0 tbsp peanut butter
-10.0 slice bread
-1.0 -- frozen broccoli
-6.0 -- eggs
-2.0 -- salt
-2.0 -- pepper
-1.0 jar pasta sauce
-1.0 box pasta
-1.0 tbsp parmesan cheese
-1.5 cup rice
-2.0 tbsp butter
-4.0 tsp soy sauce
-9.0 slice deli meat
-9.0 slice cheese
-6.0 spoon mayo
-2.0 -- yogurt
-3.0 -- bagel
-15.0 tbsp cream cheese
-1.0 -- chips
-6.0 -- banana
-2.0 -- peanut butter
+4.0 oz bacon
+6.0 cup chicken broth
+6.0 tbsp olive oil
+1.0 lb white mushrooms
+1.0 lb portobello mushrooms
+1.5 cup Arborio rice
+1.0 -- salt
+1.0 -- pepper
+0.33 cup parmesan
+4.0 cup egg noodles
+20.0 oz tuna
+1.0 -- cream of mushroom
+2.0 cup frozen peas
+1.0 tsp salt
+1.0 tsp pepper
+5.0 -- yogurt
+8.0 -- medium russet potatoes
+2.0 lb pork shoulder
+1.0 tbsp salt
+1.0 tbsp pepper
+2.0 cup barbecue sauce
+0.5 -- red onion
+1.0 cup shredded pepper jack
+0.5 cup scallions
+1.0 cup shredded cheddar
+0.5 cup sour cream
+1.0 -- rice

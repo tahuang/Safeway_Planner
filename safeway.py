@@ -132,7 +132,7 @@ def create_store_route(store_mapping, items):
 
 if __name__ == '__main__':
     
-    print_shopping_route('')  
+    print_shopping_route('mp_center.map')  
     
     pass
 

@@ -59,50 +59,57 @@ class GetRouteButton(Button):
                 self.background_color = [0.698039, 0.133333, 0.133333, 1]
 
 class SaveButton(Button):
-	meals = ObjectProperty()
+        meals = ObjectProperty()
 
-	def save(self, meal_list, filename):
-		save_file = open(filename, "w")
-		for meal_entry in meal_list:
-			if meal_entry[0].text == '':
-				continue
-			save_file.write(meal_entry[0].text)
-			row_column = " " + str(meal_entry[1])
-			save_file.write(row_column)
-		save_file.close()
+        def save(self, meal_list, filename):
+                save_file = open(filename, "w")
+                for meal_entry in meal_list:
+                        if meal_entry[0].text == '':
+                                continue
+                        meals = meal_entry[0].text.split()
+                        for idx, item in enumerate(meals):
+                                save_file.write(item)
+                                if idx == 0:
+                                        row_column = " " + str(meal_entry[1]) + "\n"
+                                else:
+                                        row_column = "\n"
+                                save_file.write(row_column)
+                save_file.close()
 
-	def __init__(self,**kwargs):
-		super(SaveButton, self).__init__(**kwargs)
-		self.background_normal = ''
-		self.background_color = [0.6, 0.196078, 0.8, 1]
+        def __init__(self,**kwargs):
+                super(SaveButton, self).__init__(**kwargs)
+                self.background_normal = ''
+                self.background_color = [0.6, 0.196078, 0.8, 1]
 
 class LoadButton(Button):
-	meals = ObjectProperty()
+        meals = ObjectProperty()
 
-	# Loads meals from file and puts them into the GUI
-	def load(self, meal_list, filename):
-		load_file = open(filename, "r")
-		for line in load_file:
-			meal = line.split()
-			# Clear the current text first
-			box_index = int(meal[1])
-			meal_list[box_index][0].select_all()
-			meal_list[box_index][0].delete_selection()
-			meal_list[box_index][0].insert_text(meal[0])
-		load_file.close()
+        # Loads meals from file and puts them into the GUI
+        def load(self, meal_list, filename):
+                load_file = open(filename, "r")
+                box_index = 0
+                for line in load_file:
+                        meal = line.split()
+                        if meal[-1].isdigit():
+                                # Get the box index from the first item in the box
+                                box_index = int(meal[-1])
+                                meal_list[box_index][0].select_all()
+                                meal_list[box_index][0].delete_selection()
+                        meal_list[box_index][0].insert_text(meal[0] + "\n")
+                load_file.close()
 
-	def __init__(self,**kwargs):
-		super(LoadButton, self).__init__(**kwargs)
-		self.background_normal = ''
-		self.background_color = [1, 0.647059, 0, 1]
+        def __init__(self,**kwargs):
+                super(LoadButton, self).__init__(**kwargs)
+                self.background_normal = ''
+                self.background_color = [1, 0.647059, 0, 1]
 
 class FileNamePopup(Popup):
-	def __init__(self, **kwargs):
-		self.content = BoxLayout(orientation="vertical")
-		self.ok_button = Button(text='OK')
-		self.textinput = TextInput()
-		self.content.add_widget(self.textinput)
-		self.content.add_widget(self.ok_button)
+        def __init__(self, **kwargs):
+                self.content = BoxLayout(orientation="vertical")
+                self.ok_button = Button(text='OK')
+                self.textinput = TextInput()
+                self.content.add_widget(self.textinput)
+                self.content.add_widget(self.ok_button)
 
 class Meals(GridLayout):
         def __init__(self, **kwargs):
@@ -117,13 +124,13 @@ class Meals(GridLayout):
                                 #meal_entry.bind(focus=self.set_meal_target)
                                 self.meal_list.append((meal_entry, row*self.cols + column))
                                 self.add_widget(meal_entry)
-                                
+
         def set_meal_target(self,instance,value):
                 self.active_box = instance
 
 class Recipes(GridLayout):
         meals = ObjectProperty()
-        
+
         def __init__(self, **kwargs):
                 super(Recipes,self).__init__(**kwargs)
                 # Get all the recipe names from file
@@ -147,31 +154,31 @@ class Recipes(GridLayout):
                         item = Button(text=recipe, font_size='14sp', size_hint_y=None, height=40)
                         #item.bind(on_press=self.add_recipe)
                         self.add_widget(item)  
-                        
+
         def add_recipe(self,instance):
                 print(active_box)
                 print('Button pressed')
 
 class ShoppingArea(Spinner):
-	def __init__(self, **kwargs):
-		super(ShoppingArea,self).__init__(**kwargs)
+        def __init__(self, **kwargs):
+                super(ShoppingArea,self).__init__(**kwargs)
 
-		self.text_to_file = {}
-		self.map_file = ''
-		self.text = 'Choose shopping area'
-		self.background_color = [0, 0, 0.545098, 1]
-		for index, file in enumerate(glob.glob("*.map")):
+                self.text_to_file = {}
+                self.map_file = ''
+                self.text = 'Choose shopping area'
+                self.background_color = [0, 0, 0.545098, 1]
+                for index, file in enumerate(glob.glob("*.map")):
 
-			with open(file, 'r') as f:
-				first_line = f.readline().strip()
-				self.text_to_file[first_line] = file
+                        with open(file, 'r') as f:
+                                first_line = f.readline().strip()
+                                self.text_to_file[first_line] = file
 
-			self.values.append(first_line)
+                        self.values.append(first_line)
 
 class PlannerApp(App):
         def build(self):
-            self.title = 'Grocery Planner'
-            return Planner()
+                self.title = 'Grocery Planner'
+                return Planner()
 
 if __name__ == '__main__':
         PlannerApp().run()

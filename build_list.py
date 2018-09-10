@@ -20,7 +20,7 @@ def get_recipes():
             recipe_name_flag = False
         elif (line == '\n') or (line == 'END'):
             recipe_name_flag = True
-            if recipes.has_key(recipe_name):
+            if recipe_name in recipes:
                 raise ValueError('Duplicate recipes')
             recipes[recipe_name] = ingredients_list
         else:
@@ -33,7 +33,7 @@ def sum_ingredients(recipes,selected_items):
     full_list = []
     for item in selected_items:
         num = selected_items[item]
-        if recipes.has_key(item):
+        if item in recipes:
             for ingredient in recipes[item]:
                 total_ingredient = (ingredient[0]*num,ingredient[1],ingredient[2])
                 full_list.append(total_ingredient)

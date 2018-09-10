@@ -45,7 +45,7 @@ class GetRouteButton(Button):
                         for part in meal_parts:
                                 if (part == '') or (part[0] == '!'):
                                         continue
-                                if items.has_key(part):
+                                if part in items:
                                         items[part] += 1
                                 else:
                                         items[part] = 1
@@ -142,6 +142,7 @@ class Recipes(GridLayout):
                 num_col = 4
                 self.rows = int(np.ceil(len(recipe_list)/float(num_col)))
                 self.cols = num_col
+                self.minimum_height = 1000 # for some reason this removes the need to double click on the shopping list boxes
                 for recipe in recipe_list:
                         item = Button(text=recipe, font_size='14sp', size_hint_y=None, height=40)
                         #item.bind(on_press=self.add_recipe)

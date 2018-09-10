@@ -58,6 +58,7 @@ Lunch Sandwich
 3 slice deli meat
 3 slice cheese
 2 spoon mayo
+2 tbsp arugula
 
 Cream Cheese Bagel
 1 -- bagel
@@ -157,14 +158,11 @@ Bacon Poutine
 1.5 cup mozzarella
 
 BBQ Pulled Pork Fries
-8 -- medium russet potatoes
-2 lb pork shoulder
-3 tbsp olive oil
-1 tbsp salt
-1 tbsp pepper
+1 bag fries
+1 pack microwavable pork
 2 cup barbecue sauce
 0.5 -- red onion
-1 cup shredded pepper jack
+1 cup shredded monterey jack
 0.5 cup scallions
 1 cup shredded cheddar
 0.5 cup sour cream
@@ -299,4 +297,62 @@ Noodle Soup
 1 -- salt
 1 -- pepper
 1 -- hot sauce
+
+Chicken Parmesan
+2.5 cup crumbled rice chex
+4 breast chicken
+2 -- eggs
+0.5 tsp salt
+0.5 tsp pepper
+1.5 cup shredded mozzarella
+1.5 cup Marinara sauce
+.5 cup olive oil
+
+Pancakes
+1 cup Pamela's Baking & Pancake Mix.
+1 -- egg
+1 tbsp oil
+
+Brownies
+2 stick butter
+0.75 cup cocoa
+2 cup sugar
+4 -- egg
+2 tsp vanilla
+1 cup flour
+0.5 tsp xanthan gum
+0.5 tsp salt
+2 cup semisweet chocolate chunks
+
+Pesto Cream Cheese Crackers
+2 tbsp pesto
+8 oz cream cheese
+1 box crackers
+
+Pesto and Feta Mushrooms
+1 box mushrooms
+1 -- olive oil
+1 -- feta cheese
+1 -- pesto
+
+Pesto Gnocchi
+1 -- pesto
+2 tbsp olive oil
+1 lb gnocchi
+1 -- parmesan cheese
+
+Mac n Cheese
+4 cup pasta
+1 -- egg
+4 tbsp butter
+.25 cup flour
+2.5 cup whole milk
+2 tsp dry mustard
+1 lb sharp cheddar
+1 -- salt
+1 -- seasoned salt
+.5 tsp pepper
+1 -- cayenne pepper
+1 -- paprika
+1 -- thyme
 END

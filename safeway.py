@@ -49,7 +49,7 @@ def create_full_route(full_mapping, items):
         item_label = ' '.join(item.split(' ')[2:])
         item_found = False
         for store in full_mapping:
-            if full_mapping[store].has_key(item_label):
+            if item_label in full_mapping[store]:
                 item_found = True
         if item_found == False:
             unknown_items.append(item)
@@ -61,7 +61,7 @@ def create_full_route(full_mapping, items):
         store_items = []
         for item in items:
             item_label = ' '.join(item.split(' ')[2:])
-            if store_mapping.has_key(item_label):
+            if item_label in store_mapping:
                 store_items.append(item)
         create_store_route(store_mapping, store_items)
         print('') # effectively a new line

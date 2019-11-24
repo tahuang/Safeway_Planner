@@ -4,63 +4,153 @@ Shopping in Mountain View
 hummus, 0.01
 parmesan, 0.9
 peanut butter, 0.9
+jelly, 0.9
 finely grated parmesan, 0.9
 parmesan cheese, 0.9
+red wine, 0.9
+dry sherry, 0.9
 cream cheese, 1.1
+whipped cream cheese, 1.1
 cheddar cheese, 1.3
+cheddar, 1.3
 sharp cheddar, 1.4
 cheese, 1.5
+cheese slice, 1.5
+white cheddar, 1.5
 mozzarella cheese, 1.5
 mozzarella, 1.5
+shredded mozzarella, 1.5
 shredded cheddar, 1.5
+sharp cheddar cheese, 1.5
 shredded pepper jack, 1.5
+four cheese mexican blend, 1.5
 shredded monterey jack, 1.5
 yogurt, 1.7
+plain nonfat greek yogurt, 1.7
 sour cream, 1.7
+ricotta cheese, 1.8
+guacamole, 1.95
+buttermilk, 1.99
 frozen broccoli, 2.6
 frozen peas, 2.6
 broccoli, 2.6
 green beans, 2.6
 frozen green beans, 2.6
+peas, 2.6
 eggs, 2.99
+egg, 2.99
 unsalted butter, 2.99
 butter, 2.99
-#bread 3.4
+milk, 2.99
+pizza, 3.1
+english muffin, 3.4
 tater tots, 3.7
 frozen fries, 3.7
+frozen fruit, 3.7
 fries, 3.7
+bread, 4.9
+bagels, 4.9
+paper towels, 4.7
+toilet paper, 4.4
+tissues, 4.5
+sunscreen, 5.5
 body wash, 5.8
 bars, 8.8
+sponges, 9.4
 meatballs, 10.99
 microwavable pork, 10.99
 chips, 12.3
 chocolate, 13.3
+cereal, 13.5
 chicken, 13.99
 ground beef, 13.99
+steak, 13.99
 pork shoulder, 13.99
+ground pork, 13.99
+ground sausage, 13.99
+beef patties, 13.99
+chicken breast, 13.99
+boneless pork chops, 13.99
+flank steak, 13.99
 cinnamon, 14.1
+salt, 14.1
+flaky salt, 14.1
+taco seasoning, 14.1
+onion powder, 14.1
+cumin, 14.1
+curry powder, 14.1
+garam masala, 14.1
+pepper, 14.1
+ground cinnamon, 14.1
+paprika, 14.1
+garlic powder, 14.1
+red pepper flakes, 14.1
+cajun seasoning, 14.1
+oregano, 14.1
+thyme, 14.1
+mustard powder, 14.1
+smoked paprika, 14.1
+cayenne pepper, 14.1
+saffron, 14.1
+coriander, 14.1
+bay leaf, 14.1
+pimenton, 14.1
+vegetable oil, 14.3
+olive oil, 14.3
 semi-sweet chocolate chips, 14.5
+bittersweet chocolate, 14.5
+shaved chocolate, 14.5
+vanilla extract, 14.8
 cocoa powder, 14.5
 brown sugar, 14.8
+icing sugar, 14.8
+caster sugar, 14.8
+powdered sugar, 14.8
+baking powder, 14.8
 sugar, 14.8
+dark brown sugar, 14.8
+sweet rice flour, 14.8
 mayo, 15.1
+honey mustard, 15.1
+creamy mustard, 15.1
 marshmallows, 15.3
 ranch dressing, 15.5
+gallon ziploc bags, 15.5
 ranch, 15.5
 barbecue sauce, 15.8
 plates, 15.9
+tomato soup, 16.1
 pizza sauce, 16.2
 pasta sauce, 16.2
+alfredo sauce, 16.2
 tomato sauce, 16.2
+tomato paste, 16.2
+kidney beans, 16.5
+christmas lima beans, 16.5
+canned red beans, 16.5
+diced tomatoes, 16.6
+plum tomatoes in puree, 16.6
+crushed tomatoes, 16.6
 cream of mushroom, 16.8
+tuna, 16.8
 pasta, 16.4
+macaroni, 16.4
 marinated artichoke hearts, 16.4
 chicken broth, 16.9
+chicken stock, 16.9
+coconut milk, 17.5
 rice, 17.8
+basmati rice, 17.8
 Arborio rice, 17.8
+bomba rice, 17.8
 corn tortillas, 18.9
 tortillas, 18.9
+panko, 18.9
+crackers, 18.9
 sausage, 18.99
+smoked andouille sausage, 18.99
+chorizo, 18.99
+beyond sausage, 18.99
 bacon, 18.99
 pepperoni, 18.99
 deli meat, 18.99
@@ -69,22 +159,57 @@ roma tomato, 100
 banana, 100
 potato, 100
 potatoes, 100
+raspberry, 100
+arugula, 100
+fingerling potatoes, 100
+asparagus, 100
+baby carrot, 100
+rosemary, 100
 
 @Sprouts
 baby ribs, 200
-bread, 1.0
+chicken thighs, 200
+#bread, 1.0
 bagel, 1.0
+lemon, 100
+red bell pepper, 100
+bell pepper, 100
+green bell pepper, 100
 carrots, 100
 cauliflower, 100
 celery, 100
 scallion, 100
 white mushrooms, 100
 portobello mushrooms, 100
+shiitake mushrooms, 100
 scallions, 100
+green onion, 100
+medium sweet onion, 100
+garlic, 100
 chives, 100
 medium russet potatoes, 100
 ground beef, 200
 lamb chops, 200
+shrimp, 200
 onion, 100
+apple, 100
+shallots, 100
+bell pepper, 100
+eggplant, 100
+tomatoes, 100
+tomato, 100
+yellow onions, 100
+ginger, 100
+green bell pepper, 100
+yellow potato, 100
+golden potatoes, 100
+cucumbers, 100
+broccoli, 100
+sweet potato, 100
+radish, 100
+carrot, 100
+spinach, 100
+yellow onion, 100
 jerky sticks, 2.
 soy sauce, 2.
+brazi bites, 2.

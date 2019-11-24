@@ -24,6 +24,8 @@ def get_recipes():
                 raise ValueError('Duplicate recipes')
             recipes[recipe_name] = ingredients_list
         else:
+            if line[0]=='#':
+                continue
             ingredients = line.split()
             ingredients = (float(ingredients[0]),ingredients[1],' '.join(ingredients[2:]))
             ingredients_list.append(ingredients)

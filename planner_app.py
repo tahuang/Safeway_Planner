@@ -66,7 +66,7 @@ class SaveButton(Button):
                 for meal_entry in meal_list:
                         if meal_entry[0].text == '':
                                 continue
-                        meals = meal_entry[0].text.split()
+                        meals = meal_entry[0].text.split('\n')
                         for idx, item in enumerate(meals):
                                 save_file.write(item)
                                 if idx == 0:
@@ -89,13 +89,17 @@ class LoadButton(Button):
                 load_file = open(filename, "r")
                 box_index = 0
                 for line in load_file:
-                        meal = line.split()
+                        meal = line.strip('\n')
+                        if meal == '':
+                                continue
                         if meal[-1].isdigit():
                                 # Get the box index from the first item in the box
-                                box_index = int(meal[-1])
+                                box_index = int(line.split()[-1])
                                 meal_list[box_index][0].select_all()
                                 meal_list[box_index][0].delete_selection()
-                        meal_list[box_index][0].insert_text(meal[0] + "\n")
+                                meal_list[box_index][0].insert_text(meal[:-2] + "\n")
+                        else:
+                                meal_list[box_index][0].insert_text(meal + "\n")
                 load_file.close()
 
         def __init__(self,**kwargs):
@@ -144,6 +148,8 @@ class Recipes(GridLayout):
                                 recipe_name_flag = False
                         elif (line == '\n') or (line == 'END'):
                                 recipe_name_flag = True
+                                
+                recipe_list.sort()
 
                 # Make buttons for all the recipes
                 num_col = 4

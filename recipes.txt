@@ -53,7 +53,7 @@ Alfredo Chicken Bake
 1 lb broccoli
 1 cup permesan cheese
 
-Lunch Sandwich
+Simple Sandwich
 2 slice bread
 3 slice deli meat
 3 slice cheese
@@ -68,35 +68,37 @@ Peanut Butter Toast
 3 tbsp peanut butter
 2 slice bread
 
-Lunch Celery
+Celery and Peanut Butter
 2 stalk celery
 1 cup peanut butter
 
-Basic Dinner Rice
+Simple Rice
 1.5 cup rice
 2 tbsp butter
 4 tsp soy sauce
 
-Basic Dinner Pasta
+Simple Pasta
 1 jar pasta sauce
 1 box pasta
 1 tbsp parmesan cheese
+1 pack sausage
+1 -- green beans
 
-Basic Eggs
+Fried Eggs
 3 -- eggs
 1 -- salt
 1 -- pepper
 
 Fish and Chips
-0.5 bottle vegetable oil
+#0.5 bottle vegetable oil
 0.5 bag frozen fries
-2 cups rice flour
-1 tbsp baking powder
-1 tsp salt
-0.5 tsp pepper
-1 -- egg
-12 oz soda water
-0.5 cup rice flour
+#2 cups rice flour
+#1 tbsp baking powder
+#1 tsp salt
+#0.5 tsp pepper
+#1 -- egg
+#12 oz soda water
+#0.5 cup rice flour
 16 oz cod
 1 -- tartar sauce
 
@@ -192,7 +194,7 @@ Tacos
 2 cup shredded cheese
 
 Tuna Casserole
-4 cup egg noodles
+4 cup pasta
 20 oz tuna
 1 -- cream of mushroom
 2 cup frozen peas
@@ -239,7 +241,7 @@ Ribs
 1 -- bbq sauce
 4 lb baby ribs
 
-Japanese Curry
+Curry (Japanese)
 2 -- curry blocks
 1 cup carrots
 1 cup potatoes
@@ -279,15 +281,15 @@ Carbonara
 1 cup parmesan
 
 Risotto
-4 oz bacon
-6 cup chicken broth
+1 pack sausage
+4 cup chicken broth
 3 tbsp olive oil
-1 lb white mushrooms
-1 lb portobello mushrooms
 1.5 cup Arborio rice
 1 -- salt
 1 -- pepper
 0.33 cup parmesan
+1 bag green beans
+3 tbsp butter
 
 Noodle Soup
 2 lb baby ribs
@@ -355,4 +357,500 @@ Mac n Cheese
 1 -- cayenne pepper
 1 -- paprika
 1 -- thyme
+
+Mac n Cheese (Modernist)
+265 g milk
+11 g sodium citrate
+285 g white cheddar
+240 g macaroni
+1 -- salt
+
+Pumpkin Pie
+15 oz pumpkin
+14 oz sweetened condensed milk
+2 -- eggs
+1 tsp cinnamon
+0.5 tsp ginger
+0.5 tsp nutmeg
+0.5 tsp salt
+1 -- pie crust
+
+Tuna Melt
+10 oz tuna
+0.125 tsp salt
+1 -- pepper
+2 -- tomato
+0.5 cup sharp cheddar
+2 -- english muffin
+
+Egg Tarts
+125 g flour
+1 tsp xanthan gum
+30 g icing sugar
+50 g butter spread
+1 -- egg
+45 g caster sugar
+1 tsp vanilla extract
+4 -- egg
+90 ml milk
+1 pinch cinnamon
+
+Pork Pot Stickers
+0.5 cup tapioca flour
+0.5 cup millet flour
+0.5 cup sweet rice flour
+1.5 tsp xanthan gum
+0.75 tsp salt
+.75 lb ground pork
+3 -- green onion
+0.5 tsp sesame oil
+.25 tsp pepper
+3 tbsp vegetable oil
+
+Nacho Dumplings
+10 tbsp sour cream
+10 tbsp guacamole
+2 bag brazi bites
+1 lb ground beef
+1 -- shallots
+1 -- salt
+1 -- pepper
+1 -- cumin
+1 -- paprika
+
+Meatloaf
+1.5 lb ground beef
+1 -- egg
+1 -- onion
+1 cup milk
+1 cup bread crumbs
+1 -- salt
+1 -- pepper
+2 tbsp brown sugar
+2 tbsp mustard
+0.33 cup ketchup
+
+Mashed Sweet Potatoes
+6 -- sweet potato
+.75 cup milk
+.5 cup butter
+
+Chocolate Avocado Pudding
+1 cup unsweetened almond milk
+2 -- avocados
+.33 cup unsweetened cocoa powder
+1 tbsp unsweetened cocoa powder
+.5 cup pure maple syrup
+2 tbsp pure maple syrup
+2 tsp vanilla extract
+.25 tsp ground cinnamon
+1 pinch sea salt
+1 -- raspberry
+
+Apple and Potato Latkes
+1 -- potato
+1 -- apple
+0.125 oz chives
+1 tbsp cream cheese
+.25 cup sour cream
+2 -- eggs
+9.75 oz broccoli
+.125 oz garlic
+.25 oz sunflower seeds
+
+Macaroni Cheese Cups
+6 oz macaroni
+2.5 oz whipped cream cheese
+1 cup sharp cheddar cheese
+1 tbsp unsalted butter
+1 -- egg
+0.5 cup milk
+0.5 cup sour cream
+3 oz bacon
+1 -- salt
+1 -- pepper
+24 -- brazi bites
+
+Chili
+# https://www.allrecipes.com/recipe/13423/my-chili/
+# Adjust pressure cooking time to 15 min 
+2 lb ground beef
+2 -- onion
+4 clove garlic
+2 tbsp taco seasoning
+2 tsp salt
+2 tsp oregano
+4 14.5_oz_can stewed tomatos 
+1 15_oz_can tomato sauce
+1 15_oz_can kidney beans
+
+Beef Chili
+# Instant Pot Book recipe
+1.5 lb ground beef
+1 cup onion
+4 clove garlic
+15 oz tomato sauce
+30 oz kidney beans
+1 cup beef broth
+29 oz diced tomatoes
+2 tbsp taco seasoning
+.5 tsp black pepper
+1 -- cheddar cheese
+1 -- sour cream
+1 -- green onion
+
+ATK Flour
+24 oz white rice flour
+7.5 oz brown rice flour
+7 oz potato starch
+3 oz tapioca starch
+.75 oz nonfat milk powder
+
+ATK Brownies
+7.5 oz ATK Flour
+0.5 tsp baking powder
+0.5 tsp xanthan gum
+0.5 tsp salt
+2 oz Dutch-processed cocoa powder
+4 tbsp unsalted butter
+0.25 cup vegetable oil
+10.5 oz sugar
+3 -- eggs
+3 tbsp milk
+1 tbsp vanilla extract
+
+Sous Vide Salmon
+50 g salt
+40 g sugar
+600 g salmon
+120 g olive oil
+80 g unsalted butter
+
+Fried Chicken
+.25 cup sugar
+3.5 lb chicken
+1 cup cornstarch
+1 large egg
+1 tsp baking powder
+.5 tsp baking soda
+1 cup buttermilk
+1 cup cornmeal
+1.5 tsp garlic powder
+1.5 tsp paprika
+.25 cayenne pepper
+4 quarts vegetable oil
+
+Cheese Balls
+12 oz cream cheese
+1 cup four cheese mexican blend
+1 tbsp chives
+1 clove garlic
+1 tsp taco seasoning
+1 tsp onion powder
+1 -- salt
+1 -- pepper
+6 slice bacon
+.33 cup chives
+18 -- pretzels
+
+Eggs Benedict
+40 g champagne vinegar
+25 g shallots
+150 g salted butter
+6 -- medium eggs
+20 g lemon juice
+1 -- salt
+12 -- eggs
+6 -- english muffins
+1 -- thin sliced ham
+1 -- dill
+
+Pizza Brazi Bites (Pesto)
+1 pkg brazi bites
+0.5 cup pesto
+15 -- grape tomatoes
+1 cup mozzarella
+3 tbsp basil
+
+Pizza Brazi Bites (Tomato)
+1 pkg brazi bites
+0.5 cup pasta sauce
+1 cup mozzarella
+1 bag pepperoni
+1 -- bell pepper
+
+Mongolian Beef
+1.5 lb flank steak
+0.25 cup cornstarch
+3 tbsp vegetable oil
+0.5 cup soy sauce
+0.5 cup brown sugar
+3 cloves garlic
+1 -- green onions
+
+Curry (Indian Chicken)
+1 tbsp vegetable oil
+6 cup yellow onions
+2 -- tomatoes
+2 clove garlic
+2 tbsp ginger
+2 tsp salt
+1 tbsp curry powder
+2 tsp paprika
+2 tsp garam masala
+1 -- bay leaf
+0.5 cup light coconut milk
+0.33 cup cashews
+3 -- bell pepper
+1 lb chicken breast
+
+Burger
+# sous vide
+.5 lb ground beef
+1 slice cheese
+1 -- spinach
+1 -- salt
+1 -- pepper
+1 tbsp butter
+
+Pepper Cheesesteak
+10 oz steak
+1 -- bell pepper
+1.75 oz provolone cheese
+1 -- egg
+.5 cup sugar
+.33 cup white vinegar
+4.5 tsp dry mustard
+1.5 oz yellow onion
+8.75 butternut squash
+2 tsp cajun seasoning
+1 tbsp butter
+
+Palak Paneer
+2 tbsp olive oil
+1 -- onion
+6 cloves garlic
+2 tsp coriander
+2 tsp turmeric
+2 tsp garam masala
+2 tsp red pepper flakes
+2 tsp curry powder
+2 tsp cumin
+1 tsp salt
+20 oz spinach
+3 -- tomato
+2 cup paneer
+
+Potato Salad
+2.5 lb yukon gold potato
+1 cup mayo
+0.5 cup sweet pickle relish
+1 tbsp yellow mustard
+0.5 tbsp apple cider vinegar
+0.25 tsp paprika
+2 -- egg
+1.5 stalk celery
+0.25 cup sweet onion
+0.5 tbsp dill
+1 -- salt
+1 -- pepper
+
+Chocolate Layer Cake
+1 cup vegetable oil
+6 oz bittersweet chocolate chips
+2 oz unsweetened cocoa powder
+7 oz king arthur flour
+1.5 tsp baking powder
+1 tsp xanthan gum
+1 tsp salt
+4 -- egg
+2 tsp vanilla extract
+10.5 oz sugar
+1 cup whole milk
+4 cup frosting
+
+Cream Cheese Frosting
+8 oz cream cheese
+0.5 cup butter
+3 cup powdered sugar
+1 tbsp vanilla extract
+
+One-Pot Instant Lasagna
+1 lb ground beef
+16 oz pasta
+32 oz pasta sauce
+8 oz ricotta cheese
+8 oz shredded mozzarella
+
+Asian Short Rib-Noodle Bowl
+0.75 cup soy sauce
+3 cup beef broth
+3 tbsp sugar
+1 tsp salt
+3 tbsp garlic
+2 tbsp sesame oil
+3 tbsp green onion
+.5 tsp crush red pepper
+5 lb beef short ribs
+2 cup snap peas
+1 rice noodles
+
+Cheesecake Brownies
+20 oz brownie mix
+8 oz cream cheese
+1 -- egg
+.33 cup sugar
+
+Fried Chicken (GF Shoestring)
+4 lb chicken
+1.5 cup buttermilk
+1 cup plain yogurt
+2 cup flour
+1 tsp pepper
+1.5 tsp salt
+1.5 tsp paprika
+0.5 tsp oregano
+0.5 tsp thyme
+0.5 tsp parsley
+0.25 tsp cumin
+0.25 tsp cinnamon
+0.5 tsp onion powder
+0.25 tsp garlic powder
+0.25 tsp chili powder
+3 tbsp sugar
+
+Mochi Donuts (Matcha Glaze)
+# https://www.snixykitchen.com/chocolate-mochi-donuts/
+0.25 cup unsalted butter
+2 cups sweet rice flour
+1 cup dark brown sugar
+0.25 cup cocoa powder
+2 tsp baking powder
+0.5 tsp salt
+13 oz full-fat coconut milk
+2 egg
+2 oz bittersweet chocolate
+1.5 tsp vanilla extract
+1 -- flaky salt
+1 -- black sesame seeds
+1 -- shaved chocolate
+1.5 cup powdered sugar
+0.5 tsp matcha powder
+2.5 tsp milk
+
+Honey-Mustard Pork Chops
+# https://cdn2.greenchef.com/uploaded/5be43544eafa3700128e213b.pdf
+5 oz boneless pork chops
+.25 cup honey mustard
+1 -- yellow potato
+1.5 tbsp Chia seeds
+0.25 cup seasoned panko
+0.25 cup parmesan
+8.75 oz broccoli
+2 tbsp walnuts
+0.5 tsp red pepper flakes 
+
+Cheesy Panko-Crusted Chicken
+2 -- chicken breast
+0.75 lb golden potatoes
+2 -- cucumbers
+3 oz radish
+2 clove garlic
+1 tbsp creamy mustard
+.25 cup panko
+2 tbsp rice vinegar
+0.5 cup plain nonfat greek yogurt
+1 tbsp sugar
+.25 cup parmesan
+1 -- onion powder
+1 -- garlic powder
+1 -- mustard powder
+1 -- smoked paprika
+1 -- cayenne pepper
+
+Red Beans and Rice
+1 -- basmati rice
+1 tbsp vegetable oil
+12.8 oz smoked andouille sausage
+1 -- medium sweet onion
+1 -- green bell pepper
+2 -- celery
+2 tbsp tomato paste
+3 clove garlic
+1.5 tsp cajun seasoning
+45 oz canned red beans
+3 cups chicken stock
+1 -- oregano
+1 -- thyme
+1 -- salt
+1 -- pepper
+
+Instant Pot Pork
+1 lb pork shoulder
+8 -- egg
+3 clove garlic
+0.5 bag baby carrot
+2 tbsp soy sauce
+
+Bean and Mushroom Stew
+30 oz christmas lima beans
+0.5 cup olive oil
+1 -- onion
+8 clove garlic
+12 oz portobello mushrooms
+16 oz shiitake mushrooms
+6 sprig thyme
+56 oz plum tomatoes in puree
+1 cup red wine
+2 tsp salt
+1 tsp pepper
+
+Irish Nachos
+1 bag fries
+2 cup cheddar
+0.5 cup bacon
+0.25 cup chives
+0.33 cup sour cream
+0.25 cup tomato
+
+Curry (Thai)
+2 tbsp olive oil
+1 -- yellow onion
+1 lb chicken breast
+3 clove garlic
+2 tsp coriander
+13 oz coconut milk
+1 cup carrot
+2 tsp curry powder
+1 tsp salt
+.5 tsp pepper
+3 cup spinach
+1 tbsp lime juice
+2 tbsp brown sugar
+2 cup rice
+
+Paella (Chicken)
+2 tbsp olive oil
+1 cup yellow onion
+0.5 cup red bell pepper
+1 tbsp garlic
+7.25 oz crushed tomatoes
+0.5 tsp pimenton
+0.5 tsp salt
+0.5 tsp sugar
+0.5 -- bay leaf
+1 lb chicken thighs
+3 tbsp olive oil
+2 clove garlic
+2 tsp rosemary
+1.5 tsp salt
+1 tsp pimenton
+4 cup chicken broth
+1 cup green bell pepper
+6 oz chorizo
+1.5 cup bomba rice
+1 cup dry sherry
+.125 tsp saffron
+0.5 cup peas
+1 -- lemon
 END

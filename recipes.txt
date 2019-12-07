@@ -853,4 +853,56 @@ Paella (Chicken)
 .125 tsp saffron
 0.5 cup peas
 1 -- lemon
+
+Chicken Chow Mein
+1 lb noodles
+1 lb chicken breasts
+2 tbsp vegetable oil
+3 cups cabbage
+1.5 cups carrots
+2 clove garlic
+4 tbsp soy sauce
+1 tbsp oyster sauce
+1 tbsp granulated sugar
+1.5 tsp sesame oil
+
+Chicken Pho
+1 tbsp vegetable oil
+6 -- bone-in chicken thighs
+0.5 tsp salt
+0.25 tsp black pepper
+2 -- large shallots
+0.5 tsp sugar
+8 oz shiitake mushrooms
+4 cups chicken broth
+2 tsp fish sauce
+1 -- cinnamon stick
+3 -- whole cloves
+1 -- star anise
+12 oz rice noodles
+1 -- Thai basil
+2 cups bean sprouts
+2 -- jalapeno peppers
+1 -- lime
+
+Southwest Avocado Toast
+1 bag Garlic Asiago Brazi Bites
+2 -- avocado
+4 -- eggs
+2 tsp butter
+1 -- lime
+0.5 -- red onion
+2 -- tomato
+2 -- jalapeno
+1 -- salt
+1 -- pepper
+
+Mini Carne Asada Tortas
+1 bag Cheddar Parmesan Brazi Bites
+1 lb skirt steak
+1 tsp salt
+1 -- avocado
+0.5 -- red onion
+1 -- jalapeno
+1 clove garlic
 END

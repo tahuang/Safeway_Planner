@@ -905,4 +905,11 @@ Mini Carne Asada Tortas
 0.5 -- red onion
 1 -- jalapeno
 1 clove garlic
+
+Hot Pot
+1 lb lamb slices
+1 -- bokchoy
+1 -- beef or fish balls
+1 -- enoki mushrooms
+1 -- mung bean noodles
 END

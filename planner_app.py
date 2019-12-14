@@ -30,6 +30,7 @@ class Planner(BoxLayout):
         def __init__(self,**kwargs):
                 super(Planner,self).__init__(**kwargs)
 
+
 class GetRouteButton(Button):
         meals = ObjectProperty()
         shopping_area = ObjectProperty()
@@ -58,6 +59,7 @@ class GetRouteButton(Button):
                 self.background_normal = ''
                 self.background_color = [0.698039, 0.133333, 0.133333, 1]
 
+
 class SaveButton(Button):
         meals = ObjectProperty()
 
@@ -80,6 +82,7 @@ class SaveButton(Button):
                 super(SaveButton, self).__init__(**kwargs)
                 self.background_normal = ''
                 self.background_color = [0.6, 0.196078, 0.8, 1]
+
 
 class LoadButton(Button):
         meals = ObjectProperty()
@@ -124,13 +127,19 @@ class Meals(GridLayout):
                 self.cols = 7
                 for row in range(self.rows):
                         for column in range(self.cols):
-                                meal_entry = TextInput()
-                                #meal_entry.bind(focus=self.set_meal_target)
+                                meal_entry = MealText()
                                 self.meal_list.append((meal_entry, row*self.cols + column))
                                 self.add_widget(meal_entry)
 
-        def set_meal_target(self,instance,value):
-                self.active_box = instance
+
+class MealText(TextInput):
+        def keyboard_on_key_down(self, window, keycode, text, modifiers):
+                """ Add support for tab as an 'autocomplete' using the suggestion text.
+                """
+                if self.suggestion_text and keycode[1] == 'tab':
+                        self.insert_text(self.suggestion_text + ' ')
+                return True
+                return super(MyTextInput, self).keyboard_on_key_down(window, keycode, text, modifiers)
 
 class Recipes(GridLayout):
         meals = ObjectProperty()
@@ -158,12 +167,8 @@ class Recipes(GridLayout):
                 self.minimum_height = 1000 # for some reason this removes the need to double click on the shopping list boxes
                 for recipe in recipe_list:
                         item = Button(text=recipe, font_size='14sp', size_hint_y=None, height=40)
-                        #item.bind(on_press=self.add_recipe)
                         self.add_widget(item)  
 
-        def add_recipe(self,instance):
-                print(active_box)
-                print('Button pressed')
 
 class ShoppingArea(Spinner):
         def __init__(self, **kwargs):

@@ -912,4 +912,28 @@ Hot Pot
 1 -- beef or fish balls
 1 -- enoki mushrooms
 1 -- mung bean noodles
+
+Chocolate Souffle
+4 tsp butter
+3 tbsp white sugar
+2 oz 70% dark chocolate
+1 tbsp GF flour
+4.33 tbsp milk
+1 -- salt
+1 -- cayenne pepper
+2 -- eggs
+1 -- cream of tartar
+1 -- xantham gum
+
+Eggplant Parmesan
+1 -- tomato sauce
+10 oz panko
+2 oz parmesan cheese
+1 cup cornstarch
+1 -- salt
+1 -- pepper
+4 -- eggs
+1.5 lb eggplant
+0.5 cup vegetable oil
+
 END

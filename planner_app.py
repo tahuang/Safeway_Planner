@@ -115,6 +115,32 @@ class FileNamePopup(Popup):
                 self.content.add_widget(self.textinput)
                 self.content.add_widget(self.ok_button)
 
+class MyTextInput(TextInput):
+        def __init__(self, recipes, **kwargs):
+                super(MyTextInput, self).__init__(**kwargs)
+                self.recipes = recipes
+
+        def keyboard_on_key_down(self, window, keycode, text, modifiers):
+                """ Add support for tab as an 'autocomplete' using the suggestion text.
+                """
+                if self.suggestion_text and keycode[1] == 'tab':
+                        self.insert_text(self.suggestion_text + ' ')
+                        return True
+                return super(MyTextInput, self).keyboard_on_key_down(window, keycode, text, modifiers)
+
+        def on_text(self, instance, value):
+                self.suggestion_text = ''
+                val = value[value.rfind('\n') + 1:]
+                if not val:
+                        return
+                try:
+                        word = [word for word in self.recipes.recipe_list if word.startswith(val)][0][len(val):]
+                        if not word:
+                                return
+                        self.suggestion_text = word
+                except IndexError:
+                        return
+
 class Meals(GridLayout):
         def __init__(self, **kwargs):
                 super(Meals,self).__init__(**kwargs)
@@ -122,41 +148,37 @@ class Meals(GridLayout):
                 self.meal_list = []
                 self.rows = 4
                 self.cols = 7
+                self.recipes = Recipes()
                 for row in range(self.rows):
                         for column in range(self.cols):
-                                meal_entry = TextInput()
-                                #meal_entry.bind(focus=self.set_meal_target)
+                                meal_entry = MyTextInput(self.recipes)
                                 self.meal_list.append((meal_entry, row*self.cols + column))
                                 self.add_widget(meal_entry)
-
-        def set_meal_target(self,instance,value):
-                self.active_box = instance
+        
 
 class Recipes(GridLayout):
-        meals = ObjectProperty()
-
         def __init__(self, **kwargs):
                 super(Recipes,self).__init__(**kwargs)
                 # Get all the recipe names from file
-                recipe_list = []
+                self.recipe_list = []
                 recipe_file = open('recipes.txt')
                 recipe_name_flag = True
                 for line in recipe_file:
                         if recipe_name_flag == True:
                                 recipe_name = line.rstrip('\n')
-                                recipe_list.append(recipe_name)
+                                self.recipe_list.append(recipe_name)
                                 recipe_name_flag = False
                         elif (line == '\n') or (line == 'END'):
                                 recipe_name_flag = True
                                 
-                recipe_list.sort()
+                self.recipe_list.sort()
 
                 # Make buttons for all the recipes
                 num_col = 4
-                self.rows = int(np.ceil(len(recipe_list)/float(num_col)))
+                self.rows = int(np.ceil(len(self.recipe_list)/float(num_col)))
                 self.cols = num_col
                 self.minimum_height = 1000 # for some reason this removes the need to double click on the shopping list boxes
-                for recipe in recipe_list:
+                for recipe in self.recipe_list:
                         item = Button(text=recipe, font_size='14sp', size_hint_y=None, height=40)
                         #item.bind(on_press=self.add_recipe)
                         self.add_widget(item)  

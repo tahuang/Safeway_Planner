@@ -210,7 +210,7 @@ Chili Spaghetti
 8 oz tomato sauce
 1 tbsp chili powder
 1 tsp salt
-1.25 cup shredded cheese
+1.25 cup cheddar cheese
 
 Baked Tilapia
 4 -- tilapia
@@ -936,4 +936,87 @@ Eggplant Parmesan
 1.5 lb eggplant
 0.5 cup vegetable oil
 
+Bulgogi Fries
+1 -- onion
+3 cloves garlic
+10 tbsp soy sauce
+10 tbsp sugar
+5 tbsp distilled white vinegar
+1 tsp toasted sesame oil
+1 lb boneless rib eye steak
+2 tbsp vegetable oil
+1 cup kimchi
+0.5 cup mayo
+3 tbsp Sriracha
+1 -- fries
+1 -- cheddar cheese
+
+Burrito Bowl
+1 lb chicken
+0.25 cup olive oil
+1 -- lime
+1 tsp sugar
+1 tsp salt
+0.25 tsp cumin
+2 cloves garlic
+1.5 tsp smoked paprika
+1 tsp onion powder
+1 tbsp chili powder
+3 cups rice
+1 can black beans
+3 -- avocados
+0.25 cup sour cream
+1 -- cheddar cheese
+1 cup corn
+1 -- tomato
+1 -- onion
+
+Korean Fried Chicken
+3 lb chicken
+2 tbsp rice wine
+1 tsp salt
+0.5 tsp black pepper
+1 cup corn starch
+3 tbsp ketchup
+2 tbsp gochujang
+0.25 cup honey
+0.25 cup brown sugar
+2 tbsp soy sauce
+2 tbsp minced garlic
+1 tbsp sesame oil
+
+Chicken Salad Sandwich
+1 -- bread
+0.5 cup plain Greek yogurt
+0.25 tsp garlic powder
+0.25 tsp salt
+0.25 tsp pepper
+2 cups chicken
+0.5 cup celery
+0.5 cup pecans
+0.5 cup grapes
+0.25 cup red onion
+
+Grilled Cheese and Tomato Soup
+1 -- bread
+1 -- cheddar cheese
+1 can tomato soup
+1 -- butter
+
+Butter Chicken Instant Pot
+8 -- skinless, boneless chicken thighs
+2 tbsp garam masala
+1 tsp salt
+1 tsp pepper
+4 tbsp butter
+1 -- onion
+1 -- jalapeno pepper
+4 cloves minced garlic
+1 tsp cumin
+0.5 tsp tumeric
+14.5 oz diced tomatoes
+8 oz tomato sauce
+0.5 cup chicken broth
+0.5 cup heavy cream
+1 -- rice
 END

@@ -84,6 +84,13 @@ Simple Pasta
 1 pack sausage
 1 -- green beans
 
+Shrimp Pasta
+1 jar alfredo
+1 box pasta
+1 tbsp parmesan cheese
+1 pack shrimp
+1 -- green beans
+
 Fried Eggs
 3 -- eggs
 1 -- salt
@@ -114,7 +121,7 @@ Basic Cereal
 2 cup milk
 2 cup cereal
 
-Extreme Nachos
+Nachos (Extreme)
 0.75 lb ground beef
 1 tsp salt
 .5 tsp pepper
@@ -127,6 +134,21 @@ Extreme Nachos
 1 can black bean
 18 oz chips
 1 cup sour cream
+
+Nachos (Cajun)
+3 cup cheddar
+1 lb andouille sausage
+1 cup green bell pepper
+1 cup celery
+1 cup onion
+0.5 cup salsa
+0.25 cup pickled jalapeno
+
+Nachos (Cheesesteak)
+1 lb steak
+1 cup onion
+3 cup provolone
+1 cup bell pepper
 
 Mini Chicken Tacos
 8 -- corn tortillas
@@ -936,4 +958,19 @@ Eggplant Parmesan
 1.5 lb eggplant
 0.5 cup vegetable oil
 
+Baked Potato
+1 -- potato
+0.5 lb chicken breast
+50 g cheddar
+0.25 lb broccoli
+1 -- sour cream
+1 -- butter
+1 -- salt
+
+Omelette - Chicken
+0.5 lb chicken breast
+0.25 lb broccoli
+50 g cheddar
+3 -- egg
+2 tbsp vegetable oil
 END

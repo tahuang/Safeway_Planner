@@ -124,7 +124,7 @@ class MyTextInput(TextInput):
                 """ Add support for tab as an 'autocomplete' using the suggestion text.
                 """
                 if self.suggestion_text and keycode[1] == 'tab':
-                        self.insert_text(self.suggestion_text + ' ')
+                        self.insert_text(self.suggestion_text)
                         return True
                 return super(MyTextInput, self).keyboard_on_key_down(window, keycode, text, modifiers)
 

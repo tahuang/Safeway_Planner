@@ -21,6 +21,7 @@ mozzarella cheese, 1.5
 mozzarella, 1.5
 shredded mozzarella, 1.5
 shredded cheddar, 1.5
+shredded cheese, 1.5
 sharp cheddar cheese, 1.5
 shredded pepper jack, 1.5
 four cheese mexican blend, 1.5
@@ -31,18 +32,20 @@ sour cream, 1.7
 ricotta cheese, 1.8
 guacamole, 1.95
 buttermilk, 1.99
+almond milk, 1.99
+milk, 1.99
 pizza bites, 2.4
 frozen broccoli, 2.6
 frozen peas, 2.6
 broccoli, 2.6
 green beans, 2.6
 frozen green beans, 2.6
+corn, 2.6
 peas, 2.6
 eggs, 2.99
 egg, 2.99
 unsalted butter, 2.99
 butter, 2.99
-milk, 2.99
 pizza, 3.1
 english muffin, 3.4
 tater tots, 3.7
@@ -99,6 +102,7 @@ thyme, 14.1
 mustard powder, 14.1
 smoked paprika, 14.1
 cayenne pepper, 14.1
+chili powder, 14.1
 saffron, 14.1
 coriander, 14.1
 bay leaf, 14.1
@@ -108,13 +112,16 @@ olive oil, 14.3
 semi-sweet chocolate chips, 14.5
 bittersweet chocolate, 14.5
 shaved chocolate, 14.5
+70% dark chocolate, 14.5
 vanilla extract, 14.8
 cocoa powder, 14.5
 brown sugar, 14.8
 icing sugar, 14.8
 caster sugar, 14.8
 powdered sugar, 14.8
+white sugar, 14.8
 baking powder, 14.8
+cream of tartar, 14.8
 sugar, 14.8
 granulated sugar, 14.8
 dark brown sugar, 14.8
@@ -134,7 +141,9 @@ pasta sauce, 16.2
 alfredo sauce, 16.2
 tomato sauce, 16.2
 tomato paste, 16.2
+pesto, 16.2
 kidney beans, 16.5
+black beans, 16.5
 christmas lima beans, 16.5
 canned red beans, 16.5
 diced tomatoes, 16.6
@@ -155,9 +164,13 @@ basmati rice, 17.8
 Arborio rice, 17.8
 bomba rice, 17.8
 corn tortillas, 18.9
+GF flour, 18.9
+xantham gum, 18.9
 tortillas, 18.9
 panko, 18.9
+gnocchi, 18.9
 crackers, 18.9
+wafers, 18.9
 sausage, 18.99
 smoked andouille sausage, 18.99
 chorizo, 18.99
@@ -177,6 +190,9 @@ asparagus, 100
 baby carrot, 100
 rosemary, 100
 Thai basil, 100
+bell peppers, 100
+avocados, 100
+
 
 @Sprouts
 baby ribs, 200
@@ -203,6 +219,7 @@ medium russet potatoes, 100
 ground beef, 200
 lamb chops, 200
 shrimp, 200
+salmon, 200
 onion, 100
 apple, 100
 shallots, 100

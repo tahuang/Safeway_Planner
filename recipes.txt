@@ -1075,4 +1075,36 @@ Chicken Lo Mein
 1 tsp Sriracha
 1 tsp sugar
 0.5 tsp sesame oil
+
+Red Curry Soup with Noodles
+8 oz rice noodles
+1 lb chicken breast
+2 tbsp Asian fish sauce
+2 tbsp vegetable oil
+1 -- onion
+2 cloves garlic
+3 tbsp red curry paste
+0.5 tsp turmeric
+0.5 tsp ground coriander
+0.75 tsp salt
+28 oz unsweetened coconut milk
+2 cups chicken broth
+
+Chicken Pot Pie
+0.25 cups butter
+1 -- onion
+3 -- celery
+3 -- carrots
+0.66 cups frozen peas
+3 tbsp parsley
+0.25 tsp thyme
+0.25 cups flour
+2 cups chicken broth
+0.66 cups heavy cream
+1 -- salt
+1 -- pepper
+3 cups chicken
+1 -- biscuits
+1 -- egg yolk, beaten
+1 tbsp water
 END

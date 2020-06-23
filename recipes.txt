@@ -458,6 +458,7 @@ Mashed Sweet Potatoes
 .5 cup butter
 
 Chocolate Avocado Pudding
+# https://www.allrecipes.com/recipe/234324/chocolate-avocado-pudding/
 1 cup unsweetened almond milk
 2 -- avocados
 .33 cup unsweetened cocoa powder
@@ -703,19 +704,6 @@ One-Pot Instant Lasagna
 32 oz pasta sauce
 8 oz ricotta cheese
 8 oz shredded mozzarella
-
-Asian Short Rib-Noodle Bowl
-0.75 cup soy sauce
-3 cup beef broth
-3 tbsp sugar
-1 tsp salt
-3 tbsp garlic
-2 tbsp sesame oil
-3 tbsp green onion
-.5 tsp crush red pepper
-5 lb beef short ribs
-2 cup snap peas
-1 rice noodles
 
 Cheesecake Brownies
 20 oz brownie mix
@@ -1107,4 +1095,139 @@ Chicken Pot Pie
 1 -- biscuits
 1 -- egg yolk, beaten
 1 tbsp water
+
+Asian Short Rib Noodle Bowl
+# Instant pot book
+0.75 cup soy sauce
+3 cups beef broth
+3 tbsp sugar
+1 tsp salt
+3 tbsp garlic
+2 tbsp ginger
+2 tbsp sesame oil
+3 tbsp green onion
+0.5 tsp crushed red pepper
+5 lb beef short ribs (8 ribs)
+2 cups snap peas
+14.2 oz udon stir-fry noodles
+
+Beef Stew
+# https://www.thekitchn.com/instant-pot-beef-stew-22949287
+1 -- yellow onion
+2 cloves garlic
+2.5 lb boneless beef chuck
+1.5 tsp salt
+0.5 tsp pepper
+2 tbsp vegetable oil
+3 -- carrots
+3 -- Yukon gold potatoes
+1 tbsp tomato paste
+1 tsp thyme
+0.5 cup beef broth
+2 tbsp Worcestershire sauce
+1 tbsp cornstarch
+1 tbsp water
+0.75 cup peas
+
+Shredded Pork with Bean Curd
+# https://thewoksoflife.com/five-spice-tofu-pork/
+8 oz pork shoulder or pork loin
+1.5 tsp cornstarch
+3 tbsp water
+0.25 tsp sugar
+2 tsp sherry
+1.5 tbsp soy sauce
+3 tbsp oil
+1 tsp garlic
+1 -- carrot
+0.5 cup red bell pepper
+8 oz dried bean curd
+3 -- green onion
+1 tsp sesame oil
+1 tbsp water
+1 -- salt
+
+Chicken Cacciatore
+# Instant pot book
+1 tbsp olive oil
+2 lb chicken thighs or drumsticks
+0.5 tsp salt
+0.25 tsp pepper
+0.5 oz dried porcini mushrooms
+0.5 cup water
+1 -- onion
+1 -- red bell pepper
+2 cloves garlic
+1 cup sherry
+28 oz whole tomatoes
+1 tsp rosemary
+1 tsp sage
+1 bay leaf
+0.5 cup black olives
+0.25 cup parsley
+1 -- pasta
+
+Mushroom and Spinach Risotto
+# Instant pot book
+2 tbsp olive oil
+0.33 cup shallots
+8 oz cremini mushrooms
+0.25 tsp salt
+0.125 tsp crushed red pepper
+2 cloves garlic
+2 cups chicken broth
+1 cup Arborio rice
+0.25 tsp thyme
+1 tbsp butter
+2 cups spinach
+0.33 cup Parmesan cheese
+
+Meatballs
+# Instant pot book
+1 egg
+0.25 cup bread crumbs
+0.25 cup Parmesan cheese
+2 tbsp milk
+3 tbsp basil
+1 tbsp parsley
+4 cloves minced garlic
+0.75 tsp salt
+0.25 tsp pepper
+1 lb ground beef
+1 tbsp olive oil
+0.75 cup onion
+0.25 tsp crushed red pepper
+28 oz crushed tomatoes
+8 oz tomato sauce
+
+One-Pot Chicken & Rice
+# Instant pot book
+1.5 lb skinless, boneless chicken thighs
+3 tbsp dark soy sauce
+3 tbsp low-sodium soy sauce
+1 tsp rice vinegar
+0.25 tsp five-spice powder
+1 tsp sesame oil
+2 tsp vegetable oil
+1.5 cup rice
+3 cups chicken broth
+8 oz cremini mushrooms
+1 -- green onions
+
+Cumin Beef
+# https://www.cooksillustrated.com/recipes/12578-stir-fried-cumin-beef-for-two
+3 tsp water
+0.25 tsp baking soda
+1 lb flank steak
+4 cloves minced garlic
+3 tsp cumin
+2 tsp Sichuan chili powder
+1 tsp Sichuan peppercorns
+0.25 tsp salt
+3 tsp dry sherry
+3 tsp soy sauce
+2 tsp brown sugar
+0.5 tsp cornstarch
+4 tbsp vegetable oil
+0.5 -- onion
 END

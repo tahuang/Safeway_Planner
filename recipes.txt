@@ -201,7 +201,7 @@ Vietnamese Spring Rolls
 
 Fried Rice
 2 cup rice
-1 lb chicken
+1 lb chicken/spam
 2 cup edamame
 1 cup carrots
 4 tbsp soy sauce
@@ -278,18 +278,18 @@ Butter Chicken
 2 cup rice
 
 Mapo Tofu
-0.5 cup chicken broth
+# https://omnivorescookbook.com/authentic-mapo-tofu/
+0.5 cup sherry
+4 tsp soy sauce
 1 tsp cornstarch
-2 tsp soy sauce
+1 tbsp vegetable oil
 1 tsp sugar
-1 tbsp sesame oil
+0.25 tsp five-spice powder
 2 -- garlic
 2 -- green onions
-1 tbsp fermented black beans
 1 lb ground pork
-2 tsp doubanjiang
+3 tbsp doubanjiang
 14 oz tofu
-2 cup rice
 
 Carbonara
 1 lb spaghetti
@@ -665,6 +665,7 @@ Palak Paneer
 2 cup paneer
 
 Potato Salad
+# https://www.aspicyperspective.com/make-best-potato-salad-recipe/
 2.5 lb yukon gold potato
 1 cup mayo
 0.5 cup sweet pickle relish
@@ -824,6 +825,7 @@ Irish Nachos
 0.25 cup tomato
 
 Curry (Thai)
+# https://www.averiecooks.com/thai-chicken-coconut-curry/
 2 tbsp olive oil
 1 -- yellow onion
 1 lb chicken breast
@@ -1047,6 +1049,7 @@ Butter Chicken Instant Pot
 1 -- rice
 
 Chicken Lo Mein
+# https://iowagirleats.com/gluten-free-chicken-lo-mein/
 2 breast chicken
 1 tbsp tamari
 2 tsp cornstarch
@@ -1215,7 +1218,7 @@ One-Pot Chicken & Rice
 1 -- green onions
 
 Cumin Beef
-# https://www.cooksillustrated.com/recipes/12578-stir-fried-cumin-beef-for-two
+# http://appetiteforchina.com/recipes/spicy-hunan-beef-with-cumin
 3 tsp water
 0.25 tsp baking soda
 1 lb flank steak
@@ -1230,4 +1233,20 @@ Cumin Beef
 0.5 tsp cornstarch
 4 tbsp vegetable oil
 0.5 -- onion
+
+Orange Chicken
+# https://dinnerthendessert.com/panda-express-orange-chicken-copycat/
+2 lb chicken thighs, boneless
+1 -- egg
+1.5 tsp salt
+1 -- black pepper
+2 tbsp oil
+0.5 cup cornstarch
+0.25 cup flour
+2 tbsp rice wine
+1 tsp sesame oil
+3 tbsp soy sauce
+10 tbsp sugar
+10 tbsp white vinegar
+1 -- orange
 END

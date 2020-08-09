@@ -33,6 +33,7 @@ ricotta cheese, 1.8
 guacamole, 1.95
 buttermilk, 1.99
 almond milk, 1.99
+heavy cream, 1.99
 milk, 1.99
 pizza bites, 2.4
 frozen broccoli, 2.6
@@ -57,8 +58,12 @@ bagels, 4.9
 paper towels, 4.7
 toilet paper, 4.4
 tissues, 4.5
+gloves, 4.9
 sunscreen, 5.5
+conditioner, 5.5
 body wash, 5.8
+soap, 5.8
+scrunchie, 5.5
 bars, 8.8
 sponges, 9.4
 meatballs, 10.99
@@ -77,8 +82,11 @@ chicken breast, 13.99
 Chicken breasts, 13.99
 boneless pork chops, 13.99
 bone-in chicken thighs, 13.99
+skinless boneless chicken thighs, 13.99
+chicken wings, 13.99
 skirt steak, 13.99
 flank steak, 13.99
+boneless rib eye steak, 13.99
 cinnamon, 14.1
 cinnamon stick, 14.1
 salt, 14.1
@@ -94,6 +102,7 @@ star anise, 14.1
 ground cinnamon, 14.1
 whole cloves, 14.1
 paprika, 14.1
+tumeric, 14.1
 garlic powder, 14.1
 red pepper flakes, 14.1
 cajun seasoning, 14.1
@@ -128,10 +137,14 @@ dark brown sugar, 14.8
 sweet rice flour, 14.8
 mayo, 15.1
 honey mustard, 15.1
+mustard, 15.1
 creamy mustard, 15.1
 marshmallows, 15.3
 ranch dressing, 15.5
 gallon ziploc bags, 15.5
+ziploc bags, 15.5
+aluminum foil, 15.5
+parchment paper, 15.5
 ranch, 15.5
 barbecue sauce, 15.8
 plates, 15.9
@@ -156,6 +169,9 @@ macaroni, 16.4
 marinated artichoke hearts, 16.4
 chicken broth, 16.9
 chicken stock, 16.9
+Sriracha, 17.1
+sesame oil, 17.1
+toasted sesame oil, 17.1
 noodles, 17.5
 rice noodles, 17.5
 coconut milk, 17.5
@@ -216,6 +232,7 @@ medium sweet onion, 100
 garlic, 100
 chives, 100
 medium russet potatoes, 100
+green onions, 100
 ground beef, 200
 lamb chops, 200
 shrimp, 200
@@ -243,12 +260,15 @@ yellow onion, 100
 cabbage, 100
 bean sprouts, 100
 jalapeno peppers, 100
+jalapeno pepper, 100
 jalapeno, 100
 avocado, 100
 lime, 100
 jerky sticks, 2.
 soy sauce, 2.
+tamari, 2.
 oyster sauce, 2.
 brazi bites, 2.
+cornstarch, 2.
 Garlic Asiago Brazi Bites, 2.
 Cheddar Parmesan Brazi Bites, 2.

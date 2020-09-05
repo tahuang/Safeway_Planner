@@ -30,7 +30,7 @@ Pizza Potatoes
 1 handful oregano
 
 Bacon Ranch Chicken Bake
-4 breat chicken
+4 breast chicken
 1 -- salt
 1 -- pepper
 8 tbsp ranch dressing
@@ -47,7 +47,7 @@ Pesto Chicken Bake
 
 Alfredo Chicken Bake
 48 oz alfredo sauce
-4 breat chicken
+4 breast chicken
 1 -- salt
 1 -- pepper
 1 lb broccoli
@@ -650,6 +650,7 @@ Pepper Cheesesteak
 1 tbsp butter
 
 Palak Paneer
+# https://www.allrecipes.com/recipe/256164/easy-palak-paneer/
 2 tbsp olive oil
 1 -- onion
 6 cloves garlic

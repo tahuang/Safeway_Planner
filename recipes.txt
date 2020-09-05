@@ -1150,26 +1150,6 @@ Shredded Pork with Bean Curd
 1 tbsp water
 1 -- salt
 
-Chicken Cacciatore
-# Instant pot book
-1 tbsp olive oil
-2 lb chicken thighs or drumsticks
-0.5 tsp salt
-0.25 tsp pepper
-0.5 oz dried porcini mushrooms
-0.5 cup water
-1 -- onion
-1 -- red bell pepper
-2 cloves garlic
-1 cup sherry
-28 oz whole tomatoes
-1 tsp rosemary
-1 tsp sage
-1 bay leaf
-0.5 cup black olives
-0.25 cup parsley
-1 -- pasta
-
 Mushroom and Spinach Risotto
 # Instant pot book
 2 tbsp olive oil
@@ -1249,4 +1229,13 @@ Orange Chicken
 10 tbsp sugar
 10 tbsp white vinegar
 1 -- orange
+
+Cucumber Salad
+# https://thestayathomechef.com/cucumber-salad/
+2 -- cucumbers
+1 tsp salt
+1 -- red onion
+1 cup distilled white vinegar
+0.5 cup sugar
+2 tbsp dill
 END

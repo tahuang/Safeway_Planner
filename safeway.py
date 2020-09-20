@@ -17,7 +17,7 @@ def create_item_aisle_mapping(shopping_map):
     full_mapping = {}
     
     if shopping_map == '':
-        shopping_map = 'mv_center.map'
+        shopping_map = 'sv_center.map'
         print('No file specified, using default')
 
     with open(shopping_map) as f:

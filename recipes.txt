@@ -966,6 +966,7 @@ Omelette - Chicken
 2 tbsp vegetable oil
 
 Bulgogi Fries
+# https://www.foodandwine.com/recipes/french-fries-bulgogi-and-caramelized-kimchi
 1 -- onion
 3 cloves garlic
 10 tbsp soy sauce
@@ -1230,6 +1231,23 @@ Orange Chicken
 10 tbsp sugar
 10 tbsp white vinegar
 1 -- orange
+
+Sticky Toffee Pudding
+# https://www.foodandwine.com/recipes/sticky-toffee-pudding
+2.5 cup heavy cream
+4 oz unsalted butter
+0.5 cup light corn syrup
+1 cup sugar
+6 oz pitted dates
+1 cup flour
+1 tsp baking powder
+0.25 tsp baking soda
+1 -- salt
+4 tbsp unsalted butter
+0.75 cup light brown sugar
+1 -- egg
+0.5 tsp vanilla extract
+1 -- vanilla ice cream
 
 Cucumber Salad
 # https://thestayathomechef.com/cucumber-salad/

@@ -1239,4 +1239,69 @@ Cucumber Salad
 1 cup distilled white vinegar
 0.5 cup sugar
 2 tbsp dill
+
+Basil Pork
+# https://www.youtube.com/watch?v=BGx4HEWBT8o&list=UUXynxijLGOGgAgk9J1epMLw&index=76&t=0s
+1 lb ground pork
+3 cloves minced garlic
+2 -- chilis
+2 -- tomatoes
+1 tbsp soy sauce
+1 tbsp fish sauce
+1 tbsp water
+1 -- sugar
+0.5 tbsp lime juice
+1 -- salt
+1 -- pepper
+1 -- basil
+1 tbsp rice wine
+
+Braised Pork
+# https://www.youtube.com/watch?v=bZHobtxSC4E
+2.5 lb pork belly
+3 -- shallots
+3 cloves garlic
+1 -- green onion
+2 tbsp sugar
+0.5 cup soy sauce
+1 cup water
+1 -- white pepper
+4 -- eggs
+
+Greek Salad
+# https://www.cookingclassy.com/greek-salad/
+6 tbsp olive oil
+1.5 tbsp lemon juice
+1 tbsp red wine vinegar
+1.5 tsp garlic
+1.5 tbsp parsley
+1 tsp oregano
+0.75 tsp honey
+1 -- salt
+4 -- tomatoes
+1 -- cucumber
+0.5 -- red onion
+0.75 cup olives
+4 oz feta cheese
+1 -- avocado
+
+Gumbo
+# Instant Pot book pg 215
+1 tbsp vegetable oil
+1 lb chicken thighs or sausage
+0.25 cup vegetable oil
+0.5 cup flour
+1 tbsp Cajun seasoning
+1 tbsp thyme
+1 tsp paprika
+0.5 tsp salt
+1 cup onion
+1 cup green bell pepper
+2 -- celery
+4 cloves garlic
+4 cups chicken broth
+14.5 oz diced tomatoes
+1 lb shrimp
+2 cups frozen okra
+4 cups rice
 END

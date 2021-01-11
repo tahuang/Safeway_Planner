@@ -3,27 +3,40 @@ Shopping in Sunnyvale
 @Safeway
 parmesan cheese, 0.9
 parmesan, 0.9
+peanut butter, 0.9
 chorizo, 0.9
 jelly, 0.9
 feta cheese, 0.9
 bars, 2.9
 popcorn, 3.5
 corn syrup, 5.9
+sugar, 5.9
+brown sugar, 5.9
 chocolate syrup, 6.4
 vegetable oil, 6.7
-olive oil 6.7
+olive oil, 6.7
 white pepper, 6.9
 salt, 6.9
 pepper, 6.9
+bay leaf, 6.9
+rosemary, 6.9
 minced garlic, 6.9
 cumin, 6.9
 coriander, 6.9
+oregano, 6.9
+garam masala, 6.9
+turmeric, 6.9
 curry powder, 6.9
 thyme, 6.9
+pimenton, 6.9
+saffron, 6.9
+red pepper flakes, 6.9
 Sichuan chili powder, 6.9
 Sichuan peppercorns, 6.9
 dates, 6.99
-milk, 8.99
+milk, 9.99
+buttermilk, 9.99
+heavy whipping cream, 9.99
 frozen pizza, 9.1
 english muffin, 9.9
 frozen fries, 10.5
@@ -41,26 +54,32 @@ sharp cheddar, 11.2
 cheese, 11.3
 shredded cheese, 11.3
 mozzarella, 11.3
+mozzarella cheese, 11.3
 cheddar, 11.3
 shredded mozzarella, 11.3
 shredded monterey jack, 11.3
 cheddar cheese, 11.3
 shredded cheddar, 11.3
 ricotta cheese, 11.5
+plain Greek yogurt, 11.5
 pepperoni, 11.5
 sour cream, 11.5
+cream cheese, 11.6
 deli meat, 11.7
 bacon, 11.8
 egg, 11.9
 eggs, 11.9
 sponges, 12.3
+shampoo, 13.2
 toilet paper, 14.2
 paper towels, 14.6
 garbanzo beans, 15.3
 chicken broth, 15.5
 beef broth, 15.5
 ziploc, 15.5
+parchment paper, 15.5
 foil, 15.5
+small trash bags, 15.6
 cream of mushroom, 15.8
 tomato soup, 15.9
 chicken/spam, 16.5
@@ -69,16 +88,20 @@ tuna, 16.6
 dry sherry, 16.7
 Worchestershire sauce, 16.9
 barbecue sauce, 16.9
+tortillas, 16.9
 macaroni, 17.2
 pasta, 17.2
+spaghetti, 17.2
 rice noodles, 17.3
 pasta sauce, 17.4
 Marinara sauce, 17.4
+pizza sauce, 17.4
 pesto, 17.4
 alfredo, 17.4
 rice, 17.5
+bomba rice, 17.5
 gravy, 17.6
-crushed, 17.9
+crushed tomatoes, 17.9
 tomato sauce, 17.9
 tomato paste, 17.9
 Rotel tomatoes, 17.9
@@ -87,7 +110,7 @@ diced tomatoes, 17.9
 crushed tomatoes, 17.9
 soy sauce, 18.1
 salsa, 18.3
-tortillas, 18.9
+salsa verde, 18.3
 pork shoulder, 18.99
 ground beef, 18.99
 ground pork, 18.99
@@ -111,9 +134,15 @@ spinach, 100
 
 @Sprouts
 oyster sauce, 50
+tartar sauce, 50
 cornstarch, 50
 cereal, 50
 ramen noodles, 50
+bagel, 50
+tofu, 50
+graham crackers, 50
+brazi bites, 50
+farro, 50
 bread, 100
 shallots, 100
 chilis, 100
@@ -132,6 +161,7 @@ orange, 100
 paneer, 100
 scallions, 100
 potato, 100
+potatoes, 100
 broccoli, 100
 bell pepper, 100
 yellow onion, 100
@@ -142,11 +172,14 @@ cabbage, 100
 carrots, 100
 grape tomatoes, 100
 persian cucumber, 100
+zucchini, 100
 green onions, 100
 carrot, 100
 garlic, 100
 scallion, 100
 Yukon gold potatoes, 100
+grapes, 100
 shrimp, 200
 salmon, 200
 tilapia, 200
+cod, 200

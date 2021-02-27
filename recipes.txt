@@ -348,11 +348,6 @@ Brownies
 0.5 tsp salt
 2 cup semisweet chocolate chunks
 
-Pesto Cream Cheese Crackers
-2 tbsp pesto
-8 oz cream cheese
-1 box crackers
-
 Pesto and Feta Mushrooms
 1 box mushrooms
 1 -- olive oil
@@ -366,21 +361,6 @@ Pesto Gnocchi
 1 -- parmesan cheese
 
 Mac n Cheese
-4 cup pasta
-1 -- egg
-4 tbsp butter
-.25 cup flour
-2.5 cup whole milk
-2 tsp dry mustard
-1 lb sharp cheddar
-1 -- salt
-1 -- seasoned salt
-.5 tsp pepper
-1 -- cayenne pepper
-1 -- paprika
-1 -- thyme
-
-Mac n Cheese (Modernist)
 265 g milk
 11 g sodium citrate
 285 g white cheddar
@@ -542,13 +522,6 @@ ATK Brownies
 3 tbsp milk
 1 tbsp vanilla extract
 
-Sous Vide Salmon
-50 g salt
-40 g sugar
-600 g salmon
-120 g olive oil
-80 g unsalted butter
-
 Fried Chicken
 .25 cup sugar
 3.5 lb chicken
@@ -694,12 +667,6 @@ Chocolate Layer Cake
 1 cup whole milk
 4 cup frosting
 
-Cream Cheese Frosting
-8 oz cream cheese
-0.5 cup butter
-3 cup powdered sugar
-1 tbsp vanilla extract
-
 One-Pot Instant Lasagna
 1 lb ground beef
 16 oz pasta
@@ -779,23 +746,6 @@ Cheesy Panko-Crusted Chicken
 1 -- mustard powder
 1 -- smoked paprika
 1 -- cayenne pepper
-
-Red Beans and Rice
-1 -- basmati rice
-1 tbsp vegetable oil
-12.8 oz smoked andouille sausage
-1 -- medium sweet onion
-1 -- green bell pepper
-2 -- celery
-2 tbsp tomato paste
-3 clove garlic
-1.5 tsp cajun seasoning
-45 oz canned red beans
-3 cups chicken stock
-1 -- oregano
-1 -- thyme
-1 -- salt
-1 -- pepper
 
 Instant Pot Pork
 1 lb pork shoulder
@@ -1069,20 +1019,6 @@ Chicken Lo Mein
 1 tsp sugar
 0.5 tsp sesame oil
 
-Red Curry Soup with Noodles
-8 oz rice noodles
-1 lb chicken breast
-2 tbsp Asian fish sauce
-2 tbsp vegetable oil
-1 -- onion
-2 cloves garlic
-3 tbsp red curry paste
-0.5 tsp turmeric
-0.5 tsp ground coriander
-0.75 tsp salt
-28 oz unsweetened coconut milk
-2 cups chicken broth
-
 Chicken Pot Pie
 0.25 cups butter
 1 -- onion
@@ -1100,21 +1036,6 @@ Chicken Pot Pie
 1 -- biscuits
 1 -- egg yolk, beaten
 1 tbsp water
-
-Asian Short Rib Noodle Bowl
-# Instant pot book
-0.75 cup soy sauce
-3 cups beef broth
-3 tbsp sugar
-1 tsp salt
-3 tbsp garlic
-2 tbsp ginger
-2 tbsp sesame oil
-3 tbsp green onion
-0.5 tsp crushed red pepper
-5 lb beef short ribs (8 ribs)
-2 cups snap peas
-14.2 oz udon stir-fry noodles
 
 Beef Stew
 # https://www.thekitchn.com/instant-pot-beef-stew-22949287
@@ -1145,7 +1066,6 @@ Shredded Pork with Bean Curd
 3 tbsp oil
 1 tsp garlic
 1 -- carrot
-0.5 cup red bell pepper
 8 oz dried bean curd
 3 -- green onion
 1 tsp sesame oil
@@ -1318,19 +1238,6 @@ Hiyashi Chuka Ramen
 6 oz green beans
 1 tsp furikake
 
-Salmon and Orzo
-# https://www.blueapron.com/recipes/crispy-skin-salmon-with-salsa-verde-farro-salad-3
-4 -- salmon
-12 oz ozro
-2 clove garlic
-1 -- red onion
-2 -- zucchini
-1 -- lemon
-.33 cup salsa verde
-3 tbsp golden raisins
-1 oz green olive
-.25 tsp red pepper flakes
-
 Gumbo
 # Instant Pot book pg 215
 1 tbsp vegetable oil
@@ -1350,17 +1257,6 @@ Gumbo
 1 lb shrimp
 2 cups frozen okra
 4 cups rice
-
-Spicy Dragon Noodles
-# https://www.budgetbytes.com/spicy-noodles/
-1 -- ramen noodles
-2 tbsp butter
-0.75 tsp crushed red pepper
-3 -- eggs
-3 tbsp brown sugar
-3 tbsp soy sauce
-3 tbsp Sriracha
-1 -- green onion
 
 Pastalaya
 # https://www.budgetbytes.com/pastalaya/
@@ -1447,4 +1343,41 @@ Cajun Clam Chowder
 1 lb Idaho potatoes
 1 tsp hot sauce
 0.75 tsp cajun seasoning
+
+Egg Salad Sandwich
+# https://www.tasteofhome.com/recipes/curried-egg-salad/
+0.33 cup mayo
+0.33 tsp curry powder
+0.33 tsp honey
+4 -- eggs
+1 -- green onion
+1 -- tomato
+
+Bacon Avocado Salad
+# https://www.tasteofhome.com/recipes/bacon-avocado-salad/
+0.75 cup olive oil
+0.25 cup red wine vinegar
+4 tsp sugar
+2 cloves garlic
+1 tsp salt
+1 tsp mustard
+1 -- romaine lettuce
+1 lb bacon
+3 -- tomato
+1 -- red onion
+3 -- avocado
+1 cup feta cheese
+
+Beef Noodle Soup
+1 lb beef shank
+10 cloves garlic
+2 -- green onion
+1 -- onion
+3 tbsp rice wine
+3 tbsp soy sauce
+1 tbsp sugar
+2 -- star anise
+2 -- bay leaves
+2 tbsp doubanjiang
+1 -- noodles
 END

@@ -1187,7 +1187,7 @@ Meatballs
 
 One-Pot Chicken & Rice
 # Instant pot book
-1.5 lb skinless, boneless chicken thighs
+1.5 lb skinless boneless chicken thighs
 3 tbsp dark soy sauce
 3 tbsp low-sodium soy sauce
 1 tsp rice vinegar
@@ -1218,7 +1218,7 @@ Cumin Beef
 
 Orange Chicken
 # https://dinnerthendessert.com/panda-express-orange-chicken-copycat/
-2 lb chicken thighs, boneless
+2 lb boneless chicken thighs
 1 -- egg
 1.5 tsp salt
 1 -- black pepper
@@ -1321,7 +1321,7 @@ Hiyashi Chuka Ramen
 Salmon and Orzo
 # https://www.blueapron.com/recipes/crispy-skin-salmon-with-salsa-verde-farro-salad-3
 4 -- salmon
-12 oz ozro
+12 oz orzo
 2 clove garlic
 1 -- red onion
 2 -- zucchini
@@ -1413,6 +1413,15 @@ Green Bean Casserole
 Mashed Potatoes
 2 -- potatoes
 1 -- gravy
+
+Kabob Club Sandwiches
+# https://brazibites.com/recipes/kabob-club-sandwhiches/
+1 bag brazi bites
+5 slice cheese
+5 slice deli meat
+5 leaves lettuce
+14 -- cherry tomato
+1 -- honey mustard
 
 Ants Climbing a Tree
 1 -- bean noodle

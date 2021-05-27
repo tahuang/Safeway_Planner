@@ -877,6 +877,7 @@ Hot Pot
 1 -- mung bean noodles
 
 Chocolate Souffle
+# https://www.allrecipes.com/recipe/257193/chef-johns-chocolate-souffle/
 4 tsp butter
 3 tbsp white sugar
 2 oz 70% dark chocolate
@@ -1416,4 +1417,37 @@ Cajun Shrimp Pasta
 1 tbsp butter
 1 cup heavy cream
 0.5 cup parmesan
+
+Lox Bagel
+# https://www.thespruceeats.com/open-face-smoked-salmon-bagel-101094
+1 bag bagels
+6 oz cream cheese
+3 tbsp capers
+6 oz smoked salmon
+0.33 cup red onion
+1 -- pepper
+1 -- lemon
+1 -- cucumber
+
+Huevos Rancheros
+# https://cookieandkate.com/huevos-rancheros-recipe/
+2 -- tomatoes
+6 tsp olive oil
+1 -- lime
+1 -- onion
+1 tsp cumin
+1 can pinto beans
+1.5 cup salsa
+4 -- eggs
+4 -- corn tortillas
+1 -- sour cream
+
+Chili Verde Pork
+# https://www.tasteofhome.com/recipes/easy-chili-verde/
+4 lb pork shoulder roast
+3 cans green enchilada sauce
+1 cup salsa verde
+1 can chopped green chiles
+0.5 tsp salt
+1 -- sour cream
 END

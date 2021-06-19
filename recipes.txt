@@ -609,19 +609,6 @@ Burger
 1 -- pepper
 1 tbsp butter
 
-Pepper Cheesesteak
-10 oz steak
-1 -- bell pepper
-1.75 oz provolone cheese
-1 -- egg
-.5 cup sugar
-.33 cup white vinegar
-4.5 tsp dry mustard
-1.5 oz yellow onion
-8.75 butternut squash
-2 tsp cajun seasoning
-1 tbsp butter
-
 Palak Paneer
 # https://www.allrecipes.com/recipe/256164/easy-palak-paneer/
 2 tbsp olive oil
@@ -729,43 +716,12 @@ Honey-Mustard Pork Chops
 2 tbsp walnuts
 0.5 tsp red pepper flakes 
 
-Cheesy Panko-Crusted Chicken
-2 -- chicken breast
-0.75 lb golden potatoes
-2 -- cucumbers
-3 oz radish
-2 clove garlic
-1 tbsp creamy mustard
-.25 cup panko
-2 tbsp rice vinegar
-0.5 cup plain nonfat greek yogurt
-1 tbsp sugar
-.25 cup parmesan
-1 -- onion powder
-1 -- garlic powder
-1 -- mustard powder
-1 -- smoked paprika
-1 -- cayenne pepper
-
 Instant Pot Pork
 1 lb pork shoulder
 8 -- egg
 3 clove garlic
 0.5 bag baby carrot
 2 tbsp soy sauce
-
-Bean and Mushroom Stew
-30 oz christmas lima beans
-0.5 cup olive oil
-1 -- onion
-8 clove garlic
-12 oz portobello mushrooms
-16 oz shiitake mushrooms
-6 sprig thyme
-56 oz plum tomatoes in puree
-1 cup red wine
-2 tsp salt
-1 tsp pepper
 
 Irish Nachos
 1 bag fries
@@ -1056,23 +1012,6 @@ Beef Stew
 1 tbsp water
 0.75 cup peas
 
-Shredded Pork with Bean Curd
-# https://thewoksoflife.com/five-spice-tofu-pork/
-8 oz pork shoulder or pork loin
-1.5 tsp cornstarch
-3 tbsp water
-0.25 tsp sugar
-2 tsp sherry
-1.5 tbsp soy sauce
-3 tbsp oil
-1 tsp garlic
-1 -- carrot
-8 oz dried bean curd
-3 -- green onion
-1 tsp sesame oil
-1 tbsp water
-1 -- salt
-
 Mushroom and Spinach Risotto
 # Instant pot book
 2 tbsp olive oil
@@ -1330,21 +1269,6 @@ Sushi Bake
 3 tbsp sushi vinegar
 1 -- seaweed
 
-Cajun Clam Chowder
-# https://grandbaby-cakes.com/cajun-clam-chowder/
-2 tbsp butter
-1 -- onion
-1 -- bell pepper
-1 -- sausage
-1 tbsp minced garlic
-3 tbsp all-purpose flour
-2 cups seafood stock
-18 oz canned clams
-1 cup whole milk
-1 lb Idaho potatoes
-1 tsp hot sauce
-0.75 tsp cajun seasoning
-
 Egg Salad Sandwich
 # https://www.tasteofhome.com/recipes/curried-egg-salad/
 0.33 cup mayo
@@ -1442,12 +1366,44 @@ Huevos Rancheros
 4 -- corn tortillas
 1 -- sour cream
 
-Chili Verde Pork
-# https://www.tasteofhome.com/recipes/easy-chili-verde/
-4 lb pork shoulder roast
-3 cans green enchilada sauce
-1 cup salsa verde
-1 can chopped green chiles
-0.5 tsp salt
-1 -- sour cream
+Sheet Pan Salmon and Noodles
+# https://thefoodcharlatan.com/sheet-pan-asian-salmon-broccoli-recipe/
+0.25 cup rice vinegar
+1 tbsp cornstarch
+1 tbsp brown sugar
+6 tbsp soy sauce
+1 tbsp sesame oil
+1 tsp Sriracha
+0.5 tsp crushed red pepper
+1 tbsp minced garlic
+1 -- broccoli
+1 -- carrots
+1 tsp salt
+1 lb salmon
+1 tsp salt
+1 -- rice noodles
+1 -- green onion
+
+Kale and Apple Salad
+# https://www.foodnetwork.com/recipes/food-network-kitchen/pan-seared-salmon-with-kale-and-apple-salad-recipe-3361718
+3 tbsp lemon juice
+2 tbsp olive oil
+0.25 tsp salt
+1 -- kale
+0.25 cup dates
+1 -- apple
+1 -- pepper
+0.25 cup parmesan
+
+Seafood Risotto
+4 cups chicken broth
+8 oz clam juice
+2 tsp butter
+0.25 cup shallots
+1.5 cup rice
+0.125 tsp saffron
+1 tbsp lemon juice
+8 oz shrimp
+8 oz bay scallops
+2 tbsp whipping cream
 END

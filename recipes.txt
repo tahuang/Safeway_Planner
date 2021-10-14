@@ -97,15 +97,8 @@ Fried Eggs
 1 -- pepper
 
 Fish and Chips
-#0.5 bottle vegetable oil
 0.5 bag frozen fries
-#2 cups rice flour
-#1 tbsp baking powder
-#1 tsp salt
-#0.5 tsp pepper
-#1 -- egg
-#12 oz soda water
-#0.5 cup rice flour
+1 -- fish and chips flour
 16 oz cod
 1 -- tartar sauce
 
@@ -251,13 +244,13 @@ Lentil Bean Soup
 2 -- stewed tomatoes
 0.67 cup lentils
 0.67 cup garbanzo beans
-0.67 cup lima beans
 4 lb baby ribs
 14 oz sausage
 2 tsp chili powder
 1 cup carrots
 1 cup potatoes
 2 cup rice
+1 -- kale
 
 Ribs
 1 -- bbq sauce
@@ -297,7 +290,7 @@ Carbonara
 4 oz bacon
 1 cup frozen peas
 4 -- garlic
-2 -- eggs
+3 -- eggs
 1 -- pepper
 1 -- salt
 1 cup parmesan
@@ -347,12 +340,6 @@ Brownies
 0.5 tsp xanthan gum
 0.5 tsp salt
 2 cup semisweet chocolate chunks
-
-Pesto and Feta Mushrooms
-1 box mushrooms
-1 -- olive oil
-1 -- feta cheese
-1 -- pesto
 
 Pesto Gnocchi
 1 -- pesto
@@ -773,18 +760,6 @@ Paella (Chicken)
 0.5 cup peas
 1 -- lemon
 
-Chicken Chow Mein
-1 lb noodles
-1 lb chicken breasts
-2 tbsp vegetable oil
-3 cups cabbage
-1.5 cups carrots
-2 clove garlic
-4 tbsp soy sauce
-1 tbsp oyster sauce
-1 tbsp granulated sugar
-1.5 tsp sesame oil
-
 Chicken Pho
 1 tbsp vegetable oil
 6 -- bone-in chicken thighs
@@ -960,12 +935,10 @@ Butter Chicken Instant Pot
 Chicken Lo Mein
 # https://iowagirleats.com/gluten-free-chicken-lo-mein/
 2 breast chicken
-1 tbsp tamari
 2 tsp cornstarch
 1 -- white pepper
 8 oz pasta
 4 cup broccoli
-2 cup coleslaw
 3 -- green onion
 2 clove garlic
 0.25 cup tamari
@@ -1044,20 +1017,6 @@ Meatballs
 0.25 tsp crushed red pepper
 28 oz crushed tomatoes
 8 oz tomato sauce
-
-One-Pot Chicken & Rice
-# Instant pot book
-1.5 lb skinless, boneless chicken thighs
-3 tbsp dark soy sauce
-3 tbsp low-sodium soy sauce
-1 tsp rice vinegar
-0.25 tsp five-spice powder
-1 tsp sesame oil
-2 tsp vegetable oil
-1.5 cup rice
-3 cups chicken broth
-8 oz cremini mushrooms
-1 -- green onions
 
 Cumin Beef
 # http://appetiteforchina.com/recipes/spicy-hunan-beef-with-cumin
@@ -1145,23 +1104,6 @@ Braised Pork
 1 cup water
 1 -- white pepper
 4 -- eggs
-
-Greek Salad
-# https://www.cookingclassy.com/greek-salad/
-6 tbsp olive oil
-1.5 tbsp lemon juice
-1 tbsp red wine vinegar
-1.5 tsp garlic
-1.5 tbsp parsley
-1 tsp oregano
-0.75 tsp honey
-1 -- salt
-4 -- tomatoes
-1 -- cucumber
-0.5 -- red onion
-0.75 cup olives
-4 oz feta cheese
-1 -- avocado
 
 Hiyashi Chuka Ramen
 # https://www.blueapron.com/recipes/hiyashi-chuka-ramen-with-tomatoes-green-beans-soft-boiled-eggs-3
@@ -1331,17 +1273,6 @@ Sausage Kale Soup
 8 cups chicken broth
 2 lb kale
 
-Cajun Shrimp Pasta
-# https://selfproclaimedfoodie.com/cajun-shrimp-pasta/
-1 tbsp salt
-8 oz penne
-1 lb shrimp
-2 tbsp cajun seasoning
-1 tbsp olive oil
-1 tbsp butter
-1 cup heavy cream
-0.5 cup parmesan
-
 Lox Bagel
 # https://www.thespruceeats.com/open-face-smoked-salmon-bagel-101094
 1 bag bagels
@@ -1350,52 +1281,10 @@ Lox Bagel
 6 oz smoked salmon
 0.33 cup red onion
 1 -- pepper
-1 -- lemon
 1 -- cucumber
 
-Huevos Rancheros
-# https://cookieandkate.com/huevos-rancheros-recipe/
-2 -- tomatoes
-6 tsp olive oil
-1 -- lime
-1 -- onion
-1 tsp cumin
-1 can pinto beans
-1.5 cup salsa
-4 -- eggs
-4 -- corn tortillas
-1 -- sour cream
-
-Sheet Pan Salmon and Noodles
-# https://thefoodcharlatan.com/sheet-pan-asian-salmon-broccoli-recipe/
-0.25 cup rice vinegar
-1 tbsp cornstarch
-1 tbsp brown sugar
-6 tbsp soy sauce
-1 tbsp sesame oil
-1 tsp Sriracha
-0.5 tsp crushed red pepper
-1 tbsp minced garlic
-1 -- broccoli
-1 -- carrots
-1 tsp salt
-1 lb salmon
-1 tsp salt
-1 -- rice noodles
-1 -- green onion
-
-Kale and Apple Salad
-# https://www.foodnetwork.com/recipes/food-network-kitchen/pan-seared-salmon-with-kale-and-apple-salad-recipe-3361718
-3 tbsp lemon juice
-2 tbsp olive oil
-0.25 tsp salt
-1 -- kale
-0.25 cup dates
-1 -- apple
-1 -- pepper
-0.25 cup parmesan
-
 Seafood Risotto
+# https://www.myrecipes.com/recipe/seafood-risotto-1
 4 cups chicken broth
 8 oz clam juice
 2 tsp butter
@@ -1406,4 +1295,40 @@ Seafood Risotto
 8 oz shrimp
 8 oz bay scallops
 2 tbsp whipping cream
+
+Chicken Noodle Soup
+# https://damndelicious.net/2020/01/25/homestyle-chicken-noodle-soup/
+1 -- onion
+2 -- carrots
+2 -- celery
+3 cloves garlic
+8 cups chicken broth
+2 -- bay leaves
+2.5 lb bone-in, skinless chicken breast
+2.5 cups pasta
+2 tbsp parsley
+2 tbsp dill
+
+Broccoli Salad
+# https://downshiftology.com/recipes/broccoli-salad/
+1 -- broccoli
+8 slices bacon
+0.33 cup red onion
+0.5 cup dried cranberries
+0.5 cup sunflower seeds
+0.5 cup mayo
+0.25 cup yogurt
+
+Chickpea Curry
+# https://www.acouplecooks.com/weeknight-chickpea-curry/
+1 -- onion
+1 -- garlic
+1 tbsp olive oil
+6 cups spinach
+28 oz fire roasted tomatoes
+1 tbsp curry powder
+1 tsp cumin
+0.5 tsp coriander
+30 oz chickpeas
+0.5 cup coconut milk
 END

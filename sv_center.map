@@ -9,11 +9,19 @@ jelly, 0.9
 feta cheese, 0.9
 bars, 2.9
 popcorn, 3.5
+chips, 3.5
 corn syrup, 5.9
 sugar, 5.9
+baking soda, 5.9
 brown sugar, 5.9
+star anise, 5.9
+bay leaves, 5.9
+crushed red pepper, 5.9
+cajun seasoning, 5.9
+crumbled rice chex, 5.5
 chocolate syrup, 6.4
 vegetable oil, 6.7
+oil, 6.7
 olive oil, 6.7
 white pepper, 6.9
 salt, 6.9
@@ -30,13 +38,18 @@ curry powder, 6.9
 thyme, 6.9
 pimenton, 6.9
 saffron, 6.9
+black pepper, 6.9
 red pepper flakes, 6.9
 Sichuan chili powder, 6.9
 Sichuan peppercorns, 6.9
+furikake, 6.9
+five-spice powder, 5.9
+smoked paprika, 5.9
 dates, 6.99
 milk, 9.99
 buttermilk, 9.99
 heavy whipping cream, 9.99
+cream, 9.99
 frozen pizza, 9.1
 english muffin, 9.9
 frozen fries, 10.5
@@ -44,6 +57,7 @@ fries, 10.5
 green beans, 10.6
 frozen peas, 10.6
 frozen okra, 10.6
+frozen fruit, 10.6
 peas, 10.6
 edamame, 10.6
 vanilla ice cream, 10.8
@@ -62,6 +76,7 @@ cheddar cheese, 11.3
 shredded cheddar, 11.3
 ricotta cheese, 11.5
 plain Greek yogurt, 11.5
+yogurt, 11.5
 pepperoni, 11.5
 sour cream, 11.5
 cream cheese, 11.6
@@ -71,6 +86,7 @@ egg, 11.9
 eggs, 11.9
 sponges, 12.3
 shampoo, 13.2
+floss, 13.9
 toilet paper, 14.2
 paper towels, 14.6
 garbanzo beans, 15.3
@@ -86,6 +102,10 @@ chicken/spam, 16.5
 olives, 16.5
 tuna, 16.6
 dry sherry, 16.7
+sherry, 16.7
+white vinegar, 16.7
+rice vinegar, 16.7
+rice wine, 16.7
 Worchestershire sauce, 16.9
 barbecue sauce, 16.9
 tortillas, 16.9
@@ -100,6 +120,7 @@ pesto, 17.4
 alfredo, 17.4
 rice, 17.5
 bomba rice, 17.5
+Arborio rice, 17.5
 gravy, 17.6
 crushed tomatoes, 17.9
 tomato sauce, 17.9
@@ -109,8 +130,11 @@ stewed tomatoes, 17.9
 diced tomatoes, 17.9
 crushed tomatoes, 17.9
 soy sauce, 18.1
+sesame oil, 18.1
 salsa, 18.3
 salsa verde, 18.3
+coconut milk, 18.2
+butter chicken sauce, 18.6
 pork shoulder, 18.99
 ground beef, 18.99
 ground pork, 18.99
@@ -122,27 +146,34 @@ chicken thighs or sausage, 18.99
 chicken thigh, 18.99
 sausage, 18.99
 chicken thighs, 18.99
+chicken thighs boneless, 18.99
 chicken breast, 18.99
 chicken wings, 18.99
 chicken breasts, 18.99
 chicken, 18.99
 flank steak, 18.99
 steak, 18.99
+smoked salmon, 18.99
 arugula, 19.4
 microwavable pork, 19.5
 spinach, 100
 
 @Sprouts
+flour, 50
+ponzu sauce, 50
 oyster sauce, 50
 tartar sauce, 50
 cornstarch, 50
 cereal, 50
 ramen noodles, 50
 bagel, 50
+bagels, 50
 tofu, 50
 graham crackers, 50
 brazi bites, 50
-farro, 50
+orzo, 50
+fish sauce, 50
+ramen, 50
 bread, 100
 shallots, 100
 chilis, 100
@@ -155,8 +186,10 @@ bell peppers, 100
 large shallots, 100
 jalapeno peppers, 100
 cucumbers, 100
+cauliflower, 100
 onion, 100
 tomato, 100
+tomatoes, 100
 orange, 100
 paneer, 100
 scallions, 100
@@ -167,6 +200,7 @@ bell pepper, 100
 yellow onion, 100
 red bell pepper, 100
 green bell pepper, 100
+green onion, 100
 lemon, 100
 cabbage, 100
 carrots, 100

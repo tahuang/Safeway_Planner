@@ -97,7 +97,7 @@ Fried Eggs
 1 -- pepper
 
 Fish and Chips
-#0.5 bottle vegetable oil
+0.5 bottle vegetable oil
 0.5 bag frozen fries
 #2 cups rice flour
 #1 tbsp baking powder

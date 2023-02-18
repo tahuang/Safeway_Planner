@@ -994,7 +994,7 @@ Mushroom and Spinach Risotto
 
 Meatballs
 # Instant pot book
-1 egg
+1 -- egg
 0.25 cup bread crumbs
 0.25 cup Parmesan cheese
 2 tbsp milk
@@ -1014,7 +1014,7 @@ Cumin Beef
 # http://appetiteforchina.com/recipes/spicy-hunan-beef-with-cumin
 3 tsp water
 0.25 tsp baking soda
-1 lb flank steak
+1 lb ribeye steak
 4 cloves minced garlic
 3 tsp cumin
 2 tsp Sichuan chili powder
@@ -1293,12 +1293,12 @@ Seafood Risotto
 2 tbsp whipping cream
 
 Chicken Noodle Soup
-# https://damndelicious.net/2020/01/25/homestyle-chicken-noodle-soup/
+# https://www.spendwithpennies.com/instant-pot-chicken-noodle-soup/
 1 -- onion
 2 -- carrots
 2 -- celery
 3 cloves garlic
-8 cups chicken broth
+6 cups chicken broth
 2 -- bay leaves
 2.5 lb bone-in, skinless chicken breast
 2.5 cups pasta
@@ -1373,4 +1373,59 @@ Five-Spice Chicken
 0.5 tsp five spice
 0.25 tsp cayenne
 4 -- green onion
+
+Enchilada Pie
+6 -- tortillas
+1 lb ground beef
+1 -- cheddar
+8 oz tomato sauce
+1 tbsp chili powder
+
+Bagel Bites
+1 bag bagels
+1 -- marinara sauce
+1 bag mozzarella cheese
+1 bag pepperoni
+
+Loco Moco
+2 -- burgers
+1 -- gravy
+1 cup rice
+1 -- green beans
+1 -- green onion
+
+GF Dumplings
+# https://www.youtube.com/watch?v=R8532mqf9es
+1 lb ground pork
+1 -- chives
+1 -- egg
+3 tbsp soy sauce
+1 tbsp oil
+100 g rice flour
+100 g tapioca starch
+100 g mashed potato
+5 -- garlic
+0.5 tbsp sesame oil
+
+Chicken Biryani
+# https://ministryofcurry.com/chicken-biryani-instant-pot/
+2 tsp garam masala
+1 tbsp minced garlic
+0.5 tsp turmeric
+0.25 cup mint leaves
+2 tbsp lemon juice
+0.75 cup yogurt
+2 lb chicken
+4 tbsp ghee
+1 -- onion
+3 cups extra long grain Basmati rice
+4 -- eggs
+
+Reuben Sandwich
+# https://www.allrecipes.com/recipe/47717/reuben-sandwich-ii/
+8 slices bread
+1 -- corned beef
+1 -- Swiss cheese
+1 cup sauerkraut
+0.5 cup Thousand Island dressing
 END

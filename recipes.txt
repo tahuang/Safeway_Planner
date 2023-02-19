@@ -97,6 +97,7 @@ Fried Eggs
 1 -- pepper
 
 Fish and Chips
+0.5 bottle vegetable oil
 0.5 bag frozen fries
 1 -- fish and chips flour
 16 oz cod
@@ -1010,6 +1011,20 @@ Meatballs
 28 oz crushed tomatoes
 8 oz tomato sauce
 
+One-Pot Chicken & Rice
+# Instant pot book
+1.5 lb skinless boneless chicken thighs
+3 tbsp dark soy sauce
+3 tbsp low-sodium soy sauce
+1 tsp rice vinegar
+0.25 tsp five-spice powder
+1 tsp sesame oil
+2 tsp vegetable oil
+1.5 cup rice
+3 cups chicken broth
+8 oz cremini mushrooms
+1 -- green onions
+
 Cumin Beef
 # http://appetiteforchina.com/recipes/spicy-hunan-beef-with-cumin
 3 tsp water
@@ -1112,6 +1127,19 @@ Hiyashi Chuka Ramen
 6 oz green beans
 1 tsp furikake
 
+Salmon and Orzo
+# https://www.blueapron.com/recipes/crispy-skin-salmon-with-salsa-verde-farro-salad-3
+4 -- salmon
+12 oz orzo
+2 clove garlic
+1 -- red onion
+2 -- zucchini
+1 -- lemon
+.33 cup salsa verde
+3 tbsp golden raisins
+1 oz green olive
+.25 tsp red pepper flakes
+
 Gumbo
 # Instant Pot book pg 215
 1 tbsp vegetable oil
@@ -1187,6 +1215,15 @@ Green Bean Casserole
 Mashed Potatoes
 2 -- potatoes
 1 -- gravy
+
+Kabob Club Sandwiches
+# https://brazibites.com/recipes/kabob-club-sandwhiches/
+1 bag brazi bites
+5 slice cheese
+5 slice deli meat
+5 leaves lettuce
+14 -- cherry tomato
+1 -- honey mustard
 
 Ants Climbing a Tree
 1 -- bean noodle

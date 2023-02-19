@@ -5,6 +5,8 @@
 # Tiffany Huang
 from __future__ import print_function
 import math
+import cv2
+import store_maps
 
 def print_shopping_route(map_file):
     full_mapping = create_item_aisle_mapping(map_file)
@@ -63,12 +65,15 @@ def create_full_route(full_mapping, items):
             item_label = ' '.join(item.split(' ')[2:])
             if item_label in store_mapping:
                 store_items.append(item)
-        create_store_route(store_mapping, store_items)
+        route = create_store_route(store_mapping, store_items)
+        #create_map_diagram(route)
+        print_store_route(route)
         print('') # effectively a new line
         
     if unknown_items != []:
         print('---- Unknown Location')
-        create_store_route({}, unknown_items)
+        route = create_store_route({}, unknown_items)
+        print_store_route(route)
 
 # Route is list of lists, where each list contains all items in the same aisle
 def create_store_route(store_mapping, items):
@@ -92,7 +97,9 @@ def create_store_route(store_mapping, items):
     # Sort items in aisle
     for aisle in route:
         aisle.sort(key=lambda tup: tup[1])
+    return route
 
+def print_store_route(route):
     if (route):
         # Flag for which side of the aisle you start from (0 - bottom of aisle near entrance to Safeway,
         # 1 - top of aisle far from entrance to Safeway)
@@ -105,7 +112,7 @@ def create_store_route(store_mapping, items):
                 aisle_name = "Produce"
             elif (curr_aisle == 200):
                 aisle_name = "Meat"
-            elif (curr_aisle == num_aisles + 1):
+            elif (curr_aisle == 301):
                 aisle_name = "Unknown"
             print(aisle_name + " : ", end="")
             for item in aisle:
@@ -129,6 +136,12 @@ def create_store_route(store_mapping, items):
                     route[idx+1].reverse()
     else:
         print("No items for this location.")
+
+def create_map_diagram(route):
+    # Create a white image
+    img = np.zeros((0,0,3), np.uint8)
+    # Draw a diagonal blue line with thickness of 5 px
+    cv.rectangle(img,(384,0),(510,128),(0,255,0),3)
 
 if __name__ == '__main__':
     

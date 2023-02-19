@@ -1004,7 +1004,6 @@ Meatballs
 28 oz crushed tomatoes
 8 oz tomato sauce
 
-<<<<<<< HEAD
 One-Pot Chicken & Rice
 # Instant pot book
 1.5 lb skinless boneless chicken thighs
@@ -1019,8 +1018,6 @@ One-Pot Chicken & Rice
 8 oz cremini mushrooms
 1 -- green onions
 
-=======
->>>>>>> 51b59acca3077ee33b44e0b3d267af2a87dd8fd4
 Cumin Beef
 # http://appetiteforchina.com/recipes/spicy-hunan-beef-with-cumin
 3 tsp water
@@ -1123,7 +1120,6 @@ Hiyashi Chuka Ramen
 6 oz green beans
 1 tsp furikake
 
-<<<<<<< HEAD
 Salmon and Orzo
 # https://www.blueapron.com/recipes/crispy-skin-salmon-with-salsa-verde-farro-salad-3
 4 -- salmon
@@ -1137,8 +1133,6 @@ Salmon and Orzo
 1 oz green olive
 .25 tsp red pepper flakes
 
-=======
->>>>>>> 51b59acca3077ee33b44e0b3d267af2a87dd8fd4
 Gumbo
 # Instant Pot book pg 215
 1 tbsp vegetable oil
@@ -1423,4 +1417,17 @@ Reuben Sandwich
 1 -- Swiss cheese
 1 cup sauerkraut
 0.5 cup Thousand Island dressing
+
+Sesame Noodles
+4 -- eggs
+1 -- green onion
+1 -- ramen noodles
+1 -- sesame sauce
+1 -- vegetable
+
+Steamed Sea Bass
+1 -- striped sea bass
+1 -- ginger
+1 -- sherry
+1 -- soy sauce
 END

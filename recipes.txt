@@ -111,6 +111,13 @@ Bacon Brussel Penne
 0.5 tsp pepper
 2 -- shallots
 
+Brussel Sprouts
+1 lb brussel sprouts
+6 tbsp olive oil
+1 -- salt
+1 -- pepper
+1 tbsp balsamic vinegar
+
 Basic Cereal
 2 cup milk
 2 cup cereal
@@ -847,7 +854,7 @@ Bulgogi Fries
 1 lb boneless rib eye steak
 2 tbsp vegetable oil
 1 cup kimchi
-0.5 cup mayo
+0.5 cup kewpie mayo
 3 tbsp Sriracha
 1 -- fries
 1 -- cheddar cheese
@@ -874,7 +881,7 @@ Burrito Bowl
 
 Korean Fried Chicken
 3 lb chicken
-2 tbsp rice wine
+2 tbsp sherry
 1 tsp salt
 0.5 tsp black pepper
 1 cup corn starch
@@ -1037,14 +1044,14 @@ Cumin Beef
 
 Orange Chicken
 # https://dinnerthendessert.com/panda-express-orange-chicken-copycat/
-2 lb boneless chicken thighs
+2 lb chicken thighs boneless
 1 -- egg
 1.5 tsp salt
 1 -- black pepper
 2 tbsp oil
 0.5 cup cornstarch
 0.25 cup flour
-2 tbsp rice wine
+2 tbsp sherry
 1 tsp sesame oil
 3 tbsp soy sauce
 10 tbsp sugar
@@ -1091,7 +1098,7 @@ Basil Pork
 1 -- salt
 1 -- pepper
 1 -- basil
-1 tbsp rice wine
+1 tbsp sherry
 
 Braised Pork
 # https://www.youtube.com/watch?v=bZHobtxSC4E
@@ -1199,6 +1206,11 @@ Green Bean Casserole
 2 cans green beans
 1 can cream of mushroom
 1 cup cheese
+0.5 cup milk
+1 tsp soy sauce
+0.5 tsp black pepper
+0.25 salt
+1.5 cup fried onions
 
 Mashed Potatoes
 2 -- potatoes
@@ -1261,13 +1273,13 @@ Beef Noodle Soup
 10 cloves garlic
 2 -- green onion
 1 -- onion
-3 tbsp rice wine
+3 tbsp sherry
 3 tbsp soy sauce
 1 tbsp sugar
 2 -- star anise
 2 -- bay leaves
 2 tbsp doubanjiang
-1 -- noodles
+1 -- ramen
 
 Pad Kee Mao
 # https://www.recipetineats.com/pad-kee-mao-thai-drunken-noodles/
@@ -1353,10 +1365,46 @@ Chickpea Curry
 30 oz chickpeas
 0.5 cup coconut milk
 
+Lamb Rack
+10 clove garlic
+0.25 cup olive oil
+1 cup parsley
+2 cup rosemary
+0.5 tsp red pepper flakes
+2 rack lamb
+1 -- salt
+1 -- pepper
+
+Korean Green Onion Pancakes
+1 cup white rice flour
+1 tsp salt
+.5 tsp paprika
+1 -- cayenne pepper
+2 -- egg
+6 -- green onion
+0.25 cup red bell pepper
+1 -- jalapeno
+1.5 tbsp vegetable oil
+0.25 cup soy sauce
+3 tbsp unseasoned rice vinegar
+1.5 tsp sugar
+1 tsp toasted sesame oil
+1 -- red pepper flakes
+
+Galbijimm
+0.33 cup soy sauce
+0.5 cup sherry
+0.25 cup brown sugar
+0.5 tsp black pepper
+8 cloves garlic
+1 -- korean radish
+2 -- carrot
+2 lb short ribs
+
 Five-Spice Chicken
 8 -- bone-in, skin-on chicken thighs
 0.25 cup soy sauce
-0.25 cup rice wine
+0.25 cup sherry
 1 tsp sesame oil
 4 cloves garlic
 0.5 tsp five spice

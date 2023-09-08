@@ -29,30 +29,6 @@ Pizza Potatoes
 1 handful parmesan
 1 handful oregano
 
-Bacon Ranch Chicken Bake
-4 breast chicken
-1 -- salt
-1 -- pepper
-8 tbsp ranch dressing
-8 slice bacon
-4 oz cheddar cheese
-
-Pesto Chicken Bake
-4 breast chicken
-1 -- salt
-1 -- pepper
-6 tbsp pesto
-2 -- tomato
-2 cup mozzarella cheese
-
-Alfredo Chicken Bake
-48 oz alfredo sauce
-4 breast chicken
-1 -- salt
-1 -- pepper
-1 lb broccoli
-1 cup permesan cheese
-
 Simple Sandwich
 2 slice bread
 3 slice deli meat
@@ -117,10 +93,6 @@ Brussel Sprouts
 1 -- salt
 1 -- pepper
 1 tbsp balsamic vinegar
-
-Basic Cereal
-2 cup milk
-2 cup cereal
 
 Nachos (Extreme)
 0.75 lb ground beef
@@ -262,12 +234,22 @@ Ribs
 4 lb baby ribs
 
 Curry (Japanese)
-2 -- curry blocks
+# https://laulimakitchen.com/?p=1147
 1 cup carrots
-1 cup potatoes
+1 -- onion
+3 -- Yukon gold potatoes
 1 lb chicken
+2 clove garlic
+1 -- apple
+1 tbsp soy sauce
+1 tbsp ketchup
+3 tbsp unsalted butter
+4 cup chicken broth
 1 cup bell peppers
 2 cup rice
+0.25 cup all purpose flour
+1 tbsp S&B curry powder
+1 tbsp garam masala
 
 Butter Chicken
 1 -- butter chicken sauce
@@ -466,19 +448,6 @@ Macaroni Cheese Cups
 1 -- pepper
 24 -- brazi bites
 
-Chili
-# https://www.allrecipes.com/recipe/13423/my-chili/
-# Adjust pressure cooking time to 15 min 
-2 lb ground beef
-2 -- onion
-4 clove garlic
-2 tbsp taco seasoning
-2 tsp salt
-2 tsp oregano
-4 14.5_oz_can stewed tomatoes 
-1 15_oz_can tomato sauce
-1 15_oz_can kidney beans
-
 Beef Chili
 # Instant Pot Book recipe
 1.5 lb ground beef
@@ -575,22 +544,6 @@ Mongolian Beef
 0.5 cup brown sugar
 3 cloves garlic
 1 -- green onions
-
-Curry (Indian Chicken)
-1 tbsp vegetable oil
-6 cup yellow onions
-2 -- tomatoes
-2 clove garlic
-2 tbsp ginger
-2 tsp salt
-1 tbsp curry powder
-2 tsp paprika
-2 tsp garam masala
-1 -- bay leaf
-0.5 cup light coconut milk
-0.33 cup cashews
-3 -- bell pepper
-1 lb chicken breast
 
 Burger
 # sous vide
@@ -827,6 +780,16 @@ Eggplant Parmesan
 1.5 lb eggplant
 0.5 cup vegetable oil
 
+Eggplant Parmesan (No Fry)
+# https://scarlatifamilykitchen.com/no-fry-eggplant-parmesan/
+1 -- eggplant
+2 cups panko breadcrumbs
+1 tbsp garlic powder
+2 -- eggs
+2.5 cup marinara sauce
+2 cup mozzarella cheese
+0.5 cup parmesan cheese
+
 Baked Potato
 1 -- potato
 0.5 lb chicken breast
@@ -931,7 +894,7 @@ Chicken Lo Mein
 2 breast chicken
 2 tsp cornstarch
 1 -- white pepper
-8 oz pasta
+8 oz spaghetti
 1 -- green beans
 1 -- green onion
 2 clove garlic
@@ -958,7 +921,6 @@ Chicken Pot Pie
 3 cups chicken
 1 -- biscuits
 1 -- egg yolk, beaten
-1 tbsp water
 
 Beef Stew
 # https://www.thekitchn.com/instant-pot-beef-stew-22949287
@@ -972,10 +934,8 @@ Beef Stew
 3 -- Yukon gold potatoes
 1 tbsp tomato paste
 1 tsp thyme
-0.5 cup beef broth
 2 tbsp Worcestershire sauce
 1 tbsp cornstarch
-1 tbsp water
 0.75 cup peas
 
 Mushroom and Spinach Risotto
@@ -1027,7 +987,6 @@ One-Pot Chicken & Rice
 
 Cumin Beef
 # http://appetiteforchina.com/recipes/spicy-hunan-beef-with-cumin
-3 tsp water
 0.25 tsp baking soda
 1 lb ribeye steak
 4 cloves minced garlic
@@ -1092,7 +1051,6 @@ Basil Pork
 2 -- tomatoes
 1 tbsp soy sauce
 1 tbsp fish sauce
-1 tbsp water
 1 -- sugar
 0.5 tbsp lime juice
 1 -- salt
@@ -1108,7 +1066,6 @@ Braised Pork
 1 -- green onion
 2 tbsp sugar
 0.5 cup soy sauce
-1 cup water
 1 -- white pepper
 4 -- eggs
 
@@ -1126,19 +1083,6 @@ Hiyashi Chuka Ramen
 1 tbsp rice vinegar
 6 oz green beans
 1 tsp furikake
-
-Salmon and Orzo
-# https://www.blueapron.com/recipes/crispy-skin-salmon-with-salsa-verde-farro-salad-3
-4 -- salmon
-12 oz orzo
-2 clove garlic
-1 -- red onion
-2 -- zucchini
-1 -- lemon
-.33 cup salsa verde
-3 tbsp golden raisins
-1 oz green olive
-.25 tsp red pepper flakes
 
 Gumbo
 # Instant Pot book pg 215
@@ -1295,7 +1239,6 @@ Pad Kee Mao
 3 tbsp oyster sauce
 3 tbsp soy sauce
 2 tsp sugar
-1 tbsp water
 
 Sausage Kale Soup
 # https://www.youtube.com/watch?v=MB5LAU5z9gk
@@ -1335,7 +1278,7 @@ Chicken Noodle Soup
 2 -- carrots
 2 -- celery
 3 cloves garlic
-6 cups chicken broth
+4 cups chicken broth
 2 -- bay leaves
 2.5 lb bone-in, skinless chicken breast
 2.5 cups pasta
@@ -1392,6 +1335,7 @@ Korean Green Onion Pancakes
 1 -- red pepper flakes
 
 Galbijimm
+# https://mykoreankitchen.com/instant-pot-short-ribs/
 0.33 cup soy sauce
 0.5 cup sherry
 0.25 cup brown sugar
@@ -1400,6 +1344,7 @@ Galbijimm
 1 -- korean radish
 2 -- carrot
 2 lb short ribs
+1 -- mozzarella cheese
 
 Five-Spice Chicken
 8 -- bone-in, skin-on chicken thighs
@@ -1410,13 +1355,6 @@ Five-Spice Chicken
 0.5 tsp five spice
 0.25 tsp cayenne
 4 -- green onion
-
-Enchilada Pie
-6 -- tortillas
-1 lb ground beef
-1 -- cheddar
-8 oz tomato sauce
-1 tbsp chili powder
 
 Bagel Bites
 1 bag bagels
@@ -1478,4 +1416,108 @@ Steamed Sea Bass
 1 -- ginger
 1 -- sherry
 1 -- soy sauce
+
+Chicken Potato
+2 tsp cumin
+2 tsp ground fennel
+1 tsp turmeric
+2 tsp ground cinnamon
+2 tsp cardamom
+2 tsp ground cloves
+2 tsp curry powder
+1 -- red onion
+2 tbsp garlic
+1 -- tomato
+1 lb chicken thigh
+3 -- yellow or red potatoes
+1 tbsp chili powder
+
+Mifen
+# https://www.assortedeats.com/mi-fen-taiwanese-rice-vermicelli/
+1 lb pork
+0.25 cup soy sauce
+1 tsp rice wine
+1 tsp cornstarch
+1 -- rice noodles
+1 -- mushrooms
+2 -- shallots
+1 -- carrot
+0.5 lb cabbage
+1 tsp white pepper
+1 tsp five spice
+1 -- green onion
+
+Chicken Pot Pie
+# https://www.jaroflemons.com/gluten-free-chicken-pot-pie/
+1.5 cups flour
+1.25 tsp salt
+0.5 cup butter
+0.75 cup milk
+1 -- onion
+1 -- carrot
+1 -- celery
+8 oz mushrooms
+1 cup frozen peas
+0.5 tsp pepper
+2 tbsp corn starch
+1.75 cups chicken broth
+1 lb chicken
+
+Pad Thai
+# https://www.recipetineats.com/chicken-pad-thai/
+1 -- rice sticks
+0.5 tbsp tamarind concentrate
+3 tbsp brown sugar
+2 tbsp fish sauce
+1.5 tbsp oyster sauce
+0.5 -- onion
+2 clove garlic
+1 lb chicken thigh
+2 -- eggs
+1.5 cup beansprouts
+1 -- tofu
+0.25 cup peanuts
+1 -- lime
+
+Ramen
+# https://www.freeyourfork.com/gluten-free-ramen/#recipe
+1 -- ramen
+1 cup chicken broth
+1 cup unsweetened soy milk
+1 -- green onion
+0.5 tsp minced garlic
+2 tbsp soy sauce
+1 tbsp rice wine vinegar
+1 tsp sesame oil
+1 -- vegetables
+2 -- eggs
+
+Chicken Fajita Casserole
+# https://www.jaroflemons.com/chicken-fajita-casserole/
+0.5 -- onion
+2 -- bell peppers
+1.5 lb chicken
+2 tsp minced garlic
+2 -- tortillas
+0.5 cup tomato sauce
+0.33 cup salsa
+2 tsp paprika
+1 tsp cumin
+1 tsp chili powder
+1 -- black beans
+2 cups spinach
+1.5 cups cheese
+
+Stuffed Pepper Casserole
+# https://littlesunnykitchen.com/stuffed-pepper-casserole/?fbclid=IwAR1C1CtN9_NtLUUxsxa64rQ8N7ICoDQq7zNxLKY9PdNMxVqBg6mr1FZzNdY
+1 lb ground beef
+1 -- onion
+2 -- bell peppers
+3 clove garlic
+1 tsp cajun seasoning
+2 tsp Worcestershire sauce
+14 oz diced tomatoes
+1 cup rice
+1.5 cup beef broth
+1.5 cup cheese
 END

@@ -1,6 +1,7 @@
 # Build shopping list from selected recipes
 # June 25, 2017
 # Tim MacDonald
+import units
 
 
 def build_list(selected_items):
@@ -56,7 +57,7 @@ def sum_ingredients(recipes, selected_items):
 
     # Condensed list will be a dictionary with keys being the ingredients
     # and values being another dictionary that has keys of units and values
-    # of amount of a particular unit. This will help us consolidate ingredients
+    # of amount of a particular unit. We will try to consolidate amounts of ingredients
     # even if different types of units are used in different recipes.
     condensed_list = {}
     for amount, unit, name in full_list:
@@ -66,7 +67,40 @@ def sum_ingredients(recipes, selected_items):
             if unit in condensed_list[name]:
                 condensed_list[name][unit] += amount
             else:
-                condensed_list[name][unit] = amount
+                # Units are different, convert to a common base unit if we can.
+                # First see if the new unit is convertible.
+                try:
+                    base_unit = units.base_unit(unit)
+                except ValueError:
+                    condensed_list[name][unit] = amount
+                    continue
+
+                # Go through each existing unit for this item and convert
+                # once we find the convertible unit. There should only
+                # be one convertible unit per item.
+                # Temporary dictionary holding new units and amounts.
+                new_amounts = {}
+                for existing_unit, existing_amount in condensed_list[name].items():
+                    try:
+                        existing_base_unit = units.base_unit(existing_unit)
+                        if existing_base_unit != base_unit:
+                            # If the base units are not compatible, add the new and existing unit. This should
+                            # be a rare case.
+                            print(
+                                f"Base units {base_unit} and {existing_base_unit} are not compatible for item {name}."
+                            )
+                            new_amounts[unit] = amount
+                            new_amounts[existing_unit] = existing_amount
+                        else:
+                            new_amount = units.unit_conversion(
+                                existing_amount, existing_unit
+                            ) + units.unit_conversion(amount, unit)
+                            new_amounts[base_unit] = new_amount
+                    except ValueError:
+                        # If the existing unit isn't convertible, add both the new and existing unit.
+                        new_amounts[unit] = amount
+                        new_amounts[existing_unit] = existing_amount
+                condensed_list[name] = new_amounts
         else:
             condensed_list[name] = {unit: amount}
 
@@ -79,7 +113,8 @@ def write_shopping_list(ingredients: dict[str, dict[str, float]]) -> None:
         unit_str = (
             "("
             + ", ".join(
-                str(amount) + " " + unit for unit, amount in ingredients[item].items()
+                str(round(amount, 2)) + " " + unit
+                for unit, amount in ingredients[item].items()
             )
             + ")"
         )
@@ -103,6 +138,10 @@ if __name__ == "__main__":
     s["Cream Cheese Bagel"] = 4
     s["Pizza Potatoes"] = 1
     s["Chocolate Chip Cookies"] = 1
+    s["Bacon Poutine"] = 1
+    s["Mashed Potato Roll"] = 1
+    s["Curry (Japanese)"] = 1
+    s["Mapo Tofu"] = 1
 
     build_list(s)
 

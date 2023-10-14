@@ -1431,4 +1431,22 @@ Stuffed Pepper Casserole
 1 cup rice
 1.5 cup beef broth
 1.5 cup cheddar
+
+Orens Beef
+1 lb ground beef
+1 lb ground lamb
+1 -- minced garlic
+0.5 cup parsley
+1 tsp cumin
+1 tsp coriander
+0.5 tsp turmeric
+0.5 tsp black pepper
+1 -- salt
+0.5 cup tahini
+1 -- lemon
+1 -- sweet potato fries
+1 -- cucumber
+1 -- tomato
+0.5 -- onion
+3 tsp olive oil
 END

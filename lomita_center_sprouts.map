@@ -23,9 +23,12 @@ bacon,14.7
 english muffin,14.99
 pork shoulder,14.99
 ground beef,14.99
+ground lamb, 14.99
 bone-in chicken thighs,14.99
 boneless rib eye steak,14.99
 boneless beef chuck,14.99
+beef chuck, 14.99
+ribeye steak,14.99
 skinless boneless chicken thighs,14.99
 chicken thighs or sausage,14.99
 chicken thigh,14.99
@@ -45,10 +48,12 @@ cod,14.99
 lamb,14.99
 frozen fries,14.3
 fries,15.3
+sweet potato fries, 15.3
 green beans,15.3
 frozen peas,15.3
 frozen okra,15.3
 frozen fruit,15.3
+frozen broccoli, 15.3
 peas,15.3
 edamame,15.3
 vanilla ice cream,15.3
@@ -62,16 +67,26 @@ Worcestershire sauce,16.3
 barbecue sauce,16.3
 distilled white vinegar,16.3
 balsamic vinegar,16.3
+rice vinegar, 16.3
+white vinegar, 16.3
 corn syrup,16.7
 sugar,16.7
+sherry, 16.7
+dry sherry, 16.7
 baking soda,16.7
 brown sugar,16.7
 star anise,16.7
 bay leaves,16.7
 crushed red pepper,16.7
+cardamon, 16.7
+nutmeg, 16.7
+allspice, 16.7
+paprika, 16.7
 cajun seasoning,16.7
 chocolate syrup,16.7
 vegetable oil,16.7
+sesame oil, 16.7
+toasted sesame oil, 16.7
 oil,16.7
 olive oil,16.7
 white pepper,16.7
@@ -91,6 +106,7 @@ thyme,16.7
 pimenton,16.7
 saffron,16.7
 black pepper,16.7
+parsley, 16.7
 red pepper flakes,16.7
 Sichuan chili powder,16.7
 Sichuan peppercorns,16.7
@@ -107,6 +123,7 @@ beef broth,17.3
 cream of mushroom,17.7
 tomato soup,17.3
 chicken/spam,17.3
+spam, 17.3
 tuna,17.3
 rice,17.3
 bomba rice,17.3
@@ -117,17 +134,20 @@ flour,17.7
 cornstarch,17.7
 crushed tomatoes,18.3
 fire roasted tomatoes, 18.3
+fire roasted tomato, 18.3
 tomato sauce,18.3
 tomato paste,18.3
 Rotel tomatoes,18.3
 stewed tomatoes,18.3
 diced tomatoes,18.3
+diced tomato, 18.3
 crushed tomatoes,18.3
 macaroni,18.3
 pasta,18.3
 spaghetti,18.3
 rice noodles,18.7
 bean noodle, 18.7
+pad thai noodle, 18.7
 pasta sauce,18.3
 Marinara sauce,18.3
 pizza sauce,18.3
@@ -138,9 +158,9 @@ salsa,18.7
 salsa verde,18.7
 soy sauce,18.7
 fish sauce, 18.7
+sesame oil, 18.7
 coconut milk,18.7
 crumbled rice chex,19.3
-cereal,19.3
 bars,19.7
 graham crackers,19.7
 peanut butter,20.3
@@ -153,6 +173,7 @@ cream,23.7
 heavy cream,23.7
 sour cream,23.7
 popcorn,24.7
+peanuts,24.7
 parmesan cheese,25.3
 parmesan,25.3
 feta cheese,25.3
@@ -179,8 +200,12 @@ cream cheese,25.7
 @Sprouts
 dish soap, 1.0
 chorizo, 1.0
+ramen noodles, 1.0
+ramen noodle, 1.0
 shallots, 100
 chilis, 100
+chili,100
+celery, 100
 lime juice,100
 basil,100
 cucumber,100
@@ -206,9 +231,11 @@ red bell pepper,100
 green bell pepper,100
 green onion,100
 lemon,100
+lime,100
 cabbage,100
 carrots,100
 grape tomatoes,100
+grape tomato,100
 persian cucumber,100
 zucchini,100
 green onions,100
@@ -216,12 +243,19 @@ carrot,100
 garlic,100
 scallion,100
 Yukon gold potatoes,100
+yukon gold potato,100
 grapes,100
 brussel sprouts,100
 banana,100
+lemon,100
 ground pork,200
+cereal,200
 
 @H-Mart
 kewpie mayo, 1.0
 korean radish, 100
+bokchoy, 100
 short ribs, 200
+lamb slices, 200
+beef or fish balls, 200
+beansprouts,200

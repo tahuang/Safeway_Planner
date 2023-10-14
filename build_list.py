@@ -1,130 +1,148 @@
 # Build shopping list from selected recipes
 # June 25, 2017
 # Tim MacDonald
+import units
 
 
 def build_list(selected_items):
     recipes = get_recipes()
-    ingredients = sum_ingredients(recipes,selected_items)
+    ingredients = sum_ingredients(recipes, selected_items)
     write_shopping_list(ingredients)
     return
 
+
 def get_recipes():
-    f = open('recipes.txt')
+    """Open the catalogue of receipes and parse all the ingredients."""
+    f = open("recipes.txt")
     recipe_name_flag = True
     recipes = dict()
     for line in f:
         if recipe_name_flag == True:
             ingredients_list = []
-            recipe_name = line.rstrip('\n')
+            recipe_name = line.rstrip("\n")
             recipe_name_flag = False
-        elif (line == '\n') or (line == 'END'):
+        elif (line == "\n") or (line == "END"):
             recipe_name_flag = True
             if recipe_name in recipes:
-                raise ValueError('Duplicate recipes')
+                raise ValueError("Duplicate recipes")
             recipes[recipe_name] = ingredients_list
         else:
-            if line[0]=='#':
+            if line[0] == "#":
                 continue
             ingredients = line.split()
-            ingredients = (float(ingredients[0]),ingredients[1],' '.join(ingredients[2:]))
+            ingredients = (
+                float(ingredients[0]),
+                ingredients[1],
+                " ".join(ingredients[2:]),
+            )
             ingredients_list.append(ingredients)
     return recipes
 
-def sum_ingredients(recipes,selected_items):
+
+def sum_ingredients(recipes, selected_items):
+    """Find the ingredients given the selected recipes and items."""
     full_list = []
-    for item in selected_items:
-        num = selected_items[item]
+    for item, num in selected_items.items():
+        # If the item is a recipe, gather the ingredients from the recipe.
         if item in recipes:
             for ingredient in recipes[item]:
-                total_ingredient = (ingredient[0]*num,ingredient[1],ingredient[2])
+                total_ingredient = (ingredient[0] * num, ingredient[1], ingredient[2])
                 full_list.append(total_ingredient)
         else:
+            # If the item is capitalized, it was intended to have a recipe and none was found.
             if item[0].isupper() == True:
-                print('No recipe found for ' + item)
-            full_list.append((1.*num,'--',item))
-    
-    condensed_list = []
-    for ingredient in full_list:
-        dup_flag = False
-        unit = ingredient[1]
-        name = ingredient[2]
-        total_units = 0.
-        for line in condensed_list:
-            if (line[1] == unit) and (line[2] == name):
-                dup_flag = True
-        if dup_flag == False:
-            for line in full_list:
-                if (line[1] == unit) and (line[2] == name):
-                    total_units += line[0]
-            condensed_list.append((total_units,unit,name))
-    
+                print("No recipe found for " + item)
+            # Otherwise, the item is just an ingredient and we add it to the list.
+            full_list.append((1.0 * num, "--", item))
+
+    # Condensed list will be a dictionary with keys being the ingredients
+    # and values being another dictionary that has keys of units and values
+    # of amount of a particular unit. We will try to consolidate amounts of ingredients
+    # even if different types of units are used in different recipes.
+    condensed_list = {}
+    for amount, unit, name in full_list:
+        # If the ingredient is already in the condensed list, update
+        # the ingredient.
+        if name in condensed_list:
+            if unit in condensed_list[name]:
+                condensed_list[name][unit] += amount
+            else:
+                # Units are different, convert to a common base unit if we can.
+                # First see if the new unit is convertible.
+                try:
+                    base_unit = units.base_unit(unit)
+                except ValueError:
+                    condensed_list[name][unit] = amount
+                    continue
+
+                # Go through each existing unit for this item and convert
+                # once we find the convertible unit. There should only
+                # be one convertible unit per item.
+                # Temporary dictionary holding new units and amounts.
+                new_amounts = {}
+                for existing_unit, existing_amount in condensed_list[name].items():
+                    try:
+                        existing_base_unit = units.base_unit(existing_unit)
+                        if existing_base_unit != base_unit:
+                            # If the base units are not compatible, add the new and existing unit. This should
+                            # be a rare case.
+                            print(
+                                f"Base units {base_unit} and {existing_base_unit} are not compatible for item {name}."
+                            )
+                            new_amounts[unit] = amount
+                            new_amounts[existing_unit] = existing_amount
+                        else:
+                            new_amount = units.unit_conversion(
+                                existing_amount, existing_unit
+                            ) + units.unit_conversion(amount, unit)
+                            new_amounts[base_unit] = new_amount
+                    except ValueError:
+                        # If the existing unit isn't convertible, add both the new and existing unit.
+                        new_amounts[unit] = amount
+                        new_amounts[existing_unit] = existing_amount
+                condensed_list[name] = new_amounts
+        else:
+            condensed_list[name] = {unit: amount}
+
     return condensed_list
 
-def write_shopping_list(ingredients):
-    f = open('shopping_list.txt','w')
+
+def write_shopping_list(ingredients: dict[str, dict[str, float]]) -> None:
+    f = open("shopping_list.txt", "w")
     for item in ingredients:
-        f.write(str(item[0]) + ' ' + item[1] + ' ' + item[2] + '\n')
+        unit_str = (
+            "("
+            + ", ".join(
+                str(round(amount, 2)) + " " + unit
+                for unit, amount in ingredients[item].items()
+            )
+            + ")"
+        )
+        f.write(unit_str + " " + item + "\n")
     f.close()
     return
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
+    """For testing this file only."""
     selected_items = dict()
     s = selected_items
-    #selected_items['Chocolate Chip Cookies'] = 1
-    #selected_items['Artichoke Cheese Dip']   = 2
-    #selected_items['bananas']                = 5
-    
-    #selected_items['Pizza Potato'] = 1
-    #selected_items['Bacon Ranch Chicken Bake'] = 1
-    #selected_items['frozen broccoli'] = 1
-    #selected_items['banana'] = 6
-    #selected_items['keifer'] = 1
-    #selected_items['snack bar'] = 4
-    #selected_items['bread'] = 1
-    #selected_items['trash bags'] = 1
-    #selected_items['shampoo'] = 1
-    #selected_items['sausage'] = 1
-    #selected_items['peanut butter'] = 1  
-    
-    #selected_items['Cream Cheese Bagel'] = 3
-    #selected_items['Lunch Sandwich'] = 3
-    #selected_items['frozen broccoli'] = 1
-    #selected_items['Lunch Celery'] = 3
-    #selected_items['banana'] = 5
-    #selected_items['meatballs'] = 1
-    #selected_items['Basic Dinner Rice'] = 2
-    #selected_items['Basic Dinner Pasta'] = 1
-    #selected_items['Peanut Butter Toast'] = 3
-    #selected_items['chips'] = 1
-    #selected_items['cheddar cheese'] = 1
-    #selected_items['grapes'] = 1
-    #selected_items['Pesto Chicken Bake'] = 1
-    #selected_items['yogurt'] = 4
-    #selected_items['Basic Eggs'] = 2
-    #selected_items['sausage'] = 1
-    #selected_items['crackers'] = 1
-    
-    s['banana'] = 4
-    s['Lunch Sandwich'] = 3
-    s['Lunch Celery'] = 3
-    s['yogurt'] = 3
-    s['sausage'] = 1
-    s['frozen broccoli'] = 1
-    s['cheddar cheese'] = 1
-    s['Peanut Butter Toast'] = 2
-    s['Cream Cheese Bagel'] = 4
-    s['Pesto Chicken Bake'] = 1
-    
-    
+
+    s["banana"] = 4
+    s["Simple Sandwich"] = 3
+    s["yogurt"] = 3
+    s["sausage"] = 1
+    s["frozen broccoli"] = 1
+    s["cheddar cheese"] = 1
+    s["Peanut Butter Toast"] = 2
+    s["Cream Cheese Bagel"] = 4
+    s["Pizza Potatoes"] = 1
+    s["Chocolate Chip Cookies"] = 1
+    s["Bacon Poutine"] = 1
+    s["Mashed Potato Roll"] = 1
+    s["Curry (Japanese)"] = 1
+    s["Mapo Tofu"] = 1
+
     build_list(s)
-    
-    #1. -- bread
-    #2. -- potatoes
-    #2.24 cup cheese
-    #5. -- snapea crisps
-    #8. -- bananas
-    #1. -- peanut butter
-    #5.3 oz eggs    
-    
+
     pass

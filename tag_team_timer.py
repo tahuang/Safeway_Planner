@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 import time
 import winsound
+import math
 
 class MasterChefTimer:
     def __init__(self, master):
@@ -32,19 +33,26 @@ class MasterChefTimer:
         self.timer_running = False
         self.after_id = None
 
+    def draw_hand(self, canvas, angle, length):
+        radian = math.radians(angle)
+        x1, y1 = 150, 150
+        x2, y2 = x1 + length * math.cos(radian), y1 - length * math.sin(radian)
+        canvas.create_line(x1, y1, x2, y2, width=4, tags="hand")    
+
     def start_timer(self):
         if self.timer_running:
             self.reset()
             
-        total_min = int(self.total_time_min_entry.get())
-        total_sec = int(self.total_time_sec_entry.get())
-        self.total_time_left = total_min * 60 + total_sec
+        total_min = int(self.total_time_min_entry.get() or 0)
+        total_sec = int(self.total_time_sec_entry.get() or 0)
+        self.total_time = total_min * 60 + total_sec
 
-        switch_min = int(self.switch_time_min_entry.get())
-        switch_sec = int(self.switch_time_sec_entry.get())
-        self.switch_time_left = switch_min * 60 + switch_sec
-        self.switch_time = self.switch_time_left
+        switch_min = int(self.switch_time_min_entry.get() or 0)
+        switch_sec = int(self.switch_time_sec_entry.get() or 0)
+        self.switch_time_per_turn = switch_min * 60 + switch_sec
 
+        self.start_time = time.time()
+        self.switch_start_time = time.time()
         self.timer_running = True
         self.update_timer()
         self.start_button.config(text="Reset")
@@ -53,25 +61,28 @@ class MasterChefTimer:
         if self.after_id:
             self.master.after_cancel(self.after_id)        
         self.timer_running = False
-        self.total_time_left = 0
+        self.total_time = 0
         self.switch_time_left = 0
         self.total_time_left_label.config(text="")
         self.switch_time_left_label.config(text="")
         self.start_button.config(text="Start")    
 
     def update_timer(self):
-        if self.total_time_left > 0:
-            self.total_time_left -= 1
-            min_left, sec_left = divmod(self.total_time_left, 60)
+        time_elapsed = time.time() - self.start_time
+        switch_time_elapsed = time.time() - self.switch_start_time
+        if self.total_time > 0:
+            self.remaining_time = int(self.total_time - time_elapsed)
+            min_left, sec_left = divmod(self.remaining_time, 60)
             self.total_time_left_label.config(text=f"Total Time: {min_left}:{sec_left:02d}")
 
-            self.switch_time_left -= 1
+            self.switch_time_left = int(self.switch_time_per_turn - switch_time_elapsed)
             switch_min_left, switch_sec_left = divmod(self.switch_time_left, 60)
             self.switch_time_left_label.config(text=f"Switch Time: {switch_min_left}:{switch_sec_left:02d}")
 
             if self.switch_time_left == 0:
                 winsound.Beep(1000, 1000)
-                self.switch_time_left = self.switch_time
+                self.switch_time_left = self.switch_time_per_turn
+                self.switch_start_time = time.time()
 
             self.after_id = self.master.after(1000, self.update_timer)
         else:

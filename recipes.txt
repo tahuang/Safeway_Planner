@@ -180,7 +180,7 @@ Lentil Bean Soup
 2 -- stewed tomato
 0.67 cup lentil
 0.67 cup garbanzo bean
-2 -- sausage
+1 lb ground turkey
 2 tsp chili powder
 1 cup carrot
 2 cup rice
@@ -194,14 +194,12 @@ Curry (Japanese)
 # https://laulimakitchen.com/?p=1147
 1 cup carrot
 1 -- onion
-3 -- yukon gold potato
+2 -- yukon gold potato
 1 lb chicken
 2 clove garlic
-1 -- apple
 1 tbsp soy sauce
 1 tbsp ketchup
 3 tbsp unsalted butter
-4 cup chicken broth
 1 cup bell pepper
 2 cup rice
 0.25 cup all purpose flour
@@ -1340,7 +1338,7 @@ Chicken Potato
 2 tbsp garlic
 1 -- tomato
 1 lb chicken
-3 -- yellow or red potato
+2 -- yellow or red potato
 1 tbsp chili powder
 
 Mifen
@@ -1406,7 +1404,7 @@ Ramen
 Chicken Fajita Casserole
 # https://www.jaroflemons.com/chicken-fajita-casserole/
 0.5 -- onion
-2 -- bell pepper
+1 -- bell pepper
 1.5 lb chicken
 2 tsp garlic
 2 -- tortilla
@@ -1449,4 +1447,26 @@ Orens Beef
 1 -- tomato
 0.5 -- onion
 3 tsp olive oil
+
+Shepherd's Pie
+# https://www.thewholesomedish.com/the-best-classic-shepherds-pie/
+2 tbsp olive oil
+1 cup onion
+1 lb ground beef
+2 tsp parsley
+1 tsp rosemary
+1 tsp thyme
+1 tsp salt
+1 tsp pepper
+1 tbsp Worcestershire sauce
+2 -- garlic
+2 tbsp all purpose flour
+2 tbsp tomato paste
+1 cup beef broth
+1 cup frozen peas & carrots
+2 -- russet potatoes
+8 tbsp unsalted butter
+0.33 cup half & half
+0.5 tsp garlic powder
+0.25 cup parmesan cheese
 END

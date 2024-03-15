@@ -32,6 +32,8 @@ class MasterChefTimer:
         
         self.timer_running = False
         self.after_id = None
+        
+        self.num_switches
 
     def draw_hand(self, canvas, angle, length):
         radian = math.radians(angle)
@@ -80,9 +82,9 @@ class MasterChefTimer:
             self.switch_time_left_label.config(text=f"Switch Time: {switch_min_left}:{switch_sec_left:02d}")
 
             if self.switch_time_left == 0:
-                winsound.Beep(1000, 1000)
-                self.switch_time_left = self.switch_time_per_turn
                 self.switch_start_time = time.time()
+                self.switch_time_left = self.switch_time_per_turn
+                winsound.Beep(1000, 1000)
 
             self.after_id = self.master.after(1000, self.update_timer)
         else:

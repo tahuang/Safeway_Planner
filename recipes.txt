@@ -73,6 +73,13 @@ Bacon Brussel Penne
 0.5 tsp pepper
 2 -- shallots
 
+Brazi Bite Sliders
+# https://brazibites.com/recipes/251-2/
+1 bag brazi bites
+1 lb ground beef
+10 -- grape tomatoes
+1 -- pickle
+
 Brussel Sprouts
 1 lb brussel sprouts
 6 tbsp olive oil
@@ -1220,6 +1227,7 @@ Chickpea Curry
 0.5 cup coconut milk
 
 Lamb Rack
+# https://www.themediterraneandish.com/roast-lamb-rack-recipe/
 10 clove garlic
 0.25 cup olive oil
 1 cup parsley

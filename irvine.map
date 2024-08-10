@@ -234,7 +234,6 @@ bell pepper,100
 yellow onion,100
 red bell pepper,100
 green bell pepper,100
-green onion,100
 lemon,100
 lemon juice,100
 lime,100
@@ -247,7 +246,6 @@ zucchini,100
 green onions,100
 carrot,100
 garlic,100
-scallion,100
 Yukon gold potatoes,100
 yukon gold potato,100
 grapes,100
@@ -261,6 +259,8 @@ cereal,200
 kewpie mayo, 1.0
 korean radish, 100
 bokchoy, 100
+scallion,100
+green onion,100
 short ribs, 200
 lamb slices, 200
 beef or fish balls, 200

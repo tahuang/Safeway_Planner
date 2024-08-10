@@ -3,6 +3,7 @@ Shopping in Torrance
 @Vons
 arugula,1.3
 spinach,1.3
+mint leaves,1.3
 floss,2.7
 shampoo,4.7
 sponges,10.7
@@ -20,6 +21,7 @@ kimchi,14.7
 tofu,14.7
 sausage,14.7
 bacon,14.7
+burger,14.99
 english muffin,14.99
 pork shoulder,14.99
 ground beef,14.99
@@ -54,6 +56,7 @@ frozen peas,15.3
 frozen okra,15.3
 frozen fruit,15.3
 frozen broccoli, 15.3
+frozen peas & carrots,15.3
 peas,15.3
 edamame,15.3
 vanilla ice cream,15.3
@@ -71,6 +74,7 @@ rice vinegar, 16.3
 white vinegar, 16.3
 corn syrup,16.7
 sugar,16.7
+all purpose flour,16.7
 sherry, 16.7
 dry sherry, 16.7
 baking soda,16.7
@@ -107,6 +111,7 @@ pimenton,16.7
 saffron,16.7
 black pepper,16.7
 parsley, 16.7
+garlic powder,16.7
 red pepper flakes,16.7
 Sichuan chili powder,16.7
 Sichuan peppercorns,16.7
@@ -126,6 +131,7 @@ chicken/spam,17.3
 spam, 17.3
 tuna,17.3
 rice,17.3
+basmati rice,17.3
 bomba rice,17.3
 Arborio rice,17.3
 gravy,17.3
@@ -170,6 +176,7 @@ milk,23.7
 buttermilk,23.7
 heavy whipping cream,23.7
 cream,23.7
+half & half,23.7
 heavy cream,23.7
 sour cream,23.7
 popcorn,24.7
@@ -177,6 +184,7 @@ peanuts,24.7
 parmesan cheese,25.3
 parmesan,25.3
 feta cheese,25.3
+unsalted butter,25.7
 white cheddar,25.7
 sharp cheddar,25.7
 cheese,25.7
@@ -224,6 +232,7 @@ paneer,100
 scallions,100
 potato,100
 potatoes,100
+russet potatoes,100
 broccoli,100
 bell pepper,100
 yellow onion,100
@@ -231,6 +240,7 @@ red bell pepper,100
 green bell pepper,100
 green onion,100
 lemon,100
+lemon juice,100
 lime,100
 cabbage,100
 carrots,100

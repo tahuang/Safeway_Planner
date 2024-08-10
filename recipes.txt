@@ -1010,7 +1010,7 @@ Hiyashi Chuka Ramen
 1 -- persian cucumber
 1 tbsp sesame oil
 2 tbsp soy sauce
-1 tbsp sugar
+1 tbsp brown sugar
 1 tbsp ponzu sauce
 1 tbsp rice vinegar
 6 oz green beans
@@ -1455,6 +1455,26 @@ Orens Beef
 1 -- tomato
 0.5 -- onion
 3 tsp olive oil
+
+Red Velvet Cupcakes
+# https://meaningfuleats.com/gluten-free-red-velvet-cupcakes/
+1.25 cup flour
+3 tbsp cocoa powder
+1.5 tsp baking powder
+0.5 tsp salt
+1 cup sugar
+2 -- egg
+0.25 cup vegetable oil
+1 tbsp red food coloring
+1.5 tsp vanilla extract
+0.5 tsp lemon juice
+0.25 cup sour cream
+0.5 cup milk
+0.5 cup butter
+8 oz cream cheese
+1 tsp vanilla extract
+1 -- salt
+3 cup powdered sugar
 
 Shepherd's Pie
 # https://www.thewholesomedish.com/the-best-classic-shepherds-pie/

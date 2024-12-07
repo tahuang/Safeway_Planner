@@ -2,6 +2,7 @@ Shopping in Irvine
 
 @Ralphs	
 deli meat,1
+sausage, 1
 peanut butter,1
 jelly,1
 olives,2
@@ -124,6 +125,7 @@ english muffin,7.99
 pork shoulder,7.99
 ground beef,7.99
 ground lamb,7.99
+rib eye steak,7.99
 bone-in chicken thighs,7.99
 boneless rib eye steak,7.99
 boneless beef chuck,7.99
@@ -155,22 +157,22 @@ cream,12.99
 half & half,12.99
 heavy cream,12.99
 sour cream,12.99
-parmesan cheese,12.99
-parmesan,12.99
-feta cheese,12.99
+parmesan cheese,1.2
+parmesan,1.2
+feta cheese,1.2
 unsalted butter,12.99
-white cheddar,12.99
-sharp cheddar,12.99
-cheese,12.99
-shredded cheese,12.99
-mozzarella,12.99
-mozzarella cheese,12.99
-cheddar,12.99
-shredded mozzarella,12.99
-shredded monterey jack,12.99
-cheddar cheese,12.99
-shredded cheddar,12.99
-ricotta cheese,12.99
+white cheddar,1.2
+sharp cheddar,1.2
+cheese,1.2
+shredded cheese,1.2
+mozzarella,1.2
+mozzarella cheese,1.2
+cheddar,1.2
+shredded mozzarella,1.2
+shredded monterey jack,1.2
+cheddar cheese,1.2
+shredded cheddar,1.2
+ricotta cheese,1.2
 plain Greek yogurt,12.99
 yogurt,12.99
 sour cream,12.99
@@ -189,10 +191,12 @@ parchment paper,15
 foil,15
 small trash bags,15
 chips,18
+peanuts, 18
 popcorn,18
 arugula,20
 spinach,20
 mint leaves,20
+tofu, 20
 
 
 @Sprouts
@@ -236,6 +240,7 @@ red bell pepper,100
 green bell pepper,100
 lemon,100
 lemon juice,100
+eggplant, 100
 lime,100
 cabbage,100
 carrots,100
@@ -257,6 +262,8 @@ cereal,200
 
 @H-Mart
 kewpie mayo, 1.0
+sweet potato noodles, 1.0
+sesame seeds,1.0
 korean radish, 100
 bokchoy, 100
 scallion,100

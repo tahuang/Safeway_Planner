@@ -125,6 +125,7 @@ class MyTextInput(TextInput):
     def __init__(self, recipes, **kwargs):
         super(MyTextInput, self).__init__(**kwargs)
         self.recipes = recipes
+        self.suggestion_text = ''
 
     def keyboard_on_key_down(self, window, keycode, text, modifiers):
         """ Add support for tab as an 'autocomplete' using the suggestion text.

@@ -28,6 +28,7 @@ stewed tomatoes,3
 diced tomatoes,3
 diced tomato,3
 crushed tomatoes,3
+gnocchi,3
 macaroni,3
 pasta,3
 spaghetti,3
@@ -193,11 +194,12 @@ small trash bags,15
 chips,18
 peanuts, 18
 popcorn,18
+cottage cheese,20
 arugula,20
 spinach,20
 mint leaves,20
 tofu, 20
-
+baby broccoli, 20
 
 @Sprouts
 dish soap,1
@@ -207,6 +209,7 @@ ramen noodle,1
 rice noodles,1
 bean noodle,1
 pad thai noodle,1
+wide rice noodles,1
 alfredo,1
 soy sauce,1
 graham crackers,1
@@ -270,6 +273,7 @@ scallion,100
 green onion,100
 enoki mushroom,100
 persian cucumber,100
+gai lan,100
 short ribs, 200
 lamb slices, 200
 beef or fish balls, 200

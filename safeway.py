@@ -123,6 +123,8 @@ def print_store_route(route):
                 print(item[0] + " (" + item[2] + ")")
 
             # Determine if you need to go all the way through the aisle or back the way you came.
+            continue 
+            # TODO: see if we want to keep this
             if idx != len(route) - 1:
                 last_item_place = aisle[-1][1]
                 next_aisle = int(math.floor(route[idx + 1][0][1]))

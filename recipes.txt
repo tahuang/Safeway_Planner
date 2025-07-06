@@ -198,7 +198,6 @@ Ribs
 4 lb baby ribs
 
 Curry (Japanese)
-# https://laulimakitchen.com/?p=1147
 1 cup carrot
 1 -- onion
 2 -- yukon gold potato
@@ -523,7 +522,7 @@ Palak Paneer
 2 tsp cumin
 1 tsp salt
 20 oz spinach
-3 -- tomato
+2 -- tomato
 2 cup paneer
 
 Potato Salad
@@ -902,8 +901,7 @@ Meatballs
 1 tbsp olive oil
 0.75 cup onion
 0.25 tsp crushed red pepper
-28 oz crushed tomato
-8 oz tomato sauce
+1 -- pasta sauce
 
 One-Pot Chicken & Rice
 # Instant pot book
@@ -1300,7 +1298,7 @@ GF Dumplings
 0.5 tbsp sesame oil
 
 Chicken Biryani
-# https://ministryofcurry.com/chicken-biryani-instant-pot/
+# https://www.indianhealthyrecipes.com/chicken-biryani-recipe/
 2 tsp garam masala
 1 tbsp garlic
 0.5 tsp turmeric
@@ -1311,7 +1309,6 @@ Chicken Biryani
 4 tbsp ghee
 1 -- onion
 3 cup basmati rice
-4 -- egg
 
 Reuben Sandwich
 # https://www.allrecipes.com/recipe/47717/reuben-sandwich-ii/
@@ -1520,4 +1517,27 @@ Shepherd's Pie
 0.33 cup half & half
 0.5 tsp garlic powder
 0.25 cup parmesan cheese
+
+Sardine Pasta
+# https://toriavey.com/mediterranean-sardine-lemon-pasta/
+1 -- spaghetti
+1 -- shallot
+1 -- lemon
+2 pkg sardine
+3 tbsp capers
+3 tbsp parsley
+3 tbsp basil
+
+White Chicken Chili
+# https://tastesbetterfromscratch.com/creamy-white-chicken-chili/
+1 -- onion
+2 cloves garlic
+1 lb chicken
+4 oz diced green chiles
+1.5 tsp cumin
+0.5 tsp oregano
+0.5 tsp paprika
+2 cans great northern beans (white beans)
+1 cup sour cream
+1 cup green beans
 END

@@ -6,8 +6,6 @@
 
 import streamlit as st
 import glob
-import os
-import re
 from typing import Dict, List
 import build_list
 import safeway
@@ -87,7 +85,7 @@ class StreamlitGroceryPlanner:
             "Friday",
             "Saturday",
         ]
-        self.meals_per_day = 2
+        self.meals_per_day = 4
         self.shopping_route = ""
 
         # Initialize meal plan in session state if not exists.
@@ -228,7 +226,12 @@ class StreamlitGroceryPlanner:
                     text_to_file[first_line] = file
             except Exception as e:
                 st.error(f"Error reading map file {file}: {e}")
-        return text_to_file
+
+        # Sort stores so "Shopping in Irvine" appears first
+        sorted_stores = sorted(
+            text_to_file.keys(), key=lambda x: ("Irvine" not in x, x)
+        )
+        return {store: text_to_file[store] for store in sorted_stores}
 
     def run(self):
         """Main application runner."""
@@ -258,27 +261,47 @@ class StreamlitGroceryPlanner:
 
             st.divider()
 
-            # File operations.
-            st.subheader("File Operations")
-            save_filename = st.text_input("Save filename:", value="meal_plan.txt")
-            if st.button("💾 Save Meal Plan"):
-                self.save_meal_plan_to_file(save_filename)
+            # --- File Upload (User -> App) ---
+            uploaded_file = st.file_uploader(
+                "📂 Upload Meal Plan File", type=["txt", "json"]
+            )
 
-            load_filename = st.text_input("Load filename:", value="meal_plan.txt")
-            if st.button("📂 Load Meal Plan"):
-                st.session_state.meal_plan = self.load_meal_plan_from_file(
-                    load_filename
-                )
-                # Clear all meal slot and misc_items_box widget state so text areas update
-                for day in self.days:
-                    for meal_idx in range(self.meals_per_day):
-                        key = f"{day}_{meal_idx}"
-                        if key in st.session_state:
-                            del st.session_state[key]
-                # Increment the version to force the widgets to refresh
-                st.session_state.misc_items_box_version += 1
-                st.session_state.meal_box_version += 1
-                st.rerun()
+            # Handle file upload processing
+            if "upload_processed" not in st.session_state:
+                st.session_state.upload_processed = False
+
+            if uploaded_file is not None and not st.session_state.upload_processed:
+                try:
+                    file_content = uploaded_file.read()
+                    # Try to decode as UTF-8 text.
+                    file_text = file_content.decode("utf-8")
+                    data = json.loads(file_text)
+                    st.session_state.meal_plan = data.get(
+                        "meal_plan", self.initialize_meal_plan()
+                    )
+                    st.session_state.misc_items = data.get("misc_items", "")
+
+                    # Clear all meal slot and misc_items_box widget state so text areas update.
+                    for day in self.days:
+                        for meal_idx in range(self.meals_per_day):
+                            key = f"{day}_{meal_idx}"
+                            if key in st.session_state:
+                                del st.session_state[key]
+
+                    # Increment the version to force the widgets to refresh.
+                    st.session_state.misc_items_box_version += 1
+                    st.session_state.meal_box_version += 1
+
+                    st.session_state.upload_processed = True
+                    st.success("Meal plan loaded from uploaded file!")
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"Failed to load meal plan: {e}")
+                    st.session_state.upload_processed = True
+
+            # Reset upload processed flag when no file is selected
+            if uploaded_file is None:
+                st.session_state.upload_processed = False
 
         # Main content area.
         col1, col2 = st.columns([2, 1])
@@ -357,10 +380,20 @@ class StreamlitGroceryPlanner:
             if misc_box_value != st.session_state.misc_items:
                 st.session_state.misc_items = misc_box_value
 
-            # Add a save button for the meal plan.
-            if st.button("💾 Save Current Meal Plan", use_container_width=True):
-                self.save_meal_plan_to_file("meal_plan.txt")
-                st.success("Meal plan updated!")
+            # --- File Download (App -> User) ---
+            st.divider()
+            data = {
+                "meal_plan": st.session_state.meal_plan,
+                "misc_items": st.session_state.misc_items,
+            }
+            json_str = json.dumps(data, indent=2)
+            st.download_button(
+                label="💾 Download Meal Plan",
+                data=json_str,
+                file_name="meal_plan.txt",
+                mime="application/json",
+                use_container_width=True,
+            )
 
         with col2:
             st.header("📋 Recipe Library")

@@ -5,6 +5,8 @@
 # Tiffany Huang
 from __future__ import print_function
 import math
+import io
+import sys
 
 
 def print_shopping_route(map_file):
@@ -12,6 +14,20 @@ def print_shopping_route(map_file):
     items = read_shopping_list()
     create_full_route(full_mapping, items)
     return
+
+
+def get_shopping_route_string(map_file):
+    """Returns the shopping route as a string instead of printing to console."""
+    # Capture stdout to get the output as a string
+    old_stdout = sys.stdout
+    new_stdout = io.StringIO()
+    sys.stdout = new_stdout
+
+    full_mapping = create_item_aisle_mapping(map_file)
+    items = read_shopping_list()
+    create_full_route(full_mapping, items)
+    output = new_stdout.getvalue()
+    return output
 
 
 # Create mapping between items and which aisle they are in from text file.
@@ -123,7 +139,7 @@ def print_store_route(route):
                 print(item[0] + " (" + item[2] + ")")
 
             # Determine if you need to go all the way through the aisle or back the way you came.
-            continue 
+            continue
             # TODO: see if we want to keep this
             if idx != len(route) - 1:
                 last_item_place = aisle[-1][1]

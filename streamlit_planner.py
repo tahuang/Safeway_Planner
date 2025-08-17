@@ -249,6 +249,15 @@ class StreamlitGroceryPlanner:
                 if st.button("🗺️ Generate Shopping Route"):
                     # Generate shopping list first.
                     items = self.get_grocery_items(st.session_state.meal_plan)
+
+                    # Incorporate miscellaneous items from the misc box, one per line.
+                    misc = st.session_state.misc_items.strip()
+                    if misc:
+                        for misc_item in misc.splitlines():
+                            misc_item = misc_item.strip()
+                            if misc_item:
+                                items[misc_item] = items.get(misc_item, 0) + 1
+
                     print(items)
                     build_list.build_list(items)
 

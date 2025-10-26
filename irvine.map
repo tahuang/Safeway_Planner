@@ -9,6 +9,7 @@ olives,2
 Worcestershire sauce,2
 barbecue sauce,2
 bbq sauce,2
+ketchup,2
 Sriracha,2
 butter chicken sauce,2
 salsa,2
@@ -51,6 +52,7 @@ rice,4
 basmati rice,4
 bomba rice,4
 Arborio rice,4
+jasmine rice,4
 gravy,4
 distilled white vinegar,5
 balsamic vinegar,5
@@ -219,6 +221,7 @@ wide rice noodles,1
 alfredo,1
 alfredo sauce,1
 soy sauce,1
+ponzu,1
 graham crackers,1
 shallots, 100
 chilis, 100
@@ -268,6 +271,7 @@ banana,100
 lemon,100
 ground pork,200
 cereal,200
+halibut,200
 
 @H-Mart
 kewpie mayo, 1.0
@@ -275,12 +279,16 @@ sweet potato noodles, 1.0
 sesame seeds,1.0
 mung bean noodles,1.0
 korean radish, 100
+kabocha squash,100
 bokchoy, 100
+baby bok choy,100
 scallion,100
 green onion,100
 enoki mushroom,100
 persian cucumber,100
 gai lan,100
+kaffir lime leaves,100
+pandan leaf,100
 short ribs, 200
 lamb slices, 200
 beef or fish balls, 200

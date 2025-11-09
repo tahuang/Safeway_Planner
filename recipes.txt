@@ -678,7 +678,7 @@ Chicken Pho
 1 -- cinnamon stick
 3 -- whole cloves
 1 -- star anise
-12 oz rice noodles
+12 oz pho noodles
 
 Southwest Avocado Toast
 1 -- brazie bites
@@ -1475,7 +1475,7 @@ Red Velvet Cupcakes
 
 Japchae
 # https://www.recipetineats.com/japchae-korean-noodles/
-0.6 lb rib eye steak
+0.6 lb ribeye steak
 2 tsp soy sauce
 2 tsp sugar
 2 tsp minced garlic
@@ -1608,3 +1608,38 @@ White Chicken Chili
 1 cup sour cream
 1 cup green beans
 
+Tuna Tortilla Wrap
+2 cans tuna
+1 -- tortillas
+1 -- cheddar cheese
+1 -- tomato
+3 -- pickles
+1 -- red onion
+1 -- celery
+1 tbsp mayo
+3 -- eggs
+
+Baked Feta Chicken
+500 g sweet potato
+500 g chicken
+150 g feta cheese
+1 can chickpeas
+200 g broccoli
+1 -- red onion
+100 g greek yogurt
+10 g tahini
+1 tbsp cumin
+1 -- lemon
+
+Tofu Claypot
+1 -- tofu
+2 -- eggs
+1 -- green onion
+2 cloves garlic
+1 lb ground pork
+3 tsp soy sauce
+2 tsp oyster sauce
+1 tsp brown sugar
+1 -- white pepper
+1 tsp corn starch
+END

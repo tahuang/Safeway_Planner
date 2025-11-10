@@ -1642,4 +1642,3 @@ Tofu Claypot
 1 tsp brown sugar
 1 -- white pepper
 1 tsp corn starch
-END

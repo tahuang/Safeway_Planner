@@ -1,48 +1,4 @@
-Chocolate Chip Cookies
-2.25 cup flour
-.5 tsp xanthan gum
-1 tsp baking soda
-1 tsp salt
-2 oz cream cheese
-.75 cup unsalted butter
-1 cup brown sugar
-.5 cup sugar
-1.5 tsp vanilla extract
-2 -- egg
-2 cup semi-sweet chocolate chips
-
-Artichoke Cheese Dip
-1 cup mayo
-4 oz cream cheese
-1 cup parmesan
-13 oz artichoke hearts
-1 clove garlic
-
-Pizza Potatoes
-4 -- potato
-4 tbsp sour cream
-200 g pepperoni
-1 -- salt
-1 -- pepper
-1 -- pizza sauce
-1 -- mozzarella
-1 -- parmesan
-1 -- oregano
-
-Simple Sandwich
-2 slice bread
-3 slice deli meat
-3 slice cheese
-2 tbsp arugula
-
-Cream Cheese Bagel
-1 -- bagel
-5 tbsp cream cheese
-
-Peanut Butter Toast
-3 tbsp peanut butter
-1 tbsp jelly
-2 slice bread
+! Regular Meals
 
 Simple Pasta
 1 -- pasta sauce
@@ -58,13 +14,6 @@ Shrimp Pasta
 1 lb shrimp
 1 -- green beans
 
-Fish and Chips
-0.5 bottle vegetable oil
-0.5 -- fries
-1 -- fish and chips flour
-16 oz cod
-1 -- tartar sauce
-
 Bacon Brussel Penne
 1 -- pasta
 6 slice bacon
@@ -73,52 +22,12 @@ Bacon Brussel Penne
 0.5 tsp pepper
 2 -- shallots
 
-Brazi Bite Sliders
-# https://brazibites.com/recipes/251-2/
-1 bag brazi bites
-1 lb ground beef
-10 -- grape tomatoes
-1 -- pickle
-
 Brussel Sprouts
 1 lb brussel sprouts
 6 tbsp olive oil
 1 -- salt
 1 -- pepper
 1 tbsp balsamic vinegar
-
-Nachos
-1 tsp paprika
-1 tsp garlic powder
-1 tsp cumin
-3 cup cheddar
-18 oz chips
-1 cup sour cream
-
-Mini Chicken Tacos
-8 -- tortilla
-0.5 cup unsalted butter
-4 cup chicken
-1 -- green onion
-2 tbsp chives
-0.5 cup cream cheese
-0.5 tsp garlic powder
-0.5 tsp paprika
-0.5 tsp salt
-2 cup mozzarella
-1 -- ranch
-
-Mashed Potato Roll
-1500 g potato
-2 tsp salt
-1 tsp pepper
-1 tsp dried basil
-1.5 tsp oregano
-2 -- egg
-0.5 cup flour
-35 slice pepperoni
-12 slice mozzarella
-1 -- tomato sauce
 
 Bacon Poutine
 6 strip bacon
@@ -175,12 +84,6 @@ Baked Tilapia
 1 -- lemon
 2 tbsp chili powder
 2 tbsp garlic salt
-
-Cornbread
-2 -- Jiffy corn bread mix
-2 -- egg
-16 oz sour cream
-1 -- butter
 
 Lentil Bean Soup
 1 -- diced/Rotel tomato
@@ -277,39 +180,12 @@ Pancakes
 1 -- egg
 1 tbsp oil
 
-Brownies
-16 tbsp butter
-0.75 cup cocoa
-2 cup sugar
-4 -- egg
-2 tsp vanilla
-1 cup flour
-0.5 tsp xanthan gum
-0.5 tsp salt
-2 cup semisweet chocolate chunks
-
-Pesto Gnocchi
-1 -- pesto
-2 tbsp olive oil
-1 lb gnocchi
-1 -- parmesan
-
 Mac n Cheese
 265 g milk
 11 g sodium citrate
 285 g white cheddar
 240 g macaroni
 1 -- salt
-
-Pumpkin Pie
-15 oz pumpkin
-14 oz sweetened condensed milk
-2 -- egg
-1 tsp cinnamon
-0.5 tsp ginger
-0.5 tsp nutmeg
-0.5 tsp salt
-1 -- pie crust
 
 Tuna Melt
 10 oz tuna
@@ -318,40 +194,6 @@ Tuna Melt
 1 -- tomato
 0.5 cup cheddar
 2 -- english muffin
-
-Egg Tarts
-125 g flour
-1 tsp xanthan gum
-30 g icing sugar
-50 g butter
-5 -- egg
-45 g caster sugar
-1 tsp vanilla extract
-90 ml milk
-1 tsp cinnamon
-
-Pork Pot Stickers
-0.5 cup tapioca flour
-0.5 cup millet flour
-0.5 cup sweet rice flour
-1.5 tsp xanthan gum
-0.75 tsp salt
-0.75 lb ground pork
-3 -- green onion
-0.5 tsp sesame oil
-0.25 tsp pepper
-3 tbsp vegetable oil
-
-Nacho Dumplings
-10 tbsp sour cream
-10 tbsp guacamole
-2 bag brazi bites
-1 lb ground beef
-1 -- shallots
-1 -- salt
-1 -- pepper
-1 -- cumin
-1 -- paprika
 
 Meatloaf
 1.5 lb ground beef
@@ -370,17 +212,6 @@ Mashed Sweet Potatoes
 .75 cup milk
 .5 cup butter
 
-Chocolate Avocado Pudding
-# https://www.allrecipes.com/recipe/234324/chocolate-avocado-pudding/
-1 cup unsweetened almond milk
-2 -- avocado
-6 tbsp unsweetened cocoa powder
-10 tbsp pure maple syrup
-2 tsp vanilla extract
-.25 tsp ground cinnamon
-1 -- sea salt
-1 -- raspberry
-
 Apple and Potato Latkes
 1 -- potato
 1 -- apple
@@ -391,19 +222,6 @@ Apple and Potato Latkes
 9.75 oz broccoli
 .125 oz garlic
 .25 oz sunflower seeds
-
-Macaroni Cheese Cups
-1 -- macaroni
-2.5 oz whipped cream cheese
-1 cup cheddar
-1 tbsp unsalted butter
-1 -- egg
-0.5 cup milk
-0.5 cup sour cream
-3 oz bacon
-1 -- salt
-1 -- pepper
-24 -- brazi bites
 
 Beef Chili
 # Instant Pot Book recipe
@@ -419,52 +237,6 @@ Beef Chili
 1 -- cheddar
 1 -- sour cream
 1 -- green onion
-
-ATK Flour
-24 oz white rice flour
-7.5 oz brown rice flour
-7 oz potato starch
-3 oz tapioca starch
-.75 oz nonfat milk powder
-
-ATK Brownies
-7.5 oz ATK Flour
-0.5 tsp baking powder
-0.5 tsp xanthan gum
-0.5 tsp salt
-2 oz dutch-processed cocoa powder
-4 tbsp unsalted butter
-0.25 cup vegetable oil
-10.5 oz sugar
-3 -- egg
-3 tbsp milk
-1 tbsp vanilla extract
-
-Fried Chicken
-.25 cup sugar
-3.5 lb chicken
-1 cup cornstarch
-1 -- egg
-1 tsp baking powder
-.5 tsp baking soda
-1 cup buttermilk
-1 cup cornmeal
-1.5 tsp garlic powder
-1.5 tsp paprika
-.25 cayenne pepper
-4 quarts vegetable oil
-
-Cheese Balls
-12 oz cream cheese
-1 cup four cheese mexican blend
-6 tbsp chives
-1 clove garlic
-1 tsp taco seasoning
-1 tsp onion powder
-1 -- salt
-1 -- pepper
-6 slice bacon
-18 -- pretzels
 
 Eggs Benedict
 40 g champagne vinegar
@@ -540,68 +312,11 @@ Potato Salad
 1 -- salt
 1 -- pepper
 
-Chocolate Layer Cake
-1 cup vegetable oil
-6 oz bittersweet chocolate chips
-2 oz unsweetened cocoa powder
-7 oz king arthur flour
-1.5 tsp baking powder
-1 tsp xanthan gum
-1 tsp salt
-4 -- egg
-2 tsp vanilla extract
-10.5 oz sugar
-1 cup whole milk
-4 cup frosting
-
 One-Pot Instant Lasagna
 1 lb ground beef
 2 -- pasta
 1 -- pasta sauce
 8 oz mozzarella
-
-Cheesecake Brownies
-20 oz brownie mix
-8 oz cream cheese
-1 -- egg
-.33 cup sugar
-
-Fried Chicken (GF Shoestring)
-4 lb chicken
-1.5 cup buttermilk
-1 cup plain yogurt
-2 cup flour
-1 tsp pepper
-1.5 tsp salt
-1.5 tsp paprika
-0.5 tsp oregano
-0.5 tsp thyme
-0.5 tsp parsley
-0.25 tsp cumin
-0.25 tsp cinnamon
-0.5 tsp onion powder
-0.25 tsp garlic powder
-0.25 tsp chili powder
-3 tbsp sugar
-
-Mochi Donuts (Matcha Glaze)
-# https://www.snixykitchen.com/chocolate-mochi-donuts/
-0.25 cup unsalted butter
-2 cup sweet rice flour
-1 cup dark brown sugar
-0.25 cup cocoa powder
-2 tsp baking powder
-0.5 tsp salt
-13 oz full-fat coconut milk
-2 -- egg
-2 oz bittersweet chocolate
-1.5 tsp vanilla extract
-1 -- flaky salt
-1 -- black sesame seeds
-1 -- shaved chocolate
-1.5 cup powdered sugar
-0.5 tsp matcha powder
-2.5 tsp milk
 
 Honey-Mustard Pork Chops
 # https://cdn2.greenchef.com/uploaded/5be43544eafa3700128e213b.pdf
@@ -680,58 +395,13 @@ Chicken Pho
 1 -- star anise
 12 oz pho noodles
 
-Southwest Avocado Toast
-1 -- brazie bites
-2 -- avocado
-4 -- egg
-2 tsp butter
-1 -- lime
-0.5 -- red onion
-2 -- tomato
-2 -- jalapeno
-1 -- salt
-1 -- pepper
-
-Mini Carne Asada Tortas
-1 -- brazi bites
-1 lb skirt steak
-1 tsp salt
-1 -- avocado
-0.5 -- red onion
-1 -- jalapeno
-1 clove garlic
-
 Hot Pot
 1 lb lamb slices
 1 -- bokchoy
 1 -- enoki mushroom
 1 -- mung bean noodles
 
-Chocolate Souffle
-# https://www.allrecipes.com/recipe/257193/chef-johns-chocolate-souffle/
-4 tsp butter
-3 tbsp white sugar
-2 oz 70% dark chocolate
-1 tbsp GF flour
-4.33 tbsp milk
-1 -- salt
-1 -- cayenne pepper
-2 -- egg
-1 -- cream of tartar
-1 -- xantham gum
-
 Eggplant Parmesan
-1 -- tomato sauce
-10 oz panko
-2 oz parmesan
-1 cup cornstarch
-1 -- salt
-1 -- pepper
-4 -- egg
-1.5 lb eggplant
-0.5 cup vegetable oil
-
-Eggplant Parmesan (No Fry)
 # https://scarlatifamilykitchen.com/no-fry-eggplant-parmesan/
 1 -- eggplant
 2 cup panko breadcrumbs
@@ -792,20 +462,6 @@ Burrito Bowl
 1 cup corn
 1 -- tomato
 1 -- onion
-
-Korean Fried Chicken
-3 lb chicken
-2 tbsp sherry
-1 tsp salt
-0.5 tsp pepper
-1 cup cornstarch
-3 tbsp ketchup
-2 tbsp gochujang
-0.25 cup honey
-0.25 cup brown sugar
-2 tbsp soy sauce
-2 tbsp minced garlic
-1 tbsp sesame oil
 
 Chicken Salad Sandwich
 1 -- bread
@@ -871,21 +527,6 @@ Beef Stew
 1 tbsp cornstarch
 0.75 cup peas
 
-Mushroom and Spinach Risotto
-# Instant pot book
-2 tbsp olive oil
-0.33 cup shallots
-8 oz mushroom
-0.25 tsp salt
-0.125 tsp crushed red pepper
-2 clove garlic
-2 cup chicken broth
-1 cup rice
-0.25 tsp thyme
-1 tbsp butter
-2 cup spinach
-0.33 cup parmesan
-
 Meatballs
 # Instant pot book
 1 -- egg
@@ -946,23 +587,6 @@ Orange Chicken
 10 tbsp sugar
 10 tbsp white vinegar
 1 -- orange
-
-Sticky Toffee Pudding
-# https://www.foodandwine.com/recipes/sticky-toffee-pudding
-2.5 cup heavy cream
-4 oz unsalted butter
-0.5 cup light corn syrup
-1 cup sugar
-6 oz pitted dates
-1 cup flour
-1 tsp baking powder
-0.25 tsp baking soda
-1 -- salt
-4 tbsp unsalted butter
-0.75 cup brown sugar
-1 -- egg
-0.5 tsp vanilla extract
-1 -- vanilla ice cream
 
 Cucumber Salad
 # https://thestayathomechef.com/cucumber-salad/
@@ -1058,23 +682,6 @@ Quesadilla
 1 -- taco seasoning
 1 -- bell pepper
 
-Pumpkin Cheesecake
-# https://www.faithfullyglutenfree.com/gluten-free-pumpkin-cheesecake/
-0.75 cup graham cracker
-1 cup sugar
-2 tbsp brown sugar
-4 tbsp butter
-0.75 cup canned pumpkin
-5 -- egg
-1.5 tsp cinnamon
-0.5 tsp ginger
-0.5 tsp nutmeg
-0.25 tsp salt
-24 oz cream cheese
-2 tbsp heavy whipping cream
-1 tbsp cornstarch
-1 tsp vanilla extract
-
 Green Bean Casserole
 2 can green beans
 1 -- cream of mushroom
@@ -1084,19 +691,6 @@ Green Bean Casserole
 0.5 tsp pepper
 0.25 salt
 1.5 cup fried onions
-
-Mashed Potatoes
-2 -- potato
-1 -- gravy
-
-Kabob Club Sandwiches
-# https://brazibites.com/recipes/kabob-club-sandwhiches/
-1 -- brazi bites
-5 slice cheese
-5 slice deli meat
-5 leaves lettuce
-14 -- cherry tomato
-1 -- honey mustard
 
 Ants Climbing a Tree
 1 -- bean noodle
@@ -1271,31 +865,12 @@ Five-Spice Chicken
 0.25 tsp cayenne
 4 -- green onion
 
-Bagel Bites
-1 -- bagel
-1 -- marinara sauce
-1 -- mozzarella
-1 -- pepperoni
-
 Loco Moco
 2 -- burger
 1 -- gravy
 1 cup rice
 1 -- green beans
 1 -- green onion
-
-GF Dumplings
-# https://www.youtube.com/watch?v=R8532mqf9es
-1 lb ground pork
-1 -- chives
-1 -- egg
-3 tbsp soy sauce
-1 tbsp oil
-100 g rice flour
-100 g tapioca starch
-100 g mashed potato
-5 -- garlic
-0.5 tbsp sesame oil
 
 Chicken Biryani
 # https://www.indianhealthyrecipes.com/chicken-biryani-recipe/
@@ -1393,19 +968,6 @@ Pad Thai
 0.25 cup peanuts
 1 -- lime
 
-Ramen
-# https://www.freeyourfork.com/gluten-free-ramen/#recipe
-1 -- ramen noodle
-1 cup chicken broth
-1 cup unsweetened soy milk
-1 -- green onion
-0.5 tsp garlic
-2 tbsp soy sauce
-1 tbsp rice wine vinegar
-1 tsp sesame oil
-1 -- vegetable
-2 -- egg
-
 Chicken Fajita Casserole
 # https://www.jaroflemons.com/chicken-fajita-casserole/
 0.5 -- onion
@@ -1420,19 +982,6 @@ Chicken Fajita Casserole
 1 tsp chili powder
 1 -- black beans
 2 cup spinach
-1.5 cup cheddar
-
-Stuffed Pepper Casserole
-# https://littlesunnykitchen.com/stuffed-pepper-casserole/?fbclid=IwAR1C1CtN9_NtLUUxsxa64rQ8N7ICoDQq7zNxLKY9PdNMxVqBg6mr1FZzNdY
-1 lb ground beef
-1 -- onion
-2 -- bell pepper
-3 clove garlic
-1 tsp cajun seasoning
-2 tsp Worcestershire sauce
-14 oz diced tomato
-1 cup rice
-1.5 cup beef broth
 1.5 cup cheddar
 
 Orens Beef
@@ -1452,26 +1001,6 @@ Orens Beef
 1 -- tomato
 0.5 -- onion
 3 tsp olive oil
-
-Red Velvet Cupcakes
-# https://meaningfuleats.com/gluten-free-red-velvet-cupcakes/
-1.25 cup flour
-3 tbsp cocoa powder
-1.5 tsp baking powder
-0.5 tsp salt
-1 cup sugar
-2 -- egg
-0.25 cup vegetable oil
-1 tbsp red food coloring
-1.5 tsp vanilla extract
-0.5 tsp lemon juice
-0.25 cup sour cream
-0.5 cup milk
-0.5 cup butter
-8 oz cream cheese
-1 tsp vanilla extract
-1 -- salt
-3 cup powdered sugar
 
 Japchae
 # https://www.recipetineats.com/japchae-korean-noodles/
@@ -1528,15 +1057,6 @@ Pad See Ew
 1 lb chicken
 2 -- egg
 2 cup gai lan
-
-Oreo Cheesecake
-50 -- oreos
-5 tbsp unsalted butter
-32 oz cream cheese
-1 cup sugar
-0.75 cup sour cream
-1 tsp vanilla extract
-4 -- egg
 
 Herbed Gnocchi with Poached Egg and Baby Broccoli
 1 lb gnocchi
@@ -1608,17 +1128,6 @@ White Chicken Chili
 1 cup sour cream
 1 cup green beans
 
-Tuna Tortilla Wrap
-2 cans tuna
-1 -- tortillas
-1 -- cheddar cheese
-1 -- tomato
-3 -- pickles
-1 -- red onion
-1 -- celery
-1 tbsp mayo
-3 -- eggs
-
 Baked Feta Chicken
 500 g sweet potato
 500 g chicken
@@ -1654,3 +1163,322 @@ Miso Peanut Ramen
 1 can coconut milk
 1 -- ramen noodle
 1 -- vegetable
+
+! Dessert
+
+Chocolate Chip Cookies
+2.25 cup flour
+.5 tsp xanthan gum
+1 tsp baking soda
+1 tsp salt
+2 oz cream cheese
+.75 cup unsalted butter
+1 cup brown sugar
+.5 cup sugar
+1.5 tsp vanilla extract
+2 -- egg
+2 cup semi-sweet chocolate chips
+
+Brownies
+16 tbsp butter
+0.75 cup cocoa
+2 cup sugar
+4 -- egg
+2 tsp vanilla
+1 cup flour
+0.5 tsp xanthan gum
+0.5 tsp salt
+2 cup semisweet chocolate chunks
+
+Pumpkin Pie
+15 oz pumpkin
+14 oz sweetened condensed milk
+2 -- egg
+1 tsp cinnamon
+0.5 tsp ginger
+0.5 tsp nutmeg
+0.5 tsp salt
+1 -- pie crust
+
+Egg Tarts
+125 g flour
+1 tsp xanthan gum
+30 g icing sugar
+50 g butter
+5 -- egg
+45 g caster sugar
+1 tsp vanilla extract
+90 ml milk
+1 tsp cinnamon
+
+Chocolate Avocado Pudding
+# https://www.allrecipes.com/recipe/234324/chocolate-avocado-pudding/
+1 cup unsweetened almond milk
+2 -- avocado
+6 tbsp unsweetened cocoa powder
+10 tbsp pure maple syrup
+2 tsp vanilla extract
+.25 tsp ground cinnamon
+1 -- sea salt
+1 -- raspberry
+
+ATK Flour
+24 oz white rice flour
+7.5 oz brown rice flour
+7 oz potato starch
+3 oz tapioca starch
+.75 oz nonfat milk powder
+
+ATK Brownies
+7.5 oz ATK Flour
+0.5 tsp baking powder
+0.5 tsp xanthan gum
+0.5 tsp salt
+2 oz dutch-processed cocoa powder
+4 tbsp unsalted butter
+0.25 cup vegetable oil
+10.5 oz sugar
+3 -- egg
+3 tbsp milk
+1 tbsp vanilla extract
+
+Cheesecake Brownies
+20 oz brownie mix
+8 oz cream cheese
+1 -- egg
+.33 cup sugar
+
+Mochi Donuts (Matcha Glaze)
+# https://www.snixykitchen.com/chocolate-mochi-donuts/
+0.25 cup unsalted butter
+2 cup sweet rice flour
+1 cup dark brown sugar
+0.25 cup cocoa powder
+2 tsp baking powder
+0.5 tsp salt
+13 oz full-fat coconut milk
+2 -- egg
+2 oz bittersweet chocolate
+1.5 tsp vanilla extract
+1 -- flaky salt
+1 -- black sesame seeds
+1 -- shaved chocolate
+1.5 cup powdered sugar
+0.5 tsp matcha powder
+2.5 tsp milk
+
+Chocolate Souffle
+# https://www.allrecipes.com/recipe/257193/chef-johns-chocolate-souffle/
+4 tsp butter
+3 tbsp white sugar
+2 oz 70% dark chocolate
+1 tbsp GF flour
+4.33 tbsp milk
+1 -- salt
+1 -- cayenne pepper
+2 -- egg
+1 -- cream of tartar
+1 -- xantham gum
+
+Sticky Toffee Pudding
+# https://www.foodandwine.com/recipes/sticky-toffee-pudding
+2.5 cup heavy cream
+4 oz unsalted butter
+0.5 cup light corn syrup
+1 cup sugar
+6 oz pitted dates
+1 cup flour
+1 tsp baking powder
+0.25 tsp baking soda
+1 -- salt
+4 tbsp unsalted butter
+0.75 cup brown sugar
+1 -- egg
+0.5 tsp vanilla extract
+1 -- vanilla ice cream
+
+Pumpkin Cheesecake
+# https://www.faithfullyglutenfree.com/gluten-free-pumpkin-cheesecake/
+0.75 cup graham cracker
+1 cup sugar
+2 tbsp brown sugar
+4 tbsp butter
+0.75 cup canned pumpkin
+5 -- egg
+1.5 tsp cinnamon
+0.5 tsp ginger
+0.5 tsp nutmeg
+0.25 tsp salt
+24 oz cream cheese
+2 tbsp heavy whipping cream
+1 tbsp cornstarch
+1 tsp vanilla extract
+
+Red Velvet Cupcakes
+# https://meaningfuleats.com/gluten-free-red-velvet-cupcakes/
+1.25 cup flour
+3 tbsp cocoa powder
+1.5 tsp baking powder
+0.5 tsp salt
+1 cup sugar
+2 -- egg
+0.25 cup vegetable oil
+1 tbsp red food coloring
+1.5 tsp vanilla extract
+0.5 tsp lemon juice
+0.25 cup sour cream
+0.5 cup milk
+0.5 cup butter
+8 oz cream cheese
+1 tsp vanilla extract
+1 -- salt
+3 cup powdered sugar
+
+Oreo Cheesecake
+50 -- oreos
+5 tbsp unsalted butter
+32 oz cream cheese
+1 cup sugar
+0.75 cup sour cream
+1 tsp vanilla extract
+4 -- egg
+
+! Special Events
+
+Artichoke Cheese Dip
+1 cup mayo
+4 oz cream cheese
+1 cup parmesan
+13 oz artichoke hearts
+1 clove garlic
+
+Brazi Bite Sliders
+# https://brazibites.com/recipes/251-2/
+1 bag brazi bites
+1 lb ground beef
+10 -- grape tomatoes
+1 -- pickle
+
+Mini Chicken Tacos
+8 -- tortilla
+0.5 cup unsalted butter
+4 cup chicken
+1 -- green onion
+2 tbsp chives
+0.5 cup cream cheese
+0.5 tsp garlic powder
+0.5 tsp paprika
+0.5 tsp salt
+2 cup mozzarella
+1 -- ranch
+
+Nacho Dumplings
+10 tbsp sour cream
+10 tbsp guacamole
+2 bag brazi bites
+1 lb ground beef
+1 -- shallots
+1 -- salt
+1 -- pepper
+1 -- cumin
+1 -- paprika
+
+Macaroni Cheese Cups
+1 -- macaroni
+2.5 oz whipped cream cheese
+1 cup cheddar
+1 tbsp unsalted butter
+1 -- egg
+0.5 cup milk
+0.5 cup sour cream
+3 oz bacon
+1 -- salt
+1 -- pepper
+24 -- brazi bites
+
+Cheese Balls
+12 oz cream cheese
+1 cup four cheese mexican blend
+6 tbsp chives
+1 clove garlic
+1 tsp taco seasoning
+1 tsp onion powder
+1 -- salt
+1 -- pepper
+6 slice bacon
+18 -- pretzels
+
+Southwest Avocado Toast
+1 -- brazie bites
+2 -- avocado
+4 -- egg
+2 tsp butter
+1 -- lime
+0.5 -- red onion
+2 -- tomato
+2 -- jalapeno
+1 -- salt
+1 -- pepper
+
+Mini Carne Asada Tortas
+1 -- brazi bites
+1 lb skirt steak
+1 tsp salt
+1 -- avocado
+0.5 -- red onion
+1 -- jalapeno
+1 clove garlic
+
+Kabob Club Sandwiches
+# https://brazibites.com/recipes/kabob-club-sandwhiches/
+1 -- brazi bites
+5 slice cheese
+5 slice deli meat
+5 leaves lettuce
+14 -- cherry tomato
+1 -- honey mustard
+
+! Deprecated
+
+Pizza Potatoes
+4 -- potato
+4 tbsp sour cream
+200 g pepperoni
+1 -- salt
+1 -- pepper
+1 -- pizza sauce
+1 -- mozzarella
+1 -- parmesan
+1 -- oregano
+
+Cornbread
+2 -- Jiffy corn bread mix
+2 -- egg
+16 oz sour cream
+1 -- butter
+
+Pork Pot Stickers
+0.5 cup tapioca flour
+0.5 cup millet flour
+0.5 cup sweet rice flour
+1.5 tsp xanthan gum
+0.75 tsp salt
+0.75 lb ground pork
+3 -- green onion
+0.5 tsp sesame oil
+0.25 tsp pepper
+3 tbsp vegetable oil
+
+Korean Fried Chicken
+3 lb chicken
+2 tbsp sherry
+1 tsp salt
+0.5 tsp pepper
+1 cup cornstarch
+3 tbsp ketchup
+2 tbsp gochujang
+0.25 cup honey
+0.25 cup brown sugar
+2 tbsp soy sauce
+2 tbsp minced garlic
+1 tbsp sesame oil

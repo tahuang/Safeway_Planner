@@ -67,6 +67,17 @@ st.markdown(
         margin: 1rem 0;
         font-family: monospace;
     }
+    /* Style for tab titles - make them bigger. */
+    button[data-baseweb="tab"] {
+        font-size: 1.2rem !important;
+        font-weight: 600 !important;
+        padding: 0.75rem 1.5rem !important;
+    }
+    /* Style for active tab. */
+    button[data-baseweb="tab"][aria-selected="true"] {
+        font-size: 1.3rem !important;
+        font-weight: 700 !important;
+    }
 </style>
 """,
     unsafe_allow_html=True,
@@ -75,7 +86,7 @@ st.markdown(
 
 class StreamlitGroceryPlanner:
     def __init__(self):
-        self.recipe_list = self.load_recipes()
+        self.recipes_by_section = self.load_recipes()
         self.days = [
             "Sunday",
             "Monday",
@@ -102,26 +113,52 @@ class StreamlitGroceryPlanner:
         if "meal_box_version" not in st.session_state:
             st.session_state.meal_box_version = 0
 
-    def load_recipes(self) -> List[str]:
-        """Load recipe names from recipes.txt file."""
-        recipe_list = []
+    def load_recipes(self) -> Dict[str, List[str]]:
+        """Load recipe names from recipes.txt file, organized by section."""
+        recipes_by_section = {}
+        current_section = None
+        recipe_name_flag = True
+
         try:
             with open("recipes.txt", "r") as recipe_file:
-                # The next line after a newline is a recipe name.
-                recipe_name_flag = True
                 for line in recipe_file:
-                    if recipe_name_flag == True:
-                        line = line.strip()
-                        recipe_list.append(line)
+                    line_stripped = line.strip()
+
+                    # Check if this is a section label (starts with '!').
+                    if line_stripped.startswith("!"):
+                        current_section = line_stripped[1:].strip()
+                        # Skip the "Deprecated" section.
+                        if current_section == "Deprecated":
+                            current_section = None
+                        else:
+                            # Initialize the section if it doesn't exist.
+                            if current_section not in recipes_by_section:
+                                recipes_by_section[current_section] = []
+                        recipe_name_flag = True
+                        continue
+
+                    # If we're in a deprecated section, skip all recipes.
+                    if current_section is None:
+                        recipe_name_flag = True
+                        continue
+
+                    # The next line after a newline is a recipe name.
+                    if recipe_name_flag:
+                        # Skip recipes that start with '#' (commented out recipes) or are empty.
+                        if line_stripped.startswith("#") or not line_stripped:
+                            continue
+                        recipes_by_section[current_section].append(line_stripped)
                         recipe_name_flag = False
                     elif line == "\n":
                         recipe_name_flag = True
-            # Sort the recipe list alphabetically.
-            recipe_list.sort()
+
+            # Sort recipes within each section alphabetically.
+            for section in recipes_by_section:
+                recipes_by_section[section].sort()
         except FileNotFoundError:
             st.error("recipes.txt file not found!")
-            return []
-        return recipe_list
+            return {}
+        return recipes_by_section
 
     def get_recipe_ingredients(self, recipe_name: str) -> List[str]:
         """Get ingredients for a specific recipe."""
@@ -147,6 +184,126 @@ class StreamlitGroceryPlanner:
         except FileNotFoundError:
             st.error("recipes.txt file not found!")
         return ingredients
+
+    def display_recipe_section(self, section_recipes: List[str], section_name: str):
+        """Display recipes for a specific section with search and pagination."""
+        # Recipe search and display controls.
+        search_term = st.text_input(
+            "Search recipes",
+            placeholder="Type to filter recipes...",
+            key=f"search_{section_name}",
+        )
+
+        # Handle recipe filtering by search term within the selected section.
+        filtered_recipes = [
+            r for r in section_recipes if search_term.lower() in r.lower()
+        ]
+
+        # Create a unique key for pagination per section.
+        page_key = f"recipe_current_page_{section_name}"
+
+        # Reset to page 1 if search changes and we're beyond available pages.
+        if page_key in st.session_state:
+            recipes_per_page = 30
+            total_pages = (
+                len(filtered_recipes) + recipes_per_page - 1
+            ) // recipes_per_page
+            if st.session_state[page_key] > total_pages and total_pages > 0:
+                st.session_state[page_key] = 1
+
+        # Pagination controls for large recipe lists.
+        recipes_per_page = 30
+        total_pages = (len(filtered_recipes) + recipes_per_page - 1) // recipes_per_page
+
+        # Initialize current page in session state if not exists.
+        if page_key not in st.session_state:
+            st.session_state[page_key] = 1
+
+        # Calculate start and end indices for current page.
+        start_idx = (st.session_state[page_key] - 1) * recipes_per_page
+        end_idx = min(start_idx + recipes_per_page, len(filtered_recipes))
+        current_recipes = filtered_recipes[start_idx:end_idx]
+
+        # Display recipes in a compact multi-column layout.
+        if current_recipes:
+            # Use columns for compact display - 2 columns for better space usage.
+            recipe_cols = st.columns(2)
+
+            for idx, recipe in enumerate(current_recipes):
+                col_idx = idx % 2
+                with recipe_cols[col_idx]:
+                    ingredients = self.get_recipe_ingredients(recipe)
+                    if st.button(
+                        recipe,
+                        key=f"recipe_{section_name}_{recipe}_{idx}",
+                        use_container_width=True,
+                        help=" | ".join(ingredients),
+                    ):
+                        # Check if a meal slot is selected as target.
+                        if "target_meal_slot" in st.session_state:
+                            target_slot = st.session_state.target_meal_slot
+                            day, meal_idx = target_slot.split("_")
+                            meal_idx = int(meal_idx)
+
+                            # Add the recipe to the selected meal slot (append if content exists).
+                            current_content = st.session_state.meal_plan[day][meal_idx]
+                            if current_content.strip():
+                                # If there's existing content, add the new recipe on a new line.
+                                new_content = current_content + "\n" + recipe
+                            else:
+                                # If empty, just set the recipe.
+                                new_content = recipe
+
+                            st.session_state.meal_plan[day][meal_idx] = new_content
+
+                            # Increment the meal box version to force the text area to refresh.
+                            st.session_state.meal_box_version += 1
+
+                            # Don't clear the target selection - keep it selected for multiple recipes.
+                            st.rerun()
+                        else:
+                            st.warning(
+                                "Please click a 'Meal X' button first, then choose a recipe."
+                            )
+        elif section_recipes and search_term:
+            st.info(f"No recipes found matching '{search_term}' in {section_name}.")
+        elif not section_recipes:
+            st.info(f"No recipes available in {section_name}.")
+
+        # Show pagination info if needed.
+        if total_pages > 1:
+            st.write("📄 Pages:")
+
+            # Create clickable page numbers
+            page_cols = st.columns(
+                min(total_pages, 10)
+            )  # Max 10 columns to avoid overflow
+
+            for page_num in range(1, total_pages + 1):
+                col_idx = (page_num - 1) % 10  # Wrap around if more than 10 pages
+
+                with page_cols[col_idx]:
+                    # Style the current page differently
+                    if page_num == st.session_state[page_key]:
+                        if st.button(
+                            f"**{page_num}**",
+                            key=f"page_{section_name}_{page_num}",
+                            use_container_width=True,
+                        ):
+                            st.session_state[page_key] = page_num
+                            st.rerun()
+                    else:
+                        if st.button(
+                            str(page_num),
+                            key=f"page_{section_name}_{page_num}",
+                            use_container_width=True,
+                        ):
+                            st.session_state[page_key] = page_num
+                            st.rerun()
+
+            st.caption(
+                f"📄 Page {st.session_state[page_key]} of {total_pages} • Recipes {start_idx + 1}-{end_idx} of {len(filtered_recipes)}"
+            )
 
     def initialize_meal_plan(self) -> Dict[str, List[str]]:
         """Initialize empty meal plan structure."""
@@ -407,106 +564,19 @@ class StreamlitGroceryPlanner:
         with col2:
             st.header("📋 Recipe Library")
 
-            # Recipe search and display controls.
-            search_term = st.text_input(
-                "Search recipes", placeholder="Type to filter recipes..."
-            )
+            # Section tabs for filtering recipes.
+            if self.recipes_by_section:
+                section_names = list(self.recipes_by_section.keys())
+                # Create tabs for each section.
+                tabs = st.tabs(section_names)
 
-            # Handle recipe filtering.
-            filtered_recipes = [
-                r for r in self.recipe_list if search_term.lower() in r.lower()
-            ]
-
-            # Pagination controls for large recipe lists.
-            recipes_per_page = 30
-            total_pages = (
-                len(filtered_recipes) + recipes_per_page - 1
-            ) // recipes_per_page
-
-            # Initialize current page in session state if not exists.
-            if "recipe_current_page" not in st.session_state:
-                st.session_state.recipe_current_page = 1
-
-            # Calculate start and end indices for current page.
-            start_idx = (st.session_state.recipe_current_page - 1) * recipes_per_page
-            end_idx = min(start_idx + recipes_per_page, len(filtered_recipes))
-            current_recipes = filtered_recipes[start_idx:end_idx]
-
-            # Display recipes in a compact multi-column layout.
-            if current_recipes:
-                # Use columns for compact display - 2 columns for better space usage.
-                recipe_cols = st.columns(2)
-
-                for idx, recipe in enumerate(current_recipes):
-                    col_idx = idx % 2
-                    with recipe_cols[col_idx]:
-                        ingredients = self.get_recipe_ingredients(recipe)
-                        if st.button(
-                            recipe,
-                            key=f"recipe_{recipe}_{idx}",
-                            use_container_width=True,
-                            help=" | ".join(ingredients),
-                        ):
-                            # Check if a meal slot is selected as target.
-                            if "target_meal_slot" in st.session_state:
-                                target_slot = st.session_state.target_meal_slot
-                                day, meal_idx = target_slot.split("_")
-                                meal_idx = int(meal_idx)
-
-                                # Add the recipe to the selected meal slot (append if content exists).
-                                current_content = st.session_state.meal_plan[day][
-                                    meal_idx
-                                ]
-                                if current_content.strip():
-                                    # If there's existing content, add the new recipe on a new line.
-                                    new_content = current_content + "\n" + recipe
-                                else:
-                                    # If empty, just set the recipe.
-                                    new_content = recipe
-
-                                st.session_state.meal_plan[day][meal_idx] = new_content
-
-                                # Don't clear the target selection - keep it selected for multiple recipes.
-                                st.rerun()
-                            else:
-                                st.warning(
-                                    "Please click a 'Meal X' button first, then choose a recipe."
-                                )
-
-            # Show pagination info if needed.
-            if total_pages > 1:
-                st.write("📄 Pages:")
-
-                # Create clickable page numbers
-                page_cols = st.columns(
-                    min(total_pages, 10)
-                )  # Max 10 columns to avoid overflow
-
-                for page_num in range(1, total_pages + 1):
-                    col_idx = (page_num - 1) % 10  # Wrap around if more than 10 pages
-
-                    with page_cols[col_idx]:
-                        # Style the current page differently
-                        if page_num == st.session_state.recipe_current_page:
-                            if st.button(
-                                f"**{page_num}**",
-                                key=f"page_{page_num}",
-                                use_container_width=True,
-                            ):
-                                st.session_state.recipe_current_page = page_num
-                                st.rerun()
-                        else:
-                            if st.button(
-                                str(page_num),
-                                key=f"page_{page_num}",
-                                use_container_width=True,
-                            ):
-                                st.session_state.recipe_current_page = page_num
-                                st.rerun()
-
-                st.caption(
-                    f"📄 Page {st.session_state.recipe_current_page} of {total_pages} • Recipes {start_idx + 1}-{end_idx} of {len(filtered_recipes)}"
-                )
+                # Display recipes for each section in its respective tab.
+                for section_name, tab in zip(section_names, tabs):
+                    with tab:
+                        section_recipes = self.recipes_by_section.get(section_name, [])
+                        self.display_recipe_section(section_recipes, section_name)
+            else:
+                st.warning("No recipes found in recipes.txt")
 
         # Shopping list section.
         st.header("🛒 Menu")

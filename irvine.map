@@ -16,6 +16,8 @@ salsa,2
 salsa verde,2
 diced green chiles,2
 fish sauce,2
+oyster sauce,2
+aji amarillo paste,2
 coconut milk,2
 garbanzo beans,3
 chickpeas,3
@@ -56,6 +58,7 @@ jasmine rice,4
 gravy,4
 distilled white vinegar,5
 balsamic vinegar,5
+red wine vinegar,5
 rice vinegar,5
 white vinegar,5
 corn syrup,5
@@ -78,14 +81,17 @@ vegetable oil,5
 sesame oil,5
 toasted sesame oil,5
 oil,5
+neutral oil,5
 olive oil,5
 white pepper,5
 salt,5
+kosher salt,5
 pepper,5
 bay leaf,5
 rosemary,5
 minced garlic,5
 cumin,5
+ground cumin,5
 coriander,5
 chili powder,5
 oregano,5
@@ -149,6 +155,7 @@ chicken wings,7.99
 chicken breasts,7.99
 chicken,7.99
 baby ribs,7.99
+beef tenderloin,7.99
 flank steak,7.99
 steak,7.99
 smoked salmon,7.99
@@ -230,6 +237,7 @@ chili,100
 celery, 100
 lime juice,100
 basil,100
+cilantro,100
 cucumber,100
 avocado,100
 red onion,100
@@ -241,11 +249,13 @@ cauliflower,100
 onion,100
 tomato,100
 tomatoes,100
+Roma tomato,100
 orange,100
 paneer,100
 scallions,100
 potato,100
 potatoes,100
+sweet potato,100
 russet potatoes,100
 broccoli,100
 bell pepper,100
